@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '../services/quiz_service.dart';
 import '../services/memorization_service.dart';
+import '../widgets/session_header.dart';
+import '../widgets/hanzi_display.dart';
+import '../widgets/quiz_options.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -135,117 +138,25 @@ class _QuizPageState extends State<QuizPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // Session word count
-              Text(
-                'Words this session: ${_quizService.getSessionWordCount()}',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.blue.shade700,
-                ),
+              SessionHeader(
+                sessionWordCount: _quizService.getSessionWordCount(),
+                isReviewing: _quizService.isReviewing(),
               ),
               const SizedBox(height: 32),
               
-              // Revision label
-              if (_quizService.isReviewing())
-                Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                  decoration: BoxDecoration(
-                    color: Colors.orange.shade100,
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: Colors.orange.shade300),
-                  ),
-                  child: Text(
-                    'REVISION',
-                    style: TextStyle(
-                      fontSize: 14,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.orange.shade800,
-                      letterSpacing: 1.2,
-                    ),
-                  ),
-                ),
-              if (_quizService.isReviewing()) const SizedBox(height: 16),
-              
-              // Hanzi character display
-              Container(
-                height: 200,
-                decoration: BoxDecoration(
-                  color: Colors.grey.shade100,
-                  borderRadius: BorderRadius.circular(16),
-                  border: Border.all(color: Colors.grey.shade300),
-                ),
-                child: Center(
-                  child: Text(
-                    character.character,
-                    style: const TextStyle(
-                      fontSize: 120,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 24),
-              
-              // Meaning display
-              if (character.meaning.isNotEmpty)
-                Text(
-                  '(${character.meaning})',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 18,
-                    color: Colors.grey.shade700,
-                    fontStyle: FontStyle.italic,
-                  ),
-                ),
+              HanziDisplay(character: character),
               const SizedBox(height: 32),
               
               // Multiple choice options
               Expanded(
-                child: Column(
-                  children: _options.map((pinyin) {
-                    final isSelected = _selectedAnswer == pinyin;
-                    final isCorrectOption = pinyin == character.pinyin;
-                    Color? buttonColor;
-                    
-                    if (_showResult) {
-                      if (isCorrectOption) {
-                        buttonColor = Colors.green;
-                      } else if (isSelected && !isCorrectOption) {
-                        buttonColor = Colors.red;
-                      }
-                    }
-                    
-                    return Padding(
-                      padding: const EdgeInsets.only(bottom: 12.0),
-                      child: SizedBox(
-                        width: double.infinity,
-                        height: 60,
-                        child: ElevatedButton(
-                          onPressed: () => _selectAnswer(pinyin),
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: buttonColor ?? 
-                                (isSelected ? Colors.blue.shade100 : null),
-                            foregroundColor: buttonColor != null 
-                                ? Colors.white 
-                                : (isSelected ? Colors.blue.shade900 : null),
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                            elevation: _showResult ? 0 : 2,
-                          ),
-                          child: Text(
-                            pinyin,
-                            style: const TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w500,
-                            ),
-                          ),
-                        ),
-                      ),
-                    );
-                  }).toList(),
+                child: SingleChildScrollView(
+                  child: QuizOptions(
+                    options: _options,
+                    selectedAnswer: _selectedAnswer,
+                    correctPinyin: character.pinyin,
+                    showResult: _showResult,
+                    onSelect: _selectAnswer,
+                  ),
                 ),
               ),
               
