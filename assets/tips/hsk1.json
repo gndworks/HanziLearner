@@ -1,2046 +1,2026 @@
 [
     {
         "s": "爱",
-        "t": ""
+        "t": "Think of 'love' (ài). The top part looks like a hand, and the bottom contains 'friend' (友 yǒu). Imagine holding a friend close."
     },
     {
         "s": "爱好",
-        "t": ""
+        "t": "Combination of 'love' (爱 ài) + 'good' (好 hǎo). A 'hobby' is something you love and feel good about."
     },
     {
         "s": "八",
-        "t": ""
+        "t": "The number 'eight' (bā). It looks like two dividing strokes. Note they do not touch at the top, unlike 'human' (人 rén)."
     },
     {
         "s": "爸",
-        "t": ""
+        "t": "The top part is 'father' (父 fù), and the bottom (巴 bā) provides the sound. Look for the 'mustache' shape at the top."
     },
     {
         "s": "爸爸",
-        "t": ""
+        "t": "Repeating 'dad' (bà). In Chinese, doubling kinship terms makes them informal and affectionate."
     },
     {
         "s": "吧",
-        "t": ""
+        "t": "A 'mouth' (口 kǒu) radical + the sound 'ba'. It's a suggestion particle, like saying something out loud to see if others agree."
     },
     {
         "s": "白",
-        "t": ""
+        "t": "Looks like a 'sun' (日 rì) with a little light ray coming out of the top. Think of bright 'white' light."
     },
     {
         "s": "白天",
-        "t": ""
+        "t": "'White' (白 bái) + 'day/sky' (天 tiān). When the sky is white/bright, it is 'daytime'."
     },
     {
         "s": "百",
-        "t": ""
+        "t": "The number 'hundred' (bǎi). It is the character for 'white' (白 bái) with an extra horizontal line on top representing 'one'."
     },
     {
         "s": "班",
-        "t": ""
+        "t": "Two 'jade' pieces (王 wáng) separated by a 'knife' (刂 dāo). Think of a 'class' or 'shift' as a carved-out block of time."
     },
     {
         "s": "半",
-        "t": ""
+        "t": "Looks like an object being sliced down the middle into two 'halves' (bàn)."
     },
     {
         "s": "半年",
-        "t": ""
+        "t": "'Half' (半 bàn) + 'year' (年 nián). Simple logic for 'half a year'."
     },
     {
         "s": "半天",
-        "t": ""
+        "t": "'Half' (半 bàn) + 'day' (天 tiān). Usually used to mean 'a long time' or 'half the day'."
     },
     {
         "s": "帮",
-        "t": ""
+        "t": "The top relates to 'state' and the bottom is 'cloth' (巾 jīn). Think of a 'helping' hand mending cloth."
     },
     {
         "s": "帮忙",
-        "t": ""
+        "t": "'Help' (帮 bāng) + 'busy' (忙 máng). You help someone when they are too busy to do it alone."
     },
     {
         "s": "包",
-        "t": ""
+        "t": "Looks like a 'wrap' or 'bundle'. The curve encloses something, just like a 'bag' or 'package'."
     },
     {
         "s": "包子",
-        "t": ""
+        "t": "'Wrap' (包 bāo) + noun suffix (子 zi). A 'steamed bun' is dough wrapped around a filling."
     },
     {
         "s": "杯",
-        "t": ""
+        "t": "The 'tree/wood' (木 mù) radical on the left tells you cups used to be made of wood. The right (不 bù) is for the sound."
     },
     {
         "s": "杯子",
-        "t": ""
+        "t": "The word for 'cup' (bēi zi). The 'zi' turns the single character into a common noun."
     },
     {
         "s": "北",
-        "t": ""
+        "t": "Looks like two people sitting back-to-back (北 běi). In ancient houses, people sat facing south to avoid the cold 'north' wind hitting their backs."
     },
     {
         "s": "北边",
-        "t": ""
+        "t": "'North' (北 běi) + 'side' (边 biān). Means 'the north side' or 'northern part'."
     },
     {
         "s": "北京",
-        "t": ""
+        "t": "'North' (北 běi) + 'capital' (京 jīng). Literally the 'Northern Capital'."
     },
     {
         "s": "本",
-        "t": ""
+        "t": "The character for 'tree' (木 mù) with a line at the bottom to show the 'roots'. This represents the 'origin' or 'measure word for books'."
     },
     {
         "s": "本子",
-        "t": ""
+        "t": "A 'notebook' (běn zi). It uses the measure word for books (本) as its base."
     },
     {
         "s": "比",
-        "t": ""
+        "t": "Two people standing next to each other to 'compare' (bǐ) their height."
     },
     {
         "s": "别",
-        "t": ""
+        "t": "Features a 'knife' (刂 dāo) radical on the right. Think of 'separating' or 'don't' do something—cutting off an action."
     },
     {
         "s": "别的",
-        "t": ""
+        "t": "'Other' (别 bié) + possessive (的 de). Refers to 'something else' or 'other things'."
     },
     {
         "s": "别人",
-        "t": ""
+        "t": "'Other' (别 bié) + 'person' (人 rén). Literally 'other people'."
     },
     {
         "s": "病",
-        "t": ""
+        "t": "The outside radical (疒 nè) represents 'sickness'. The inside (丙 bǐng) is for sound. Look for the 'bed' shape in the radical."
     },
     {
         "s": "病人",
-        "t": ""
+        "t": "'Sickness' (病 bìng) + 'person' (人 rén). A 'patient'."
     },
     {
         "s": "不",
-        "t": ""
+        "t": "Looks like a bird flying up into the sky and 'not' (bù) coming down."
     },
     {
         "s": "不大",
-        "t": ""
+        "t": "'Not' (不 bù) + 'big' (大 dà). Means 'not very big' or 'not often'."
     },
     {
         "s": "不对",
-        "t": ""
+        "t": "'Not' (不 bù) + 'correct' (对 duì). Simply 'incorrect' or 'wrong'."
     },
     {
         "s": "不客气",
-        "t": ""
+        "t": "'Not' (不 bù) + 'polite/guest' (客气 kè qì). The standard way to say 'You're welcome' (Don't be so formal)."
     },
     {
         "s": "不用",
-        "t": ""
+        "t": "'Not' (不 bù) + 'use' (用 yòng). Literally 'no need to use' or 'need not'."
     },
     {
         "s": "菜",
-        "t": ""
+        "t": "Top is 'grass' (艹 cǎo), bottom has 'wood/plant' (木 mù). It represents 'vegetables' or 'dishes' made from plants."
     },
     {
         "s": "茶",
-        "t": ""
+        "t": "Top is 'grass' (艹 cǎo), middle is a person (人 rén), bottom is 'wood/tree' (木 mù). A person among the plants picking 'tea'."
     },
     {
         "s": "差",
-        "t": ""
+        "t": "Originally related to 'uneven' wool. Think of it as 'falling short' or 'a difference' (chà)."
     },
     {
         "s": "常",
-        "t": ""
+        "t": "The top represents 'clothing' and the bottom is 'towel' (巾 jīn). Think of things you use 'often' like everyday clothes."
     },
     {
         "s": "常常",
-        "t": ""
+        "t": "Doubling 'often' (cháng) emphasizes the frequency—'regularly' or 'frequently'."
     },
     {
         "s": "唱",
-        "t": ""
+        "t": "The 'mouth' (口 kǒu) radical on the left + two 'suns' (日 rì) on the right. Imagine singing from dawn until dusk."
     },
     {
         "s": "唱歌",
-        "t": ""
+        "t": "'Sing' (唱 chàng) + 'song' (歌 gē). The verb-object form of 'to sing'."
     },
     {
         "s": "车",
-        "t": ""
+        "t": "A simplified drawing of a 'cart' or 'chariot' (chē) seen from above."
     },
     {
         "s": "车票",
-        "t": ""
+        "t": "'Vehicle' (车 chē) + 'ticket' (票 piào). A bus or train ticket."
     },
     {
         "s": "车上",
-        "t": ""
+        "t": "'Vehicle' (车 chē) + 'on/above' (上 shàng). Being 'on the bus' or 'in the car'."
     },
     {
         "s": "车站",
-        "t": ""
+        "t": "'Vehicle' (车 chē) + 'station/stand' (站 zhàn). Where the cars stand/stop."
     },
     {
         "s": "吃",
-        "t": ""
+        "t": "Uses the 'mouth' (口 kǒu) radical. The right side (乞 qǐ) looks like someone begging for food to 'eat'."
     },
     {
         "s": "吃饭",
-        "t": ""
+        "t": "'Eat' (吃 chī) + 'cooked rice/meal' (饭 fàn). The general term for 'having a meal'."
     },
     {
         "s": "出",
-        "t": ""
+        "t": "Two 'mountains' (山 shān) stacked. Think of something 'coming out' from behind the mountains."
     },
     {
         "s": "出来",
-        "t": ""
+        "t": "'Exit' (出 chū) + 'come' (来 lái). To come out towards the speaker."
     },
     {
         "s": "出去",
-        "t": ""
+        "t": "'Exit' (出 chū) + 'go' (去 qù). To go out away from the speaker."
     },
     {
         "s": "穿",
-        "t": ""
+        "t": "The top radical (穴 xué) means 'hole' or 'cave'. To 'wear' (chuān) clothes, you put your limbs through the holes."
     },
     {
         "s": "床",
-        "t": ""
+        "t": "The 'shelter' radical (广 guǎng) on the outside and 'wood' (木 mù) on the inside. A wooden piece of furniture under a roof: a 'bed'."
     },
     {
         "s": "次",
-        "t": ""
+        "t": "Left side means 'ice/second'. Right side is 'yawn' (欠 qiàn). Think of a 'sequence' or 'times' something happens."
     },
     {
         "s": "从",
-        "t": ""
+        "t": "Two people (人 rén) following each other. One person follows 'from' (cóng) the other's starting point."
     },
     {
         "s": "错",
-        "t": ""
+        "t": "Left is 'metal' (钅 jīn). Originally meant a mistake in plating metal. Now it just means 'wrong' or 'error'."
     },
     {
         "s": "打",
-        "t": ""
+        "t": "The 'hand' (扌 shǒu) radical + 'nail/T-shape' (丁 dīng). Using a hand to hit a nail: 'to hit' or 'to play'."
     },
     {
         "s": "打车",
-        "t": ""
+        "t": "'Hit/Take' (打 dǎ) + 'car' (车 chē). To hail or 'take a taxi'."
     },
     {
         "s": "打电话",
-        "t": ""
+        "t": "'Hit' (打 dǎ) + 'electric' (电 diàn) + 'speech' (话 huà). To 'make a phone call'."
     },
     {
         "s": "打开",
-        "t": ""
+        "t": "'Hit/Action' (打 dǎ) + 'open' (开 kāi). To 'open' something up (like a book or a door)."
     },
     {
         "s": "打球",
-        "t": ""
+        "t": "'Hit' (打 dǎ) + 'ball' (球 qiú). To 'play ball games' (basketball, tennis, etc.)."
     },
     {
         "s": "大",
-        "t": ""
+        "t": "A person (人 rén) stretching their arms out wide to show how 'big' (dà) something is."
     },
     {
         "s": "大学",
-        "t": ""
+        "t": "'Big' (大 dà) + 'study' (学 xué). 'University'—the place for big learning."
     },
     {
         "s": "大学生",
-        "t": ""
+        "t": "'University' (大学 dà xué) + 'student' (生 shēng). A college student."
     },
     {
         "s": "到",
-        "t": ""
+        "t": "Left is 'arrive', right is 'knife' (刂 dāo). Think of 'reaching' a point or 'arriving' at a destination."
     },
     {
         "s": "地",
-        "t": ""
+        "t": "The 'earth' (土 tǔ) radical on the left. This character refers to the 'ground' or 'land'."
     },
     {
         "s": "地点",
-        "t": ""
+        "t": "'Ground' (地 dì) + 'point' (点 diǎn). A specific 'location' or 'place'."
     },
     {
         "s": "地方",
-        "t": ""
+        "t": "'Ground' (地 dì) + 'square/region' (方 fāng). A 'place' or 'area'."
     },
     {
         "s": "地上",
-        "t": ""
+        "t": "'Ground' (地 dì) + 'on' (上 shàng). 'On the ground'."
     },
     {
         "s": "地图",
-        "t": ""
+        "t": "'Ground' (地 dì) + 'picture' (图 tú). A 'map'—a picture of the land."
     },
     {
         "s": "的",
-        "t": ""
+        "t": "A 'white' (白 bái) radical and a 'scoop'. It is the most common possessive marker (like 's)."
     },
     {
         "s": "得到",
-        "t": ""
+        "t": "'Obtain' (得 dé) + 'arrive' (到 dào). To 'get' or 'obtain' something."
     },
     {
         "s": "等",
-        "t": ""
+        "t": "Top is 'bamboo' (⺮ zhú), bottom is 'temple' (寺 sì). Think of ancient officials 'waiting' (děng) at a temple with bamboo scrolls."
     },
     {
         "s": "弟",
-        "t": ""
+        "t": "Looks like a bow with a string wrapped around it. Represents a 'younger brother' (dì) who follows the lead."
     },
     {
         "s": "弟弟",
-        "t": ""
+        "t": "The full word for 'younger brother' (dì di)."
     },
     {
         "s": "第",
-        "t": ""
-    },
-    {
-        "s": "第",
-        "t": ""
+        "t": "The 'bamboo' (⺮ zhú) radical + 'younger brother' (弟 dì). Used to create ordinal numbers like 'first' or 'second'."
     },
     {
         "s": "第二",
-        "t": ""
+        "t": "'Ordinal marker' (第 dì) + 'two' (二 èr). 'Second'."
     },
     {
         "s": "点",
-        "t": ""
+        "t": "The bottom part (灬) represents 'fire'. Imagine 'dots' of fire or 'points' of light. Also used for 'o'clock'."
     },
     {
         "s": "电",
-        "t": ""
+        "t": "Looks like a 'sun/field' (田 tián) with a 'tail' representing a bolt of 'electricity' or 'lightning'."
     },
     {
         "s": "电话",
-        "t": ""
+        "t": "'Electric' (电 diàn) + 'speech' (话 huà). A 'telephone'."
     },
     {
         "s": "电脑",
-        "t": ""
+        "t": "'Electric' (电 diàn) + 'brain' (脑 nǎo). A 'computer'—an electronic brain."
     },
     {
         "s": "电视",
-        "t": ""
+        "t": "'Electric' (电 diàn) + 'vision' (视 shì). 'Television'."
     },
     {
         "s": "电视机",
-        "t": ""
+        "t": "'Television' (电视 diàn shì) + 'machine' (机 jī). The physical 'TV set'."
     },
     {
         "s": "电影",
-        "t": ""
+        "t": "'Electric' (电 diàn) + 'shadow' (影 yǐng). A 'movie'—moving electric shadows."
     },
     {
         "s": "电影院",
-        "t": ""
+        "t": "'Movie' (电影 diàn yǐng) + 'courtyard/place' (院 yuàn). A 'cinema' or movie theater."
     },
     {
         "s": "东",
-        "t": ""
+        "t": "The sun rising behind a 'tree' (木 mù) represents the 'East' (dōng)."
     },
     {
         "s": "东边",
-        "t": ""
+        "t": "'East' (东 dōng) + 'side' (边 biān). 'The east side'."
     },
     {
         "s": "东西",
-        "t": ""
+        "t": "'East' (东 dōng) + 'West' (西 xī). Together they mean 'things' or 'objects'."
     },
     {
         "s": "动",
-        "t": ""
+        "t": "Left is 'heavy' (重 zhòng), right is 'power/strength' (力 lì). Moving a heavy object requires 'movement/action'."
     },
     {
         "s": "动作",
-        "t": ""
+        "t": "'Move' (动 dòng) + 'do/make' (作 zuò). A 'movement' or 'action'."
     },
     {
         "s": "都",
-        "t": ""
+        "t": "Left is 'person/capital', right is 'city' (阝). Means 'all' (dōu). Everyone in the city is 'all' here."
     },
     {
         "s": "读",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical on the left. It means 'to read' (dú) or 'to study' aloud."
     },
     {
         "s": "读书",
-        "t": ""
+        "t": "'Read' (读 dú) + 'book' (书 shū). To read a book or 'attend school'."
     },
     {
         "s": "对",
-        "t": ""
+        "t": "Left is 'again', right is 'inch' (寸 cùn). It means 'correct' or 'towards'. Checking twice to make sure it's 'right'."
     },
     {
         "s": "对不起",
-        "t": ""
+        "t": "A common phrase for 'I'm sorry'. Literally 'cannot face someone'."
     },
     {
         "s": "多",
-        "t": ""
+        "t": "Two 'moons/evenings' (夕 xī) stacked. One is some, two is 'many/much' (duō)."
     },
     {
         "s": "多少",
-        "t": ""
+        "t": "'Many' (多 duō) + 'few' (少 shǎo). Together they mean 'how much' or 'how many'."
     },
     {
         "s": "饿",
-        "t": ""
+        "t": "Left is the 'food' (饣 shí) radical. Right is 'I' (我 wǒ). 'I' need 'food' because I am 'hungry' (è)."
     },
     {
         "s": "儿子",
-        "t": ""
+        "t": "The word for 'son' (ér zi). 'Er' originally looked like a child's head with an open fontanelle."
     },
     {
         "s": "二",
-        "t": ""
+        "t": "Two horizontal lines. The number 'two' (èr)."
     },
     {
         "s": "饭",
-        "t": ""
+        "t": "The 'food' (饣 shí) radical + 'anti/reverse' (反 fǎn) for sound. Refers to 'cooked rice' or a 'meal'."
     },
     {
         "s": "饭店",
-        "t": ""
+        "t": "'Meal' (饭 fàn) + 'shop' (店 diàn). A 'restaurant' or hotel."
     },
     {
         "s": "房间",
-        "t": ""
+        "t": "'Room' (房 fáng) + 'between/space' (间 jiān). A 'room' in a house."
     },
     {
         "s": "房子",
-        "t": ""
+        "t": "A 'house' or 'building' (fáng zi)."
     },
     {
         "s": "放",
-        "t": ""
+        "t": "Left side means 'square/direction', right is 'tap/strike'. To 'put' or 'release' (fàng) something."
     },
     {
         "s": "放假",
-        "t": ""
+        "t": "'Release' (放 fàng) + 'vacation' (假 jià). To 'go on holiday'."
     },
     {
         "s": "放学",
-        "t": ""
+        "t": "'Release' (放 fàng) + 'study' (学 xué). When school is over for the day."
     },
     {
         "s": "飞",
-        "t": ""
+        "t": "Looks like a bird's 'wing' mid-flight. It means 'to fly' (fēi)."
     },
     {
         "s": "飞机",
-        "t": ""
+        "t": "'Fly' (飞 fēi) + 'machine' (机 jī). An 'airplane'."
     },
     {
         "s": "非常",
-        "t": ""
+        "t": "'Not' (非 fēi) + 'ordinary' (常 cháng). Something that is not ordinary is 'very' or 'extremely' (fēi cháng)."
     },
     {
         "s": "分",
-        "t": ""
+        "t": "An 'eight' (八 bā) over a 'knife' (刀 dāo). A knife 'dividing' things into 'parts' or 'minutes' (fēn)."
     },
     {
         "s": "风",
-        "t": ""
+        "t": "The outside encloses 'insects' (虫 chóng). Ancient people believed wind brought insects. It means 'wind' (fēng)."
     },
     {
         "s": "干",
-        "t": ""
+        "t": "Looks like a 'pestle' or tool. Can mean 'dry' (gān) or 'to do' (gàn)."
     },
     {
         "s": "干净",
-        "t": ""
+        "t": "'Dry' (干 gān) + 'clean' (净 jìng). If it's wiped dry and washed, it is 'clean'."
     },
     {
         "s": "干什么",
-        "t": ""
+        "t": "'Do' (干 gàn) + 'what' (什么 shén me). 'What are you doing?'"
     },
     {
         "s": "高",
-        "t": ""
+        "t": "Looks like a tall building with a roof and a high window. It means 'high' or 'tall' (gāo)."
     },
     {
         "s": "高兴",
-        "t": ""
+        "t": "'High' (高 gāo) + 'spirit/mood' (兴 xìng). To be 'happy'."
     },
     {
         "s": "告诉",
-        "t": ""
+        "t": "Both characters have the 'speech' (讠 yán) or 'mouth' (口 kǒu) radical. It means 'to tell' (gào sù)."
     },
     {
         "s": "哥",
-        "t": ""
+        "t": "Two 'possibilities' (可 kě) stacked. Imagine an older brother standing on another's shoulders to be taller. 'Older brother' (gē)."
     },
     {
         "s": "哥哥",
-        "t": ""
+        "t": "The informal word for 'older brother' (gē ge)."
     },
     {
         "s": "歌",
-        "t": ""
+        "t": "Left side (哥 gē) for sound, right side (欠 qiàn) is a person yawning/opening their mouth to 'sing a song'."
     },
     {
         "s": "个",
-        "t": ""
+        "t": "Looks like a person (人 rén) standing. It is the most common 'measure word' (gè)."
     },
     {
         "s": "给",
-        "t": ""
+        "t": "Left is 'silk' (纟 sī). Imagine handing over a silk thread. It means 'to give' (gěi)."
     },
     {
         "s": "跟",
-        "t": ""
+        "t": "The 'foot' (⻊ zú) radical on the left. To 'follow' or 'with' someone using your feet (gēn)."
     },
     {
         "s": "工人",
-        "t": ""
+        "t": "'Work' (工 gōng) + 'person' (人 rén). A 'worker'."
     },
     {
         "s": "工作",
-        "t": ""
+        "t": "To 'work' or a 'job' (gōng zuò). 'Gong' looks like a carpenter's tool."
     },
     {
         "s": "关",
-        "t": ""
+        "t": "Looks like a 'gate' with a latch. It means 'to close' or 'to turn off' (guān)."
     },
     {
         "s": "关上",
-        "t": ""
+        "t": "'Close' (关 guān) + result. 'To close up' (a door or window)."
     },
     {
         "s": "贵",
-        "t": ""
+        "t": "Top is 'middle', bottom is 'shell' (贝 bèi), which was ancient money. Something with many shells is 'expensive' (guì)."
     },
     {
         "s": "国",
-        "t": ""
+        "t": "A 'jade' (玉 yù) inside a 'border' (囗). A kingdom protecting its jade/treasure: 'country' (guó)."
     },
     {
         "s": "国家",
-        "t": ""
+        "t": "'Country' (国 guó) + 'home' (家 jiā). 'Nation' or 'country'."
     },
     {
         "s": "国外",
-        "t": ""
+        "t": "'Country' (国 guó) + 'outside' (外 wài). 'Abroad' or 'overseas'."
     },
     {
         "s": "过",
-        "t": ""
+        "t": "The 'walking' radical (辶 chuò) on the left. It means 'to pass' or 'to cross' (guò)."
     },
     {
         "s": "还",
-        "t": ""
+        "t": "The 'walking' radical (辶 chuò). Can mean 'still', 'yet', or 'to return' (hái/huán)."
     },
     {
         "s": "还是",
-        "t": ""
+        "t": "'Still' (还 hái) + 'is' (是 shì). Used to mean 'or' in questions or 'still' in statements."
     },
     {
         "s": "还有",
-        "t": ""
+        "t": "'Also' (还 hái) + 'have' (有 yǒu). 'Furthermore' or 'in addition'."
     },
     {
         "s": "孩子",
-        "t": ""
+        "t": "The 'child' (子 zǐ) radical is on the left. This means 'child' or 'children' (hái zi)."
     },
     {
         "s": "汉语",
-        "t": ""
+        "t": "'Han (Chinese people)' (汉 hàn) + 'language' (语 yǔ). The 'Chinese language'."
     },
     {
         "s": "汉字",
-        "t": ""
+        "t": "'Han (Chinese)' (汉 hàn) + 'character' (字 zì). 'Chinese characters'."
     },
     {
         "s": "好",
-        "t": ""
+        "t": "A 'woman' (女 nǚ) and a 'child' (子 zǐ) together. This is considered 'good' (hǎo)."
     },
     {
         "s": "好吃",
-        "t": ""
+        "t": "'Good' (好 hǎo) + 'eat' (吃 chī). 'Delicious'."
     },
     {
         "s": "好看",
-        "t": ""
+        "t": "'Good' (好 hǎo) + 'look' (看 kàn). 'Beautiful' or 'good-looking'."
     },
     {
         "s": "好听",
-        "t": ""
+        "t": "'Good' (好 hǎo) + 'listen' (听 tīng). 'Pleasant to hear'."
     },
     {
         "s": "好玩儿",
-        "t": ""
+        "t": "'Good' (好 hǎo) + 'play' (玩 wán). 'Fun'."
     },
     {
         "s": "号",
-        "t": ""
+        "t": "A 'mouth' (口 kǒu) on top of a 'hook'. Used for 'date' or 'number' (hào)."
     },
     {
         "s": "喝",
-        "t": ""
+        "t": "Uses the 'mouth' (口 kǒu) radical. The right side looks like someone 'drinking' (hē) through a straw."
     },
     {
         "s": "和",
-        "t": ""
+        "t": "'Grain' (禾 hé) + 'mouth' (口 kǒu). Everyone has grain in their mouth: 'harmony' or 'and' (hé)."
     },
     {
         "s": "很",
-        "t": ""
+        "t": "The 'step' radical (彳 chì) on the left. It means 'very' (hěn)."
     },
     {
         "s": "后",
-        "t": ""
+        "t": "Looks like a person following another. It means 'behind' or 'after' (hòu)."
     },
     {
         "s": "后边",
-        "t": ""
+        "t": "'Behind' (后 hòu) + 'side' (边 biān). 'The back' or 'behind'."
     },
     {
         "s": "后天",
-        "t": ""
+        "t": "'After' (后 hòu) + 'day' (天 tiān). 'The day after tomorrow'."
     },
     {
         "s": "花",
-        "t": ""
+        "t": "Top is 'grass' (艹 cǎo), bottom is 'change' (化 huà). Plants 'change' into 'flowers' (huā)."
     },
     {
         "s": "话",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical + 'tongue' (舌 shé). Using your tongue to speak 'words' or 'speech' (huà)."
     },
     {
         "s": "坏",
-        "t": ""
+        "t": "Left is 'earth' (土 tǔ), right is 'not'. Something that is 'bad' or 'broken' (huài)."
     },
     {
         "s": "回",
-        "t": ""
+        "t": "A small square inside a large square. Think of going back inside: 'to return' (huí)."
     },
     {
         "s": "回答",
-        "t": ""
+        "t": "'Return' (回 huí) + 'answer' (答 dá). 'To answer' a question."
     },
     {
         "s": "回到",
-        "t": ""
+        "t": "'Return' (回 huí) + 'arrive' (到 dào). 'To return to' a place."
     },
     {
         "s": "回家",
-        "t": ""
+        "t": "'Return' (回 huí) + 'home' (家 jiā). 'To go home'."
     },
     {
         "s": "回来",
-        "t": ""
+        "t": "'Return' (回 huí) + 'come' (来 lái). 'To come back'."
     },
     {
         "s": "回去",
-        "t": ""
+        "t": "'Return' (回 huí) + 'go' (去 qù). 'To go back'."
     },
     {
         "s": "会",
-        "t": ""
+        "t": "A 'roof' (人 rén) over a 'cloud'. People meeting under a roof: 'can', 'will', or 'meeting' (huì)."
     },
     {
         "s": "火车",
-        "t": ""
+        "t": "'Fire' (火 huǒ) + 'car' (车 chē). A 'train'—originally powered by fire/steam."
     },
     {
         "s": "机场",
-        "t": ""
+        "t": "'Machine' (机 jī) + 'place/field' (场 chǎng). An 'airport'."
     },
     {
         "s": "机票",
-        "t": ""
+        "t": "'Machine/Plane' (机 jī) + 'ticket' (票 piào). A 'plane ticket'."
     },
     {
         "s": "鸡蛋",
-        "t": ""
+        "t": "'Chicken' (鸡 jī) + 'egg' (蛋 dàn). 'Hen's egg'."
     },
     {
         "s": "几",
-        "t": ""
+        "t": "Looks like a small 'table'. It means 'how many' or 'a few' (jǐ)."
     },
     {
         "s": "记",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical + 'self' (己 jǐ). Telling yourself something to 'remember' (jì) it."
     },
     {
         "s": "记得",
-        "t": ""
+        "t": "To 'remember' (jì de)."
     },
     {
         "s": "记住",
-        "t": ""
+        "t": "'Remember' (记 jì) + 'stay' (住 zhù). To 'memorize' or fix in your memory."
     },
     {
         "s": "家",
-        "t": ""
+        "t": "A 'roof' (宀 mián) with a 'pig' (豕 shǐ) underneath. In ancient China, having a pig under your roof meant you had a 'home' (jiā)."
     },
     {
         "s": "家里",
-        "t": ""
+        "t": "'Home' (家 jiā) + 'inside' (里 lǐ). 'At home' or 'inside the house'."
     },
     {
         "s": "家人",
-        "t": ""
+        "t": "'Home' (家 jiā) + 'person' (人 rén). 'Family members'."
     },
     {
         "s": "间",
-        "t": ""
+        "t": "The 'sun' (日 rì) shining through a 'gate' (门 mén). The 'space' or 'room' (jiān) in between."
     },
     {
         "s": "见",
-        "t": ""
+        "t": "A person (人 rén) with a big 'eye' (目 mù) on top. It means 'to see' (jiàn)."
     },
     {
         "s": "见面",
-        "t": ""
+        "t": "'See' (见 jiàn) + 'face' (面 miàn). 'To meet' someone face-to-face."
     },
     {
         "s": "叫",
-        "t": ""
+        "t": "The 'mouth' (口 kǒu) radical. It means 'to be called' or 'to shout' (jiào)."
     },
     {
         "s": "教",
-        "t": ""
+        "t": "Left side is 'child' + 'filial', right side is 'action'. A teacher 'teaching' (jiāo/jiào) a child."
     },
     {
         "s": "教学楼",
-        "t": ""
+        "t": "'Teach' (教 jiào) + 'learn' (学 xué) + 'building' (楼 lóu). An 'academic building'."
     },
     {
         "s": "介绍",
-        "t": ""
+        "t": "To 'introduce' (jiè shào). 'Jie' means 'to sit between', 'shao' has the 'silk' radical."
     },
     {
         "s": "姐",
-        "t": ""
+        "t": "The 'woman' (女 nǚ) radical on the left. This refers to an 'elder sister' (jiě)."
     },
     {
         "s": "姐姐",
-        "t": ""
+        "t": "The informal word for 'older sister' (jiě jie)."
     },
     {
         "s": "今年",
-        "t": ""
+        "t": "'Now' (今 jīn) + 'year' (年 nián). 'This year'."
     },
     {
         "s": "今天",
-        "t": ""
+        "t": "'Now' (今 jīn) + 'day' (天 tiān). 'Today'."
     },
     {
         "s": "进",
-        "t": ""
+        "t": "The 'walking' radical (辶 chuò). It means 'to enter' or 'to go in' (jìn)."
     },
     {
         "s": "进来",
-        "t": ""
+        "t": "'Enter' (进 jìn) + 'come' (来 lái). 'To come in'."
     },
     {
         "s": "进去",
-        "t": ""
+        "t": "'Enter' (进 jìn) + 'go' (去 qù). 'To go in'."
     },
     {
         "s": "九",
-        "t": ""
+        "t": "Looks like a person bending over. The number 'nine' (jiǔ)."
     },
     {
         "s": "就",
-        "t": ""
+        "t": "Left side is 'capital', right is 'especially'. It's a particle meaning 'then', 'exactly', or 'immediately' (jiù)."
     },
     {
         "s": "觉得",
-        "t": ""
+        "t": "To 'feel' or 'think' (jué de). 'Jue' means 'to perceive'."
     },
     {
         "s": "开",
-        "t": ""
+        "t": "Looks like two hands pushing a bar to 'open' (kāi) a gate."
     },
     {
         "s": "开车",
-        "t": ""
+        "t": "'Open/Operate' (开 kāi) + 'car' (车 chē). 'To drive a car'."
     },
     {
         "s": "开会",
-        "t": ""
+        "t": "'Open/Start' (开 kāi) + 'meeting' (会 huì). 'To have a meeting'."
     },
     {
         "s": "开玩笑",
-        "t": ""
+        "t": "'Open' (开 kāi) + 'play' (玩 wán) + 'laugh' (笑 xiào). 'To crack a joke'."
     },
     {
         "s": "看",
-        "t": ""
+        "t": "A 'hand' (手 shǒu) over an 'eye' (目 mù). Imagine shading your eyes to 'look' (kàn) at something."
     },
     {
         "s": "看病",
-        "t": ""
+        "t": "'Look/Visit' (看 kàn) + 'sickness' (病 bìng). 'To see a doctor'."
     },
     {
         "s": "看到",
-        "t": ""
+        "t": "'Look' (看 kàn) + 'arrive' (到 dào). 'To see' something successfully."
     },
     {
         "s": "看见",
-        "t": ""
+        "t": "'Look' (看 kàn) + 'see' (见 jiàn). 'To catch sight of'."
     },
     {
         "s": "考",
-        "t": ""
+        "t": "Looks like an 'old man' (老 lǎo) with a cane. It means 'to test' or 'examine' (kǎo)."
     },
     {
         "s": "考试",
-        "t": ""
+        "t": "A 'test' or 'exam' (kǎo shì)."
     },
     {
         "s": "渴",
-        "t": ""
+        "t": "The 'water' (氵 shuǐ) radical. If you need water, you are 'thirsty' (kě)."
     },
     {
         "s": "课",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical + 'fruit'. The 'fruit' of speech is a 'lesson' or 'class' (kè)."
     },
     {
         "s": "课本",
-        "t": ""
+        "t": "'Class' (课 kè) + 'book' (本 běn). A 'textbook'."
     },
     {
         "s": "课文",
-        "t": ""
+        "t": "'Class' (课 kè) + 'text' (文 wén). The text in a lesson."
     },
     {
         "s": "口",
-        "t": ""
+        "t": "A simple square representing an open 'mouth' (kǒu)."
     },
     {
         "s": "块",
-        "t": ""
+        "t": "The 'earth' (土 tǔ) radical. It means a 'chunk', 'piece', or 'the basic unit of money' (kuài)."
     },
     {
         "s": "快",
-        "t": ""
+        "t": "The 'heart' (忄 xīn) radical. A heart beating 'fast' (kuài)."
     },
     {
         "s": "来",
-        "t": ""
+        "t": "Looks like a wheat plant. Ancient people used it to mean 'to come' (lái)."
     },
     {
         "s": "来到",
-        "t": ""
+        "t": "'Come' (来 lái) + 'arrive' (到 dào). 'To arrive at'."
     },
     {
         "s": "老",
-        "t": ""
+        "t": "A person with long hair and a cane. It means 'old' (lǎo)."
     },
     {
         "s": "老人",
-        "t": ""
+        "t": "'Old' (老 lǎo) + 'person' (人 rén). An 'elderly person'."
     },
     {
         "s": "老师",
-        "t": ""
+        "t": "'Old/Respectable' (老 lǎo) + 'master' (师 shī). A 'teacher'."
     },
     {
         "s": "了",
-        "t": ""
+        "t": "A simplified 'child' (子 zǐ) without the horizontal bar. Used as a grammatical particle (le)."
     },
     {
         "s": "累",
-        "t": ""
+        "t": "The 'field' (田 tián) on top of 'silk' (糸 mì). Working in the field is 'tiring' (lèi)."
     },
     {
         "s": "冷",
-        "t": ""
+        "t": "The 'ice' (冫 bīng) radical on the left. It means 'cold' (lěng)."
     },
     {
         "s": "里",
-        "t": ""
+        "t": "A 'field' (田 tián) over 'earth' (土 tǔ). A village 'inside' the land. It means 'in' or 'inside' (lǐ)."
     },
     {
         "s": "里边",
-        "t": ""
+        "t": "'Inside' (里 lǐ) + 'side' (边 biān). 'Inside'."
     },
     {
         "s": "两",
-        "t": ""
+        "t": "Looks like a 'scale' with two weights. Used for 'two' (liǎng) of something."
     },
     {
         "s": "零",
-        "t": ""
+        "t": "The 'rain' (雨 yǔ) radical on top. It means 'zero' (líng)."
     },
     {
         "s": "六",
-        "t": ""
+        "t": "Looks like a person with arms and legs spread. The number 'six' (liù)."
     },
     {
         "s": "楼",
-        "t": ""
+        "t": "The 'wood' (木 mù) radical. Buildings were made of wood. It means 'floor' or 'building' (lóu)."
     },
     {
         "s": "楼上",
-        "t": ""
+        "t": "'Building' (楼 lóu) + 'up' (上 shàng). 'Upstairs'."
     },
     {
         "s": "楼下",
-        "t": ""
+        "t": "'Building' (楼 lóu) + 'down' (下 xià). 'Downstairs'."
     },
     {
         "s": "路",
-        "t": ""
+        "t": "The 'foot' (⻊ zú) radical. Feet walk on the 'road' (lù)."
     },
     {
         "s": "路口",
-        "t": ""
+        "t": "'Road' (路 lù) + 'mouth' (口 kǒu). An 'intersection' (the mouth of the road)."
     },
     {
         "s": "路上",
-        "t": ""
+        "t": "'Road' (路 lù) + 'on' (上 shàng). 'On the road'."
     },
     {
         "s": "妈",
-        "t": ""
+        "t": "The 'woman' (女 nǚ) radical + 'horse' (马 mǎ) for sound. 'Mother' (mā)."
     },
     {
         "s": "妈妈",
-        "t": ""
+        "t": "The informal word for 'mother' (mā ma)."
     },
     {
         "s": "马路",
-        "t": ""
+        "t": "'Horse' (马 mǎ) + 'road' (路 lù). A 'main road' (where horses used to travel)."
     },
     {
         "s": "马上",
-        "t": ""
+        "t": "'Horse' (马 mǎ) + 'on' (上 shàng). To do something 'immediately' (as fast as being on a horse)."
     },
     {
         "s": "吗",
-        "t": ""
+        "t": "The 'mouth' (口 kǒu) radical + 'horse' (马 mǎ). A question particle (ma)."
     },
     {
         "s": "买",
-        "t": ""
+        "t": "Looks like a 'hook' grabbing a 'shell' (money). It means 'to buy' (mǎi)."
     },
     {
         "s": "慢",
-        "t": ""
+        "t": "The 'heart' (忄 xīn) radical. A 'slow' (màn) heart."
     },
     {
         "s": "忙",
-        "t": ""
+        "t": "The 'heart' (忄 xīn) radical + 'death/disappear' (亡 wáng). To be so 'busy' (máng) your heart feels lost."
     },
     {
         "s": "毛",
-        "t": ""
+        "t": "Looks like a piece of 'hair', 'fur', or 'feather' (máo). Also a unit of money."
     },
     {
         "s": "没",
-        "t": ""
+        "t": "The 'water' (氵 shuǐ) radical. It means 'not have' or 'disappear in water' (méi)."
     },
     {
         "s": "没关系",
-        "t": ""
+        "t": "'Not have' (没 méi) + 'relation' (关系 guān xì). 'It doesn't matter' (No relation/problem)."
     },
     {
         "s": "没什么",
-        "t": ""
+        "t": "'Not have' (没 méi) + 'what' (什么 shén me). 'It's nothing' or 'Don't mention it'."
     },
     {
         "s": "没事儿",
-        "t": ""
+        "t": "'Not have' (没 méi) + 'matter' (事 shì). 'It's okay' or 'I'm not busy'."
     },
     {
         "s": "没有",
-        "t": ""
+        "t": "'Not' (没 méi) + 'have' (有 yǒu). 'To not have'."
     },
     {
         "s": "妹",
-        "t": ""
+        "t": "The 'woman' (女 nǚ) radical + 'not yet'. A woman not yet grown: 'younger sister' (mèi)."
     },
     {
         "s": "妹妹",
-        "t": ""
+        "t": "The informal word for 'younger sister' (mèi mei)."
     },
     {
         "s": "门",
-        "t": ""
+        "t": "A simplified drawing of a 'doorway' or 'gate' (mén)."
     },
     {
         "s": "门口",
-        "t": ""
+        "t": "'Door' (门 mén) + 'mouth' (口 kǒu). An 'entrance' or 'doorway'."
     },
     {
         "s": "门票",
-        "t": ""
+        "t": "'Door' (门 mén) + 'ticket' (票 piào). An 'entrance ticket'."
     },
     {
         "s": "们",
-        "t": ""
-    },
-    {
-        "s": "们",
-        "t": ""
+        "t": "The 'person' (亻 rén) radical + 'door' (门 mén). Makes pronouns plural (e.g., 'we', 'you all')."
     },
     {
         "s": "米饭",
-        "t": ""
+        "t": "'Rice' (米 mǐ) + 'cooked meal' (饭 fàn). 'Cooked rice'."
     },
     {
         "s": "面包",
-        "t": ""
+        "t": "'Flour' (面 miàn) + 'wrap' (包 bāo). 'Bread'."
     },
     {
         "s": "面条儿",
-        "t": ""
+        "t": "'Flour' (面 miàn) + 'strips' (条 tiáo). 'Noodles'."
     },
     {
         "s": "名字",
-        "t": ""
+        "t": "'Name' (名 míng) + 'character' (字 zì). A 'name'."
     },
     {
         "s": "明白",
-        "t": ""
+        "t": "'Bright/Clear' (明 míng) + 'white/clear' (白 bái). To 'understand' clearly."
     },
     {
         "s": "明年",
-        "t": ""
+        "t": "'Bright/Next' (明 míng) + 'year' (年 nián). 'Next year'."
     },
     {
         "s": "明天",
-        "t": ""
+        "t": "'Bright/Next' (明 míng) + 'day' (天 tiān). 'Tomorrow'."
     },
     {
         "s": "拿",
-        "t": ""
+        "t": "A 'hand' (手 shǒu) at the bottom. It means 'to take' or 'to hold' (ná)."
     },
     {
         "s": "哪",
-        "t": ""
+        "t": "A 'mouth' (口 kǒu) radical. Used to ask 'which' (nǎ)."
     },
     {
         "s": "哪儿",
-        "t": ""
+        "t": "The question word for 'where' (nǎr)."
     },
     {
         "s": "哪里",
-        "t": ""
+        "t": "The question word for 'where' (nǎ lǐ)."
     },
     {
         "s": "哪些",
-        "t": ""
+        "t": "'Which' (哪 nǎ) + 'some/plural' (些 xiē). 'Which ones?'"
     },
     {
         "s": "那",
-        "t": ""
+        "t": "Used to mean 'that' (nà)."
     },
     {
         "s": "那边",
-        "t": ""
+        "t": "'That' (那 nà) + 'side' (边 biān). 'Over there'."
     },
     {
         "s": "那儿",
-        "t": ""
+        "t": "The word for 'there' (nàr)."
     },
     {
         "s": "那里",
-        "t": ""
+        "t": "The word for 'there' (nà lǐ)."
     },
     {
         "s": "那些",
-        "t": ""
+        "t": "'That' (那 nà) + 'some' (些 xiē). 'Those'."
     },
     {
         "s": "奶",
-        "t": ""
+        "t": "The 'woman' (女 nǚ) radical. Refers to 'milk' or 'grandmother' (nǎi)."
     },
     {
         "s": "奶奶",
-        "t": ""
+        "t": "The word for paternal 'grandmother' (nǎi nai)."
     },
     {
         "s": "男",
-        "t": ""
+        "t": "'Field' (田 tián) + 'strength/power' (力 lì). The one who uses strength in the field: 'man' (nán)."
     },
     {
         "s": "男孩儿",
-        "t": ""
+        "t": "'Male' (男 nán) + 'child' (孩儿 hái r). A 'boy'."
     },
     {
         "s": "男朋友",
-        "t": ""
+        "t": "'Male' (男 nán) + 'friend' (朋友 péng you). 'Boyfriend'."
     },
     {
         "s": "男人",
-        "t": ""
+        "t": "'Male' (男 nán) + 'person' (人 rén). 'Man'."
     },
     {
         "s": "男生",
-        "t": ""
+        "t": "'Male' (男 nán) + 'student/person' (生 shēng). A 'male student' or 'guy'."
     },
     {
         "s": "南",
-        "t": ""
+        "t": "Looks like a hanging lantern. It means 'South' (nán)."
     },
     {
         "s": "南边",
-        "t": ""
+        "t": "'South' (南 nán) + 'side' (边 biān). 'The south side'."
     },
     {
         "s": "难",
-        "t": ""
+        "t": "Left side relates to a 'short-tailed bird'. It means 'difficult' (nán)."
     },
     {
         "s": "呢",
-        "t": ""
+        "t": "A 'mouth' (口 kǒu) radical. A question particle used for 'and you?' (ne)."
     },
     {
         "s": "能",
-        "t": ""
+        "t": "Originally looked like a strong bear. It means 'can' or 'to be able to' (néng)."
     },
     {
         "s": "你",
-        "t": ""
+        "t": "The 'person' (亻 rén) radical. It means 'you' (nǐ)."
     },
     {
         "s": "你们",
-        "t": ""
+        "t": "'You' (你 nǐ) + plural (们 men). 'You all'."
     },
     {
         "s": "年",
-        "t": ""
+        "t": "Originally a person carrying a harvest of grain. It means 'year' (nián)."
     },
     {
         "s": "您",
-        "t": ""
+        "t": "'You' (你 nǐ) over a 'heart' (心 xīn). The polite way to say 'you' (nín)."
     },
     {
         "s": "牛奶",
-        "t": ""
+        "t": "'Cow' (牛 niú) + 'milk' (奶 nǎi). 'Cow's milk'."
     },
     {
         "s": "女",
-        "t": ""
+        "t": "Looks like a person kneeling or dancing. It means 'woman' (nǚ)."
     },
     {
         "s": "女儿",
-        "t": ""
+        "t": "'Woman' (女 nǚ) + 'child' (儿 ér). 'Daughter'."
     },
     {
         "s": "女孩儿",
-        "t": ""
+        "t": "'Woman' (女 nǚ) + 'child' (孩儿 hái r). 'Girl'."
     },
     {
         "s": "女朋友",
-        "t": ""
+        "t": "'Woman' (女 nǚ) + 'friend' (朋友 péng you). 'Girlfriend'."
     },
     {
         "s": "女人",
-        "t": ""
+        "t": "'Woman' (女 nǚ) + 'person' (人 rén). 'Woman'."
     },
     {
         "s": "女生",
-        "t": ""
+        "t": "'Woman' (女 nǚ) + 'student/person' (生 shēng). A 'female student' or 'girl'."
     },
     {
         "s": "旁边",
-        "t": ""
+        "t": "'Beside' (旁 páng) + 'side' (边 biān). 'Next to'."
     },
     {
         "s": "跑",
-        "t": ""
+        "t": "The 'foot' (⻊ zú) radical. It means 'to run' (pǎo)."
     },
     {
         "s": "朋友",
-        "t": ""
+        "t": "'Two moons' (朋 péng) + 'hand/friend' (友 yǒu). Friends are people who go through many months together."
     },
     {
         "s": "票",
-        "t": ""
+        "t": "Looks like a 'ticket' or 'slip' (piào)."
     },
     {
         "s": "七",
-        "t": ""
+        "t": "Looks like a '7' rotated. The number 'seven' (qī)."
     },
     {
         "s": "起",
-        "t": ""
+        "t": "The 'run' (走 zǒu) radical. It means 'to rise' or 'to start' (qǐ)."
     },
     {
         "s": "起床",
-        "t": ""
+        "t": "'Rise' (起 qǐ) + 'bed' (床 chuáng). 'To get out of bed'."
     },
     {
         "s": "起来",
-        "t": ""
+        "t": "'Rise' (起 qǐ) + 'come' (来 lái). 'To stand up' or 'wake up'."
     },
     {
         "s": "汽车",
-        "t": ""
+        "t": "'Steam/Gas' (汽 qì) + 'car' (车 chē). A 'motor vehicle' or 'car'."
     },
     {
         "s": "前",
-        "t": ""
+        "t": "A 'knife' (刂 dāo) over 'meat/moon'. It means 'front' or 'before' (qián)."
     },
     {
         "s": "前边",
-        "t": ""
+        "t": "'Front' (前 qián) + 'side' (边 biān). 'In front'."
     },
     {
         "s": "前天",
-        "t": ""
+        "t": "'Before' (前 qián) + 'day' (天 tiān). 'The day before yesterday'."
     },
     {
         "s": "钱",
-        "t": ""
+        "t": "The 'metal' (钅 jīn) radical. It means 'money' (qián)."
     },
     {
         "s": "钱包",
-        "t": ""
+        "t": "'Money' (钱 qián) + 'bag' (包 bāo). A 'wallet'."
     },
     {
         "s": "请",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical + 'green/clear' (青 qīng). To 'please' or 'invite' politely."
     },
     {
         "s": "请假",
-        "t": ""
+        "t": "'Request' (请 qǐng) + 'vacation' (假 jià). 'To ask for leave'."
     },
     {
         "s": "请进",
-        "t": ""
+        "t": "'Please' (请 qǐng) + 'enter' (进 jìn). 'Please come in'."
     },
     {
         "s": "请问",
-        "t": ""
+        "t": "'Please' (请 qǐng) + 'ask' (问 wèn). 'May I ask...'"
     },
     {
         "s": "请坐",
-        "t": ""
+        "t": "'Please' (请 qǐng) + 'sit' (坐 zuò). 'Please have a seat'."
     },
     {
         "s": "球",
-        "t": ""
+        "t": "The 'jade' (王 wáng) radical + 'request'. It means a 'ball' (qiú)."
     },
     {
         "s": "去",
-        "t": ""
+        "t": "A person walking away from an enclosure. It means 'to go' (qù)."
     },
     {
         "s": "去年",
-        "t": ""
+        "t": "'Past' (去 qù) + 'year' (年 nián). 'Last year'."
     },
     {
         "s": "热",
-        "t": ""
+        "t": "The 'fire' (灬) radical at the bottom. It means 'hot' (rè)."
     },
     {
         "s": "人",
-        "t": ""
+        "t": "A simple sketch of a 'person' (rén) standing on two legs."
     },
     {
         "s": "认识",
-        "t": ""
+        "t": "Both have the 'speech' (讠 yán) radical. To 'know' or 'recognize' someone (rèn shi)."
     },
     {
         "s": "认真",
-        "t": ""
+        "t": "'Recognize' (认 rèn) + 'true' (真 zhēn). To be 'serious' or 'conscientious'."
     },
     {
         "s": "日",
-        "t": ""
+        "t": "A square with a line in the middle. Originally a circle for the 'sun' (rì). Also means 'day'."
     },
     {
         "s": "日期",
-        "t": ""
+        "t": "'Day' (日 rì) + 'period/time' (期 qī). A 'date'."
     },
     {
         "s": "肉",
-        "t": ""
+        "t": "Looks like a piece of meat with ribs. It means 'meat' (ròu)."
     },
     {
         "s": "三",
-        "t": ""
+        "t": "Three horizontal lines. The number 'three' (sān)."
     },
     {
         "s": "山",
-        "t": ""
+        "t": "A sketch of three 'mountain' peaks (shān)."
     },
     {
         "s": "商场",
-        "t": ""
+        "t": "'Trade' (商 shāng) + 'place' (场 chǎng). A 'shopping mall'."
     },
     {
         "s": "商店",
-        "t": ""
+        "t": "'Trade' (商 shāng) + 'shop' (店 diàn). A 'shop' or 'store'."
     },
     {
         "s": "上",
-        "t": ""
+        "t": "A line above a base. It means 'up' or 'above' (shàng)."
     },
     {
         "s": "上班",
-        "t": ""
+        "t": "'Go' (上 shàng) + 'shift' (班 bàn). 'To go to work'."
     },
     {
         "s": "上边",
-        "t": ""
+        "t": "'Up' (上 shàng) + 'side' (边 biān). 'Above' or 'on top'."
     },
     {
         "s": "上车",
-        "t": ""
+        "t": "'Up' (上 shàng) + 'car' (车 chē). 'To get in a car/bus'."
     },
     {
         "s": "上次",
-        "t": ""
+        "t": "'Up/Past' (上 shàng) + 'time' (次 cì). 'Last time'."
     },
     {
         "s": "上课",
-        "t": ""
+        "t": "'Go to' (上 shàng) + 'class' (课 kè). 'To attend class'."
     },
     {
         "s": "上网",
-        "t": ""
+        "t": "'Go on' (上 shàng) + 'net' (网 wǎng). 'To surf the internet'."
     },
     {
         "s": "上午",
-        "t": ""
+        "t": "'Before' (上 shàng) + 'noon' (午 wǔ). 'Morning'."
     },
     {
         "s": "上学",
-        "t": ""
+        "t": "'Go to' (上 shàng) + 'study' (学 xué). 'To go to school'."
     },
     {
         "s": "少",
-        "t": ""
+        "t": "A 'small' (小 xiǎo) with an extra stroke. It means 'few' or 'little' (shǎo)."
     },
     {
         "s": "身上",
-        "t": ""
+        "t": "'Body' (身 shēn) + 'on' (上 shàng). 'On the body'."
     },
     {
         "s": "身体",
-        "t": ""
+        "t": "'Body' (身 shēn) + 'body/form' (体 tǐ). 'Body' or 'health'."
     },
     {
         "s": "什么",
-        "t": ""
+        "t": "The word for 'what' (shén me)."
     },
     {
         "s": "生病",
-        "t": ""
+        "t": "'Become/Grow' (生 shēng) + 'sick' (病 bìng). 'To fall ill'."
     },
     {
         "s": "生气",
-        "t": ""
+        "t": "'Become' (生 shēng) + 'air/breath' (气 qì). To be 'angry' (blowing out air)."
     },
     {
         "s": "生日",
-        "t": ""
+        "t": "'Birth' (生 shēng) + 'day' (日 rì). 'Birthday'."
     },
     {
         "s": "十",
-        "t": ""
+        "t": "A cross shape. The number 'ten' (shí)."
     },
     {
         "s": "时候",
-        "t": ""
+        "t": "The word for 'time' or 'moment' (shí hou)."
     },
     {
         "s": "时间",
-        "t": ""
+        "t": "'Time' (时 shí) + 'interval' (间 jiān). 'Time' or 'duration'."
     },
     {
         "s": "事",
-        "t": ""
+        "t": "Looks like a person holding a tool. It means 'matter', 'thing', or 'business' (shì)."
     },
     {
         "s": "试",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical + 'rule'. To 'try' or 'test' (shì)."
     },
     {
         "s": "是",
-        "t": ""
+        "t": "The 'sun' (日 rì) on top of 'correct'. It means 'is', 'am', 'are' (shì)."
     },
     {
         "s": "是不是",
-        "t": ""
+        "t": "'Is or is not' (shì bu shì). A common way to ask 'Is it?'"
     },
     {
         "s": "手",
-        "t": ""
+        "t": "A sketch of a 'hand' (shǒu) with fingers."
     },
     {
         "s": "手机",
-        "t": ""
+        "t": "'Hand' (手 shǒu) + 'machine' (机 jī). A 'cell phone'."
     },
     {
         "s": "书",
-        "t": ""
+        "t": "Looks like a stack of papers or a 'book' (shū)."
     },
     {
         "s": "书包",
-        "t": ""
+        "t": "'Book' (书 shū) + 'bag' (包 bāo). A 'schoolbag'."
     },
     {
         "s": "书店",
-        "t": ""
+        "t": "'Book' (书 shū) + 'shop' (店 diàn). A 'bookstore'."
     },
     {
         "s": "树",
-        "t": ""
+        "t": "The 'wood' (木 mù) radical on the left. It means 'tree' (shù)."
     },
     {
         "s": "谁",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical. The question word for 'who' (shéi)."
     },
     {
         "s": "水",
-        "t": ""
+        "t": "Looks like flowing 'water' (shuǐ)."
     },
     {
         "s": "水果",
-        "t": ""
+        "t": "'Water' (水 shuǐ) + 'fruit' (果 guǒ). 'Fruit'."
     },
     {
         "s": "睡",
-        "t": ""
+        "t": "The 'eye' (目 mù) radical. When your eye droops, you 'sleep' (shuì)."
     },
     {
         "s": "睡觉",
-        "t": ""
+        "t": "The full verb for 'to sleep' (shuì jiào)."
     },
     {
         "s": "说",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical. It means 'to speak' or 'to say' (shuō)."
     },
     {
         "s": "说话",
-        "t": ""
+        "t": "'Speak' (说 shuō) + 'speech' (话 huà). 'To talk'."
     },
     {
         "s": "四",
-        "t": ""
+        "t": "A square with two marks inside. The number 'four' (sì)."
     },
     {
         "s": "送",
-        "t": ""
+        "t": "The 'walking' radical (辶 chuò). It means 'to give as a gift' or 'to deliver' (sòng)."
     },
     {
         "s": "岁",
-        "t": ""
+        "t": "The word for 'years of age' (suì)."
     },
     {
         "s": "他",
-        "t": ""
+        "t": "The 'person' (亻 rén) radical. It means 'he' or 'him' (tā)."
     },
     {
         "s": "他们",
-        "t": ""
+        "t": "'He' (他 tā) + plural (们 men). 'They' (male or mixed group)."
     },
     {
         "s": "她",
-        "t": ""
+        "t": "The 'woman' (女 nǚ) radical. It means 'she' or 'her' (tā)."
     },
     {
         "s": "她们",
-        "t": ""
+        "t": "'She' (她 tā) + plural (们 men). 'They' (female group)."
     },
     {
         "s": "太",
-        "t": ""
+        "t": "A 'big' (大 dà) with an extra dot. It means 'too' or 'extremely' (tài)."
     },
     {
         "s": "天",
-        "t": ""
+        "t": "A 'big' (大 dà) with a line above it. It means 'sky' or 'day' (tiān)."
     },
     {
         "s": "天气",
-        "t": ""
+        "t": "'Sky' (天 tiān) + 'air/breath' (气 qì). 'Weather'."
     },
     {
         "s": "听",
-        "t": ""
+        "t": "The 'mouth' (口 kǒu) radical. It means 'to listen' (tīng)."
     },
     {
         "s": "听到",
-        "t": ""
+        "t": "'Listen' (听 tīng) + 'arrive' (到 dào). 'To hear' something successfully."
     },
     {
         "s": "听见",
-        "t": ""
+        "t": "'Listen' (听 tīng) + 'see' (见 jiàn). 'To hear'."
     },
     {
         "s": "听写",
-        "t": ""
+        "t": "'Listen' (听 tīng) + 'write' (写 xiě). 'Dictation'."
     },
     {
         "s": "同学",
-        "t": ""
+        "t": "'Same' (同 tóng) + 'study' (学 xué). 'Classmate'."
     },
     {
         "s": "图书馆",
-        "t": ""
+        "t": "'Picture' (图 tú) + 'book' (书 shū) + 'building' (馆 guǎn). A 'library'."
     },
     {
         "s": "外",
-        "t": ""
+        "t": "'Evening' (夕 xī) + 'divination'. It means 'outside' (wài)."
     },
     {
         "s": "外边",
-        "t": ""
+        "t": "'Outside' (外 wài) + 'side' (边 biān). 'Outside'."
     },
     {
         "s": "外国",
-        "t": ""
+        "t": "'Outside' (外 wài) + 'country' (国 guó). 'Foreign country'."
     },
     {
         "s": "外语",
-        "t": ""
+        "t": "'Outside' (外 wài) + 'language' (语 yǔ). 'Foreign language'."
     },
     {
         "s": "玩儿",
-        "t": ""
+        "t": "'Jade' (王 wáng) radical + 'child' (儿 ér). To 'play' (wán r)."
     },
     {
         "s": "晚",
-        "t": ""
+        "t": "The 'sun' (日 rì) radical + 'to escape'. It means 'late' or 'evening' (wǎn)."
     },
     {
         "s": "晚饭",
-        "t": ""
+        "t": "'Evening' (晚 wǎn) + 'meal' (饭 fàn). 'Dinner'."
     },
     {
         "s": "晚上",
-        "t": ""
+        "t": "'Evening' (晚 wǎn) + 'on' (上 shàng). 'Night' or 'evening'."
     },
     {
         "s": "网上",
-        "t": ""
+        "t": "'Net' (网 wǎng) + 'on' (上 shàng). 'Online'."
     },
     {
         "s": "网友",
-        "t": ""
+        "t": "'Net' (网 wǎng) + 'friend' (友 yǒu). 'Internet friend'."
     },
     {
         "s": "忘",
-        "t": ""
+        "t": "'Death' (亡 wáng) on top of 'heart' (心 xīn). To 'forget' (wàng) is to have your heart lose something."
     },
     {
         "s": "忘记",
-        "t": ""
+        "t": "The full verb for 'to forget' (wàng jì)."
     },
     {
         "s": "问",
-        "t": ""
+        "t": "A 'mouth' (口 kǒu) inside a 'gate' (门 mén). To 'ask' (wèn) someone at the gate."
     },
     {
         "s": "我",
-        "t": ""
+        "t": "Looks like an ancient weapon. It means 'I' or 'me' (wǒ)."
     },
     {
         "s": "我们",
-        "t": ""
+        "t": "'I' (我 wǒ) + plural (们 men). 'We' or 'us'."
     },
     {
         "s": "五",
-        "t": ""
+        "t": "The number 'five' (wǔ)."
     },
     {
         "s": "午饭",
-        "t": ""
+        "t": "'Noon' (午 wǔ) + 'meal' (饭 fàn). 'Lunch'."
     },
     {
         "s": "洗",
-        "t": ""
+        "t": "The 'water' (氵 shuǐ) radical. It means 'to wash' (xǐ)."
     },
     {
         "s": "洗手间",
-        "t": ""
+        "t": "'Wash' (洗 xǐ) + 'hand' (手 shǒu) + 'room' (间 jiān). 'Bathroom' or 'toilet'."
     },
     {
         "s": "喜欢",
-        "t": ""
+        "t": "To 'like' (xǐ huan). 'Xi' means happiness."
     },
     {
         "s": "西",
-        "t": ""
+        "t": "Looks like a bird in its nest as the sun sets. It means 'West' (xī)."
     },
     {
         "s": "西边",
-        "t": ""
+        "t": "'West' (西 xī) + 'side' (边 biān). 'The west side'."
     },
     {
         "s": "下",
-        "t": ""
+        "t": "A line below a base. It means 'down' or 'below' (xià)."
     },
     {
         "s": "下班",
-        "t": ""
+        "t": "'Finish' (下 xià) + 'shift' (班 bàn). 'To get off work'."
     },
     {
         "s": "下边",
-        "t": ""
+        "t": "'Down' (下 xià) + 'side' (边 biān). 'Below'."
     },
     {
         "s": "下车",
-        "t": ""
+        "t": "'Down' (下 xià) + 'car' (车 chē). 'To get off a bus/car'."
     },
     {
         "s": "下次",
-        "t": ""
+        "t": "'Down/Next' (下 xià) + 'time' (次 cì). 'Next time'."
     },
     {
         "s": "下课",
-        "t": ""
+        "t": "'Finish' (下 xià) + 'class' (课 kè). 'Class dismissed'."
     },
     {
         "s": "下午",
-        "t": ""
+        "t": "'After' (下 xià) + 'noon' (午 wǔ). 'Afternoon'."
     },
     {
         "s": "下雨",
-        "t": ""
+        "t": "'Down/Fall' (下 xià) + 'rain' (雨 yǔ). 'To rain'."
     },
     {
         "s": "先",
-        "t": ""
+        "t": "A 'person' (人 rén) moving forward. It means 'first' or 'before' (xiān)."
     },
     {
         "s": "先生",
-        "t": ""
+        "t": "'First' (先 xiān) + 'born' (生 shēng). 'Mr.' or 'husband'."
     },
     {
         "s": "现在",
-        "t": ""
+        "t": "'Now' (xiàn zài)."
     },
     {
         "s": "想",
-        "t": ""
+        "t": "'Tree' + 'eye' over a 'heart' (心 xīn). To 'think' or 'want' (xiǎng)."
     },
     {
         "s": "小",
-        "t": ""
+        "t": "Three small strokes. It means 'small' (xiǎo)."
     },
     {
         "s": "小孩儿",
-        "t": ""
+        "t": "'Small' (小 xiǎo) + 'child' (孩儿 hái r). 'Child'."
     },
     {
         "s": "小姐",
-        "t": ""
+        "t": "'Small' (小 xiǎo) + 'sister' (姐 jiě). 'Miss' or 'young lady'."
     },
     {
         "s": "小朋友",
-        "t": ""
+        "t": "'Small' (小 xiǎo) + 'friend' (朋友 péng you). 'Child' (friendly term)."
     },
     {
         "s": "小时",
-        "t": ""
+        "t": "'Small' (小 xiǎo) + 'time' (时 shí). An 'hour'."
     },
     {
         "s": "小学",
-        "t": ""
+        "t": "'Small' (小 xiǎo) + 'study' (学 xué). 'Elementary school'."
     },
     {
         "s": "小学生",
-        "t": ""
+        "t": "'Elementary school' + 'student' (生 shēng). 'Elementary student'."
     },
     {
         "s": "笑",
-        "t": ""
+        "t": "The 'bamboo' (⺮ zhú) radical on top. It means 'to laugh' or 'smile' (xiào)."
     },
     {
         "s": "写",
-        "t": ""
+        "t": "A 'roof' (冖) radical. It means 'to write' (xiě)."
     },
     {
         "s": "谢谢",
-        "t": ""
+        "t": "The 'speech' (讠 yán) radical doubled. 'Thank you' (xiè xie)."
     },
     {
         "s": "新",
-        "t": ""
+        "t": "Left side means 'standing', right side is an 'axe' (斤 jīn). Imagine cutting new wood: 'new' (xīn)."
     },
     {
         "s": "新年",
-        "t": ""
+        "t": "'New' (新 xīn) + 'year' (年 nián). 'New Year'."
     },
     {
         "s": "星期",
-        "t": ""
+        "t": "'Star' (星 xīng) + 'period' (期 qī). 'Week'."
     },
     {
         "s": "星期日",
-        "t": ""
+        "t": "'Week' (星期) + 'day' (日 rì). 'Sunday'."
     },
     {
         "s": "星期天",
-        "t": ""
+        "t": "'Week' (星期) + 'sky/day' (天 tiān). 'Sunday'."
     },
     {
         "s": "行",
-        "t": ""
+        "t": "Looks like an intersection. It means 'okay' or 'to walk' (xíng)."
     },
     {
         "s": "休息",
-        "t": ""
+        "t": "A 'person' (亻 rén) leaning against a 'tree' (木 mù). It means 'to rest' (xiū xi)."
     },
     {
         "s": "学",
-        "t": ""
+        "t": "A 'child' (子 zǐ) under a 'roof' (宀 mián). It means 'to learn' or 'study' (xué)."
     },
     {
         "s": "学生",
-        "t": ""
+        "t": "'Study' (学 xué) + 'person/born' (生 shēng). 'Student'."
     },
     {
         "s": "学习",
-        "t": ""
+        "t": "To 'study' or 'learn' (xué xí)."
     },
     {
         "s": "学校",
-        "t": ""
+        "t": "'Study' (学 xué) + 'building' (校 xiào). 'School'."
     },
     {
         "s": "学院",
-        "t": ""
+        "t": "'Study' (学 xué) + 'courtyard' (院 yuàn). 'College' or 'institute'."
     },
     {
         "s": "要",
-        "t": ""
+        "t": "A 'woman' (女 nǚ) radical. It means 'to want' or 'will' (yào)."
     },
     {
         "s": "也",
-        "t": ""
+        "t": "A common particle meaning 'also' (yě)."
     },
     {
         "s": "页",
-        "t": ""
+        "t": "Looks like a person's head or a 'page' (yè)."
     },
     {
         "s": "爷爷",
-        "t": ""
+        "t": "The word for paternal 'grandfather' (yé ye)."
     },
     {
         "s": "一",
-        "t": ""
+        "t": "A single horizontal line. The number 'one' (yī)."
     },
     {
         "s": "一半",
-        "t": ""
+        "t": "'One' (一 yī) + 'half' (半 bàn). 'One half'."
     },
     {
         "s": "一边",
-        "t": ""
+        "t": "'One' (一 yī) + 'side' (边 biān). 'Simultaneously' or 'on one side'."
     },
     {
         "s": "一点儿",
-        "t": ""
+        "t": "'A little bit' (yì diǎn r)."
     },
     {
         "s": "一会儿",
-        "t": ""
+        "t": "'A little while' (yí huì r)."
     },
     {
         "s": "一块儿",
-        "t": ""
+        "t": "'One piece' (yí kuài r). Often means 'together'."
     },
     {
         "s": "一起",
-        "t": ""
+        "t": "'One' (一 yī) + 'start' (起 qǐ). 'Together'."
     },
     {
         "s": "一下儿",
-        "t": ""
+        "t": "'A brief moment' (yí xià r)."
     },
     {
         "s": "一些",
-        "t": ""
+        "t": "'One' (一 yī) + 'some' (些 xiē). 'Some' or 'a few'."
     },
     {
         "s": "一样",
-        "t": ""
+        "t": "'One' (一 yī) + 'appearance' (样 yàng). 'The same'."
     },
     {
         "s": "衣服",
-        "t": ""
+        "t": "The word for 'clothes' (yī fu)."
     },
     {
         "s": "医生",
-        "t": ""
+        "t": "'Medicine' (医 yī) + 'person' (生 shēng). 'Doctor'."
     },
     {
         "s": "医院",
-        "t": ""
+        "t": "'Medicine' (医 yī) + 'courtyard/place' (院 yuàn). 'Hospital'."
     },
     {
         "s": "用",
-        "t": ""
+        "t": "Looks like a bucket or tool. It means 'to use' (yòng)."
     },
     {
         "s": "有",
-        "t": ""
+        "t": "A 'hand' (𠂇) holding 'meat' (月). It means 'to have' (yǒu)."
     },
     {
         "s": "有的",
-        "t": ""
+        "t": "'Have' (有 yǒu) + possessive. Means 'some' (e.g., some people)."
     },
     {
         "s": "有名",
-        "t": ""
+        "t": "'Have' (有 yǒu) + 'name' (名 míng). 'Famous' (has a name)."
     },
     {
         "s": "有时",
-        "t": ""
+        "t": "'Have' (有 yǒu) + 'time' (时 shí). 'Sometimes'."
     },
     {
         "s": "有时候",
-        "t": ""
+        "t": "The full phrase for 'sometimes' (yǒu shí hou)."
     },
     {
         "s": "有些",
-        "t": ""
-    },
-    {
-        "s": "有些",
-        "t": ""
+        "t": "'Have' (有 yǒu) + 'some' (些 xiē). 'Some'."
     },
     {
         "s": "有一些",
-        "t": ""
+        "t": "'Have some' (yǒu yì xiē)."
     },
     {
         "s": "有用",
-        "t": ""
+        "t": "'Have' (有 yǒu) + 'use' (用 yòng). 'Useful'."
     },
     {
         "s": "右",
-        "t": ""
+        "t": "A 'hand' (𠂇) near a 'mouth' (口 kǒu). Most people use their 'right' (yòu) hand to eat."
     },
     {
         "s": "右边",
-        "t": ""
+        "t": "'Right' (右 yòu) + 'side' (边 biān). 'Right side'."
     },
     {
         "s": "雨",
-        "t": ""
+        "t": "Looks like 'rain' (yǔ) drops falling through a window."
     },
     {
         "s": "元",
-        "t": ""
+        "t": "The basic unit of 'currency' (yuán)."
     },
     {
         "s": "远",
-        "t": ""
+        "t": "The 'walking' radical (辶 chuò). It means 'far' (yuǎn)."
     },
     {
         "s": "月",
-        "t": ""
+        "t": "A sketch of a 'crescent moon' (yuè). Also means 'month'."
     },
     {
         "s": "再",
-        "t": ""
+        "t": "Looks like a 'gate'. It means 'again' (zài)."
     },
     {
         "s": "再见",
-        "t": ""
+        "t": "'Again' (再 zài) + 'see' (见 jiàn). 'Goodbye' (See you again)."
     },
     {
         "s": "在",
-        "t": ""
+        "t": "The 'earth' (土 tǔ) radical. It means 'at' or 'located in' (zài)."
     },
     {
         "s": "在家",
-        "t": ""
+        "t": "'At' (在 zài) + 'home' (家 jiā). 'At home'."
     },
     {
         "s": "早",
-        "t": ""
+        "t": "The 'sun' (日 rì) above a 'cross/shield'. It means 'early' or 'morning' (zǎo)."
     },
     {
         "s": "早饭",
-        "t": ""
+        "t": "'Morning' (早 zǎo) + 'meal' (饭 fàn). 'Breakfast'."
     },
     {
         "s": "早上",
-        "t": ""
+        "t": "'Morning' (早 zǎo) + 'on' (上 shàng). 'Early morning'."
     },
     {
         "s": "怎么",
-        "t": ""
+        "t": "The question word for 'how' (zěn me)."
     },
     {
         "s": "站",
-        "t": ""
+        "t": "The 'standing' (立 lì) radical on the left. It means 'to stand' or 'station' (zhàn)."
     },
     {
         "s": "找",
-        "t": ""
+        "t": "The 'hand' (扌 shǒu) radical + 'weapon'. It means 'to look for' (zhǎo)."
     },
     {
         "s": "找到",
-        "t": ""
+        "t": "'Look for' (找 zhǎo) + 'arrive' (到 dào). 'To find' successfully."
     },
     {
         "s": "这",
-        "t": ""
+        "t": "The 'walking' radical (辶 chuò). It means 'this' (zhè)."
     },
     {
         "s": "这边",
-        "t": ""
+        "t": "'This' (这 zhè) + 'side' (边 biān). 'This side' or 'over here'."
     },
     {
         "s": "这儿",
-        "t": ""
+        "t": "The word for 'here' (zhèr)."
     },
     {
         "s": "这里",
-        "t": ""
+        "t": "The word for 'here' (zhè lǐ)."
     },
     {
         "s": "这些",
-        "t": ""
+        "t": "'This' (这 zhè) + plural (些 xiē). 'These'."
     },
     {
         "s": "着",
-        "t": ""
+        "t": "A grammatical particle used to indicate a continuous state (zhe)."
     },
     {
         "s": "真",
-        "t": ""
+        "t": "Looks like a vessel on a stand. It means 'real' or 'true' (zhēn)."
     },
     {
         "s": "真的",
-        "t": ""
+        "t": "'True' (真 zhēn) + possessive. 'Really' or 'true'."
     },
     {
         "s": "正",
-        "t": ""
+        "t": "A line above a 'foot' (止 zhǐ). It means 'straight' or 'correct' (zhèng)."
     },
     {
         "s": "正在",
-        "t": ""
+        "t": "Indicates an action is 'in progress' (zhèng zài)."
     },
     {
         "s": "知道",
-        "t": ""
+        "t": "'Knowledge/Arrow' (知 zhī) + 'path' (道 dào). To 'know' (zhī dào)."
     },
     {
         "s": "知识",
-        "t": ""
+        "t": "'Know' (知 zhī) + 'recognize' (识 shí). 'Knowledge'."
     },
     {
         "s": "中",
-        "t": ""
+        "t": "A line through the middle of a square. It means 'middle' or 'center' (zhōng)."
     },
     {
         "s": "中国",
-        "t": ""
+        "t": "'Middle' (中 zhōng) + 'country' (国 guó). 'China'."
     },
     {
         "s": "中间",
-        "t": ""
+        "t": "'Middle' (中 zhōng) + 'space/interval' (间 jiān). 'In the middle'."
     },
     {
         "s": "中文",
-        "t": ""
+        "t": "'Middle/Chinese' (中 zhōng) + 'text' (文 wén). The 'Chinese language'."
     },
     {
         "s": "中午",
-        "t": ""
+        "t": "'Middle' (中 zhōng) + 'noon' (午 wǔ). 'Noon' or 'midday'."
     },
     {
         "s": "中学",
-        "t": ""
+        "t": "'Middle' (中 zhōng) + 'school' (学 xué). 'Middle school'."
     },
     {
         "s": "中学生",
-        "t": ""
+        "t": "'Middle school' + 'student' (生 shēng). 'Middle school student'."
     },
     {
         "s": "重",
-        "t": ""
+        "t": "Looks like a person carrying a 'thousand' over 'earth'. It means 'heavy' (zhòng)."
     },
     {
         "s": "重要",
-        "t": ""
+        "t": "'Heavy/Weighty' (重 zhòng) + 'want/need' (要 yào). 'Important'."
     },
     {
         "s": "住",
-        "t": ""
+        "t": "The 'person' (亻 rén) radical + 'master/candle'. To 'live' or 'stay' (zhù)."
     },
     {
         "s": "准备",
-        "t": ""
+        "t": "To 'prepare' (zhǔn bèi)."
     },
     {
         "s": "桌子",
-        "t": ""
-    },
-    {
-        "s": "桌子",
-        "t": ""
+        "t": "The 'wood' (木 mù) radical at the bottom. It means 'table' (zhuō zi)."
     },
     {
         "s": "字",
-        "t": ""
+        "t": "A 'child' (子 zǐ) under a 'roof' (宀 mián). Characters were like children growing under a roof. It means 'character' (zì)."
     },
     {
         "s": "子",
-        "t": ""
-    },
-    {
-        "s": "子",
-        "t": ""
+        "t": "A sketch of a 'child' (zǐ) with arms out. Common noun suffix."
     },
     {
         "s": "走",
-        "t": ""
+        "t": "A person on top of a foot. It means 'to walk' (zǒu)."
     },
     {
         "s": "走路",
-        "t": ""
+        "t": "'Walk' (走 zǒu) + 'road' (路 lù). 'To walk'."
     },
     {
         "s": "最",
-        "t": ""
+        "t": "The 'sun' (日 rì) on top. It means 'most' or 'superlative' (zuì)."
     },
     {
         "s": "最好",
-        "t": ""
+        "t": "'Most' (最 zuì) + 'good' (好 hǎo). 'Best'."
     },
     {
         "s": "最后",
-        "t": ""
+        "t": "'Most' (最 zuì) + 'after' (后 hòu). 'Last' or 'final'."
     },
     {
         "s": "昨天",
-        "t": ""
+        "t": "The 'sun' (日 rì) radical. It means 'yesterday' (zuó tiān)."
     },
     {
         "s": "左",
-        "t": ""
+        "t": "A 'hand' (𠂇) over a 'tool' (工 gōng). It means 'left' (zuǒ)."
     },
     {
         "s": "左边",
-        "t": ""
+        "t": "'Left' (左 zuǒ) + 'side' (边 biān). 'Left side'."
     },
     {
         "s": "坐",
-        "t": ""
+        "t": "Two 'people' (人 rén) sitting on the 'ground' (土 tǔ). It means 'to sit' (zuò)."
     },
     {
         "s": "坐下",
-        "t": ""
+        "t": "'Sit' (坐 zuò) + 'down' (下 xià). 'Sit down'."
     },
     {
         "s": "做",
-        "t": ""
+        "t": "The 'person' (亻 rén) radical + 'ancient' + 'tap'. It means 'to do' or 'to make' (zuò)."
     }
 ]
