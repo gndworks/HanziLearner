@@ -94,8 +94,8 @@ class _QuizPageState extends State<QuizPage> {
       context: context,
       barrierDismissible: false,
       builder: (context) => AlertDialog(
-        title: const Text('Congratulations!'),
-        content: const Text('You have completed all characters in HSK Level 1!'),
+        title: const Text('Session Complete!'),
+        content: Text('You have learned ${_quizService.getSessionWordCount()} characters in this session.'),
         actions: [
           TextButton(
             onPressed: () {
@@ -135,22 +135,38 @@ class _QuizPageState extends State<QuizPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // Progress indicator
-              LinearProgressIndicator(
-                value: _quizService.getProgress() / _quizService.getTotalCount(),
-                backgroundColor: Colors.grey.shade300,
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.blue.shade700),
-              ),
-              const SizedBox(height: 16),
+              // Session word count
               Text(
-                '${_quizService.getProgress() + 1} / ${_quizService.getTotalCount()}',
+                'Words this session: ${_quizService.getSessionWordCount()}',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 16,
-                  color: Colors.grey.shade600,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.blue.shade700,
                 ),
               ),
               const SizedBox(height: 32),
+              
+              // Revision label
+              if (_quizService.isReviewing())
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.orange.shade100,
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(color: Colors.orange.shade300),
+                  ),
+                  child: Text(
+                    'REVISION',
+                    style: TextStyle(
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.orange.shade800,
+                      letterSpacing: 1.2,
+                    ),
+                  ),
+                ),
+              if (_quizService.isReviewing()) const SizedBox(height: 16),
               
               // Hanzi character display
               Container(
