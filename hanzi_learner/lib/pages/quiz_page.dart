@@ -278,7 +278,7 @@ class _QuizPageState extends State<QuizPage> {
                 width: double.infinity,
                 height: 50,
                 child: OutlinedButton.icon(
-                  onPressed: _showResult ? null : _showUnsureDialog,
+                  onPressed: _showUnsureDialog,
                   icon: const Icon(Icons.help_outline),
                   label: const Text('Unsure? Get a tip'),
                   style: OutlinedButton.styleFrom(
