@@ -47,14 +47,14 @@ class _QuizPageState extends State<QuizPage> {
     if (_isCorrect) {
       Future.delayed(const Duration(milliseconds: 800), () {
         if (mounted) {
-          _moveToNext();
+          _moveToNext(wasCorrect: true);
         }
       });
     }
   }
 
-  void _moveToNext() {
-    final hasMore = _quizService.moveToNext();
+  void _moveToNext({bool wasCorrect = false}) {
+    final hasMore = _quizService.moveToNext(wasCorrect: wasCorrect);
     if (hasMore) {
       _loadQuestion();
     } else {
