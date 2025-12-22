@@ -47,14 +47,18 @@ class _QuizPageState extends State<QuizPage> {
     if (_isCorrect) {
       Future.delayed(const Duration(milliseconds: 800), () {
         if (mounted) {
-          final hasMore = _quizService.moveToNext();
-          if (hasMore) {
-            _loadQuestion();
-          } else {
-            _showCompletionDialog();
-          }
+          _moveToNext();
         }
       });
+    }
+  }
+
+  void _moveToNext() {
+    final hasMore = _quizService.moveToNext();
+    if (hasMore) {
+      _loadQuestion();
+    } else {
+      _showCompletionDialog();
     }
   }
 
@@ -230,6 +234,28 @@ class _QuizPageState extends State<QuizPage> {
               ),
               
               const SizedBox(height: 16),
+              
+              // Next button (shown when answer is wrong)
+              if (_showResult && !_isCorrect)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 12.0),
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 50,
+                    child: ElevatedButton.icon(
+                      onPressed: _moveToNext,
+                      icon: const Icon(Icons.arrow_forward),
+                      label: const Text('Next'),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.blue.shade700,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
               
               // Unsure button
               SizedBox(
