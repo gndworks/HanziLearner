@@ -84,8 +84,11 @@ class _QuizPageState extends State<QuizPage> {
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Got it'),
+            onPressed: () {
+              Navigator.of(context).pop();
+              _moveToNext(wasCorrect: false);
+            },
+            child: const Text('Got it, to the next one'),
           ),
         ],
       ),
@@ -191,7 +194,7 @@ class _QuizPageState extends State<QuizPage> {
                 child: OutlinedButton.icon(
                   onPressed: _showUnsureDialog,
                   icon: const Icon(Icons.help_outline),
-                  label: const Text('Unsure? Get a tip'),
+                  label: const Text('Unsure? Get a tip and skip'),
                   style: OutlinedButton.styleFrom(
                     foregroundColor: Colors.orange.shade700,
                     side: BorderSide(color: Colors.orange.shade300),
