@@ -32,13 +32,14 @@ class HanziDisplay extends StatelessWidget {
         ),
         if (character.meaning.isNotEmpty) ...[
           const SizedBox(height: 24),
-          Text(
-            '(${character.meaning})',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 18,
-              color: Colors.grey.shade700,
-              fontStyle: FontStyle.italic,
+          Center(
+            child: SelectableText(
+              '(${character.meaning})',
+              style: TextStyle(
+                fontSize: 18,
+                color: Colors.grey.shade700,
+                fontStyle: FontStyle.italic,
+              ),
             ),
           ),
         ],

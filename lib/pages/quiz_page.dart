@@ -92,7 +92,7 @@ class _QuizPageState extends State<QuizPage> {
       builder: (context) => AlertDialog(
         title: Text('Memorization Tip for ${character.character}'),
         content: SingleChildScrollView(
-          child: Text(
+          child: SelectableText(
             tip,
             style: const TextStyle(fontSize: 16, height: 1.5),
           ),
@@ -116,7 +116,7 @@ class _QuizPageState extends State<QuizPage> {
       barrierDismissible: false,
       builder: (context) => AlertDialog(
         title: const Text('Session Complete!'),
-        content: Text('You have learned ${_quizService?.getSessionWordCount() ?? 0} characters in this session.'),
+        content: SelectableText('You have learned ${_quizService?.getSessionWordCount() ?? 0} characters in this session.'),
         actions: [
           TextButton(
             onPressed: () async {

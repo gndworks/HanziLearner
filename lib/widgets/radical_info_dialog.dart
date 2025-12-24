@@ -97,7 +97,7 @@ class RadicalInfoDialog extends StatelessWidget {
                     children: [
                       if (radical != null) ...[
                         if (radical['english_description'] != null) ...[
-                          Text(
+                          SelectableText(
                             radical['english_description'] as String,
                             style: const TextStyle(
                               fontSize: 16,
@@ -107,7 +107,7 @@ class RadicalInfoDialog extends StatelessWidget {
                           const SizedBox(height: 12),
                         ],
                         if (radical['origin'] != null) ...[
-                          Text(
+                          SelectableText(
                             'Origin:',
                             style: TextStyle(
                               fontSize: 14,
@@ -116,7 +116,7 @@ class RadicalInfoDialog extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(height: 4),
-                          Text(
+                          SelectableText(
                             radical['origin'] as String,
                             style: const TextStyle(fontSize: 14, height: 1.5),
                           ),
@@ -141,7 +141,7 @@ class RadicalInfoDialog extends StatelessWidget {
                                       color: Colors.orange.shade700,
                                     ),
                                     const SizedBox(width: 6),
-                                    Text(
+                                    SelectableText(
                                       'Memorization Tip:',
                                       style: TextStyle(
                                         fontSize: 14,
@@ -152,7 +152,7 @@ class RadicalInfoDialog extends StatelessWidget {
                                   ],
                                 ),
                                 const SizedBox(height: 6),
-                                Text(
+                                SelectableText(
                                   radical['tip'] as String,
                                   style: const TextStyle(fontSize: 14, height: 1.5),
                                 ),
@@ -167,7 +167,7 @@ class RadicalInfoDialog extends StatelessWidget {
                       ],
                     ],
                   )
-                : Text(
+                : SelectableText(
                     'Information for radical "$symbol" not found.',
                     style: TextStyle(color: Colors.grey.shade600),
                   ),

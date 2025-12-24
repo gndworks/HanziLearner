@@ -14,13 +14,14 @@ class SessionHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(
-          'Words this session: $sessionWordCount',
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.w600,
-            color: Colors.blue.shade700,
+        Center(
+          child: SelectableText(
+            'Words this session: $sessionWordCount',
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w600,
+              color: Colors.blue.shade700,
+            ),
           ),
         ),
         if (isReviewing) ...[

@@ -40,7 +40,7 @@ class CompoundRadicalBreakdown extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           if (compoundInfo['meaning'] != null) ...[
-            Text(
+            SelectableText(
               'Meaning: ${compoundInfo['meaning'] as String}',
               style: const TextStyle(
                 fontSize: 14,
@@ -50,7 +50,7 @@ class CompoundRadicalBreakdown extends StatelessWidget {
             const SizedBox(height: 8),
           ],
           if (compoundInfo['components'] != null) ...[
-            Text(
+            SelectableText(
               'Components:',
               style: TextStyle(
                 fontSize: 13,
@@ -74,7 +74,7 @@ class CompoundRadicalBreakdown extends StatelessWidget {
                     borderRadius: BorderRadius.circular(6),
                     border: Border.all(color: Colors.green.shade300),
                   ),
-                  child: Text(
+                  child: SelectableText(
                     component as String,
                     style: TextStyle(
                       fontSize: 18,

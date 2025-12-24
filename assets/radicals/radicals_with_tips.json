@@ -4,1504 +4,1719 @@
         "pinyin": "yī",
         "english_description": "One / Horizontal line",
         "origin": "A single horizontal stroke representing the number one or a boundary.",
-        "tip": "The simplest radical. Think of it as a floor or a single bar."
+        "tip": "The simplest radical. Think of it as a floor or a single bar.",
+        "alternateSymbol": null
     },
     {
         "symbol": "丨",
         "pinyin": "gǔn",
         "english_description": "Vertical line",
         "origin": "A vertical stroke representing a rod or a connection.",
-        "tip": "Imagine a stick or a needle standing upright."
+        "tip": "Imagine a stick or a needle standing upright.",
+        "alternateSymbol": null
     },
     {
         "symbol": "丶",
         "pinyin": "zhǔ",
         "english_description": "Dot",
         "origin": "A drop of liquid or a small mark.",
-        "tip": "Think of a single drop of rain or a speck of dust."
+        "tip": "Think of a single drop of rain or a speck of dust.",
+        "alternateSymbol": null
     },
     {
         "symbol": "丿",
         "pinyin": "piě",
         "english_description": "Slash / Left fall",
         "origin": "A stroke falling to the left.",
-        "tip": "Like a sword swipe or a blade of grass bending left."
+        "tip": "Like a sword swipe or a blade of grass bending left.",
+        "alternateSymbol": null
     },
     {
         "symbol": "亠",
         "pinyin": "tóu",
         "english_description": "Lid",
         "origin": "A cover or top-piece for an object.",
-        "tip": "It's like a hat on top of a character. Common in words like 'City' (市) and 'High' (高)."
+        "tip": "It's like a hat on top of a character. Common in words like 'City' (市) and 'High' (高).",
+        "alternateSymbol": null
     },
     {
         "symbol": "十",
         "pinyin": "shí",
         "english_description": "Ten",
         "origin": "A vertical line representing a tally mark, with a horizontal crossbar added later.",
-        "tip": "It looks like a plus sign. In Chinese culture, it represents completeness or the four directions (North, South, East, West)."
+        "tip": "It looks like a plus sign. In Chinese culture, it represents completeness or the four directions (North, South, East, West).",
+        "alternateSymbol": null
     },
     {
         "symbol": "匚",
         "pinyin": "fāng",
         "english_description": "Right open box",
         "origin": "A pictograph of a container or a basket seen from the side.",
-        "tip": "It looks like an open square facing right. It usually surrounds other components and relates to containers or squares."
+        "tip": "It looks like an open square facing right. It usually surrounds other components and relates to containers or squares.",
+        "alternateSymbol": null
     },
     {
         "symbol": "卜",
         "pinyin": "bǔ",
         "english_description": "Divination",
         "origin": "Cracks in a turtle shell or bone used for fortune telling.",
-        "tip": "Looks like a crack in a surface. Found in characters related to predicting the future."
+        "tip": "Looks like a crack in a surface. Found in characters related to predicting the future.",
+        "alternateSymbol": "⺊"
     },
     {
         "symbol": "卩",
         "pinyin": "jié",
         "english_description": "Seal / Kneeling person",
         "origin": "A person kneeling or a stamp of authority.",
-        "tip": "Looks like a person sitting on their heels. Becomes ㄗ on the right."
+        "tip": "Looks like a person sitting on their heels. Becomes ㄗ on the right.",
+        "alternateSymbol": "㔾"
     },
     {
         "symbol": "厂",
         "pinyin": "hǎn",
         "english_description": "Cliff",
         "origin": "A steep, overhanging rock face.",
-        "tip": "Like a 'Shelter' (广) but without the dot on top."
+        "tip": "Like a 'Shelter' (广) but without the dot on top.",
+        "alternateSymbol": null
     },
     {
         "symbol": "厶",
         "pinyin": "sī",
         "english_description": "Private",
         "origin": "A cocoon or a closed arm holding something to oneself.",
-        "tip": "A small triangle. Think of a 'secret' or something tucked away."
+        "tip": "A small triangle. Think of a 'secret' or something tucked away.",
+        "alternateSymbol": null
     },
     {
         "symbol": "又",
         "pinyin": "yòu",
         "english_description": "Again / Right hand",
         "origin": "A hand reaching out to grab something repeatedly.",
-        "tip": "Looks like a simplified 'X'. It often suggests action or repetition."
+        "tip": "Looks like a simplified 'X'. It often suggests action or repetition.",
+        "alternateSymbol": null
     },
     {
         "symbol": "士",
         "pinyin": "shì",
         "english_description": "Scholar / Warrior",
         "origin": "A man of high standing or a weapon (halberd) stuck in the ground.",
-        "tip": "Similar to 'Earth' (土), but the TOP line is longer than the bottom."
+        "tip": "Similar to 'Earth' (土), but the TOP line is longer than the bottom.",
+        "alternateSymbol": null
     },
     {
         "symbol": "夂",
         "pinyin": "zhǐ",
         "english_description": "Go / Walk",
         "origin": "A foot pointing downward, indicating movement.",
-        "tip": "Looks like 'Large' (大) but with the top stroke bent."
+        "tip": "Looks like 'Large' (大) but with the top stroke bent.",
+        "alternateSymbol": null
     },
     {
         "symbol": "夊",
         "pinyin": "suī",
         "english_description": "Go slowly",
         "origin": "A foot with a dragging motion.",
-        "tip": "Almost identical to 夂, but the central stroke crosses through the bottom."
+        "tip": "Almost identical to 夂, but the central stroke crosses through the bottom.",
+        "alternateSymbol": null
     },
     {
         "symbol": "夕",
         "pinyin": "xī",
         "english_description": "Evening / Night",
         "origin": "A crescent moon (originally half of the 'Moon' character).",
-        "tip": "Think of it as a moon partially obscured by clouds at dusk."
+        "tip": "Think of it as a moon partially obscured by clouds at dusk.",
+        "alternateSymbol": null
     },
     {
         "symbol": "大",
         "pinyin": "dà",
         "english_description": "Big / Large",
         "origin": "A person standing with arms and legs spread wide.",
-        "tip": "A person trying to show how big something is with their whole body."
+        "tip": "A person trying to show how big something is with their whole body.",
+        "alternateSymbol": null
     },
     {
         "symbol": "匸",
         "pinyin": "xì",
         "english_description": "Hiding enclosure",
         "origin": "A container or a place used to conceal items.",
-        "tip": "Like the 'Box' radical (匚) but with the top stroke slightly longer or overhanging."
+        "tip": "Like the 'Box' radical (匚) but with the top stroke slightly longer or overhanging.",
+        "alternateSymbol": null
     },
     {
         "symbol": "彑",
         "pinyin": "jì",
         "english_description": "Snout (Variant)",
         "origin": "A variation of the animal snout radical (彐).",
-        "tip": "It has an extra stroke inside. It’s the top part of the word for 'Pig' (彘)."
+        "tip": "It has an extra stroke inside. It’s the top part of the word for 'Pig' (彘).",
+        "alternateSymbol": "彐"
     },
     {
         "symbol": "乙",
         "pinyin": "yǐ",
         "english_description": "Second / Hook",
         "origin": "A pictograph of a growing sprout or a bird.",
-        "tip": "It looks like a bent hook or the letter 'z'."
+        "tip": "It looks like a bent hook or the letter 'z'.",
+        "alternateSymbol": "乚"
     },
     {
         "symbol": "亅",
         "pinyin": "jué",
         "english_description": "Hook",
         "origin": "A vertical line with a flick at the bottom.",
-        "tip": "Think of a fishing hook or a coat hanger."
+        "tip": "Think of a fishing hook or a coat hanger.",
+        "alternateSymbol": null
     },
     {
         "symbol": "二",
         "pinyin": "èr",
         "english_description": "Two",
         "origin": "Two horizontal lines.",
-        "tip": "One line for heaven, one for earth. Together they make two."
+        "tip": "One line for heaven, one for earth. Together they make two.",
+        "alternateSymbol": null
     },
     {
         "symbol": "人",
         "pinyin": "rén",
         "english_description": "Person",
         "origin": "A person standing or walking.",
-        "tip": "Looks like two legs walking. Becomes 亻 on the left side."
+        "tip": "Looks like two legs walking. Becomes 亻 on the left side.",
+        "alternateSymbol": "亻"
     },
     {
         "symbol": "儿",
         "pinyin": "ér",
         "english_description": "Son / Legs",
         "origin": "A person with prominent legs or a child.",
-        "tip": "Look at the 'legs' at the bottom of characters like '兄' (older brother)."
+        "tip": "Look at the 'legs' at the bottom of characters like '兄' (older brother).",
+        "alternateSymbol": null
     },
     {
         "symbol": "入",
         "pinyin": "rù",
         "english_description": "Enter",
         "origin": "A sharp point entering a surface.",
-        "tip": "Looks like 'Person' (人) but the right leg is longer/higher, pointing 'in'."
+        "tip": "Looks like 'Person' (人) but the right leg is longer/higher, pointing 'in'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "八",
         "pinyin": "bā",
         "english_description": "Eight",
         "origin": "To divide or separate.",
-        "tip": "Two lines moving away from each other, like things being split in half."
+        "tip": "Two lines moving away from each other, like things being split in half.",
+        "alternateSymbol": "丷"
     },
     {
         "symbol": "冂",
         "pinyin": "jiōng",
         "english_description": "Down box / Upside-down U",
         "origin": "A border or a remote area.",
-        "tip": "An open container facing down; a boundary of a city."
+        "tip": "An open container facing down; a boundary of a city.",
+        "alternateSymbol": null
     },
     {
         "symbol": "冖",
         "pinyin": "mì",
         "english_description": "Cover",
         "origin": "A cloth covering an object.",
-        "tip": "It looks like a flat lid or a tablecloth hanging over the edges."
+        "tip": "It looks like a flat lid or a tablecloth hanging over the edges.",
+        "alternateSymbol": null
     },
     {
         "symbol": "冫",
         "pinyin": "bīng",
         "english_description": "Ice",
         "origin": "Frozen water droplets.",
-        "tip": "Two drops on the left side. Think of them as ice crystals."
+        "tip": "Two drops on the left side. Think of them as ice crystals.",
+        "alternateSymbol": null
     },
     {
         "symbol": "几",
         "pinyin": "jī",
         "english_description": "Table / Small stool",
         "origin": "A small side table or bench.",
-        "tip": "Looks like a little stool you could sit on."
+        "tip": "Looks like a little stool you could sit on.",
+        "alternateSymbol": null
     },
     {
         "symbol": "凵",
         "pinyin": "kǎn",
         "english_description": "Open box / Receptacle",
         "origin": "A pit or an open-mouthed container.",
-        "tip": "An empty bucket or a hole in the ground."
+        "tip": "An empty bucket or a hole in the ground.",
+        "alternateSymbol": null
     },
     {
         "symbol": "刀",
         "pinyin": "dāo",
         "english_description": "Knife",
         "origin": "A curved blade.",
-        "tip": "Looks like a cleaver. Becomes 刂 on the right side."
+        "tip": "Looks like a cleaver. Becomes 刂 on the right side.",
+        "alternateSymbol": "刂"
     },
     {
         "symbol": "力",
         "pinyin": "lì",
         "english_description": "Power / Strength",
         "origin": "A plow or a tensed muscle.",
-        "tip": "Looks like a person leaning into hard work."
+        "tip": "Looks like a person leaning into hard work.",
+        "alternateSymbol": null
     },
     {
         "symbol": "勹",
         "pinyin": "bāo",
         "english_description": "Wrap",
         "origin": "A person bending over to hug or hold something.",
-        "tip": "An arm reaching around to wrap a package."
+        "tip": "An arm reaching around to wrap a package.",
+        "alternateSymbol": null
     },
     {
         "symbol": "匕",
         "pinyin": "bǐ",
         "english_description": "Spoon / Ladle",
         "origin": "A tool for eating or a dagger.",
-        "tip": "Looks like a small spoon or a person sitting down."
+        "tip": "Looks like a small spoon or a person sitting down.",
+        "alternateSymbol": null
     },
     {
         "symbol": "口",
         "pinyin": "kǒu",
         "english_description": "Mouth",
         "origin": "An open mouth.",
-        "tip": "A simple square representing anything that speaks or eats."
+        "tip": "A simple square representing anything that speaks or eats.",
+        "alternateSymbol": null
     },
     {
         "symbol": "囗",
         "pinyin": "wéi",
         "english_description": "Enclosure",
         "origin": "A wall or border surrounding something.",
-        "tip": "Always surrounds other characters (like a cage or border)."
+        "tip": "Always surrounds other characters (like a cage or border).",
+        "alternateSymbol": null
     },
     {
         "symbol": "土",
         "pinyin": "tǔ",
         "english_description": "Earth / Soil",
         "origin": "A plant growing out of the ground.",
-        "tip": "A cross on a base. The bottom line is the ground."
+        "tip": "A cross on a base. The bottom line is the ground.",
+        "alternateSymbol": null
     },
     {
         "symbol": "女",
         "pinyin": "nǚ",
         "english_description": "Woman",
         "origin": "A woman kneeling or crossing her legs.",
-        "tip": "Imagine a person sitting with their legs crossed gracefully."
+        "tip": "Imagine a person sitting with their legs crossed gracefully.",
+        "alternateSymbol": null
     },
     {
         "symbol": "子",
         "pinyin": "zǐ",
         "english_description": "Child",
         "origin": "A baby in swaddling clothes with arms out.",
-        "tip": "The horizontal line represents the baby's reaching arms."
+        "tip": "The horizontal line represents the baby's reaching arms.",
+        "alternateSymbol": null
     },
     {
         "symbol": "宀",
         "pinyin": "mián",
         "english_description": "Roof",
         "origin": "A pictograph of a house with a chimney or a peak.",
-        "tip": "Think of it as a protective cover over the top of a character, like a ceiling."
+        "tip": "Think of it as a protective cover over the top of a character, like a ceiling.",
+        "alternateSymbol": null
     },
     {
         "symbol": "寸",
         "pinyin": "cùn",
         "english_description": "Inch",
         "origin": "Originally the distance from the wrist to the pulse.",
-        "tip": "Looks like a hand with a mark indicating where the pulse is felt."
+        "tip": "Looks like a hand with a mark indicating where the pulse is felt.",
+        "alternateSymbol": null
     },
     {
         "symbol": "小",
         "pinyin": "xiǎo",
         "english_description": "Small",
         "origin": "Three small objects or grains of sand.",
-        "tip": "The central line is being split into even smaller parts."
+        "tip": "The central line is being split into even smaller parts.",
+        "alternateSymbol": "⺌"
     },
     {
         "symbol": "尢",
         "pinyin": "yáng",
         "english_description": "Lame / Crooked",
         "origin": "A person with a bent leg or a limp.",
-        "tip": "It looks like the 'person' radical (人) but with one leg kicked out awkwardly."
+        "tip": "It looks like the 'person' radical (人) but with one leg kicked out awkwardly.",
+        "alternateSymbol": "尣"
     },
     {
         "symbol": "尸",
         "pinyin": "shī",
         "english_description": "Corpse",
         "origin": "A person lying down or a seated person acting as a proxy for the dead.",
-        "tip": "Imagine a person lying flat on their back under a blanket."
+        "tip": "Imagine a person lying flat on their back under a blanket.",
+        "alternateSymbol": null
     },
     {
         "symbol": "屮",
         "pinyin": "chè",
         "english_description": "Sprout",
         "origin": "A plant emerging from the ground with two leaves.",
-        "tip": "A 'W' shape on a stem—it's a tiny plant beginning to grow."
+        "tip": "A 'W' shape on a stem—it's a tiny plant beginning to grow.",
+        "alternateSymbol": null
     },
     {
         "symbol": "山",
         "pinyin": "shān",
         "english_description": "Mountain",
         "origin": "Three mountain peaks on a horizon.",
-        "tip": "The vertical lines are the peaks, the bottom line is the range."
+        "tip": "The vertical lines are the peaks, the bottom line is the range.",
+        "alternateSymbol": null
     },
     {
         "symbol": "巛",
         "pinyin": "chuān",
         "english_description": "River",
         "origin": "Flowing water or a stream.",
-        "tip": "Three wavy vertical lines representing the current of a river."
+        "tip": "Three wavy vertical lines representing the current of a river.",
+        "alternateSymbol": "川"
     },
     {
         "symbol": "工",
         "pinyin": "gōng",
         "english_description": "Work / Tool",
         "origin": "An artisan's square or a heavy tool.",
-        "tip": "It looks like an 'I' beam used in construction."
+        "tip": "It looks like an 'I' beam used in construction.",
+        "alternateSymbol": null
     },
     {
         "symbol": "己",
         "pinyin": "jǐ",
         "english_description": "Self",
         "origin": "A thread on a loom or a coiled snake.",
-        "tip": "Think of it as the shape of your own spine when sitting."
+        "tip": "Think of it as the shape of your own spine when sitting.",
+        "alternateSymbol": null
     },
     {
         "symbol": "巾",
         "pinyin": "jīn",
         "english_description": "Turban / Scarf",
         "origin": "A piece of cloth hanging from a hook.",
-        "tip": "Looks like a towel or rag hanging over a rail."
+        "tip": "Looks like a towel or rag hanging over a rail.",
+        "alternateSymbol": null
     },
     {
         "symbol": "干",
         "pinyin": "gān",
         "english_description": "Dry / Shield",
         "origin": "A weapon like a pestle or a forked stick.",
-        "tip": "Looks like a 'T' with an extra bar—imagine clothes drying on a rack."
+        "tip": "Looks like a 'T' with an extra bar—imagine clothes drying on a rack.",
+        "alternateSymbol": null
     },
     {
         "symbol": "幺",
         "pinyin": "yāo",
         "english_description": "Tiny / Short",
         "origin": "A small twist of silk or a newborn thread.",
-        "tip": "Think of it as a small knot or a tiny loop of string."
+        "tip": "Think of it as a small knot or a tiny loop of string.",
+        "alternateSymbol": null
     },
     {
         "symbol": "广",
         "pinyin": "guǎng",
         "english_description": "Shelter / House on a cliff",
         "origin": "A building built against a mountainside.",
-        "tip": "Like 'roof' (宀) but open on the side, like a lean-to or a shed."
+        "tip": "Like 'roof' (宀) but open on the side, like a lean-to or a shed.",
+        "alternateSymbol": null
     },
     {
         "symbol": "廴",
         "pinyin": "yǐn",
         "english_description": "Long stride",
         "origin": "A foot moving forward over a long distance.",
-        "tip": "It stretches under the character, like a long road being walked."
+        "tip": "It stretches under the character, like a long road being walked.",
+        "alternateSymbol": null
     },
     {
         "symbol": "廾",
         "pinyin": "gǒng",
         "english_description": "Two hands / Hands joined",
         "origin": "Two hands held up to present an offering.",
-        "tip": "Imagine two hands reaching up to carry a heavy box."
+        "tip": "Imagine two hands reaching up to carry a heavy box.",
+        "alternateSymbol": null
     },
     {
         "symbol": "弋",
         "pinyin": "yì",
         "english_description": "Shoot / Arrow with a string",
         "origin": "A wooden peg or an arrow tied to a string for retrieval.",
-        "tip": "Looks like a slanted cross—think of a hunter's trap."
+        "tip": "Looks like a slanted cross—think of a hunter's trap.",
+        "alternateSymbol": null
     },
     {
         "symbol": "弓",
         "pinyin": "gōng",
         "english_description": "Bow",
         "origin": "A recurve bow used for archery.",
-        "tip": "The shape perfectly mimics the tension and curves of a wooden bow."
+        "tip": "The shape perfectly mimics the tension and curves of a wooden bow.",
+        "alternateSymbol": null
     },
     {
         "symbol": "彐",
         "pinyin": "jì",
         "english_description": "Snout",
         "origin": "The head or snout of an animal (like a pig).",
-        "tip": "It looks like a hand or a claw reaching out sideways."
+        "tip": "It looks like a hand or a claw reaching out sideways.",
+        "alternateSymbol": "⺕"
     },
     {
         "symbol": "彡",
         "pinyin": "shān",
         "english_description": "Bristle / Ornament",
         "origin": "Long hair, feathers, or decorative rays of light.",
-        "tip": "Three slanted strokes—think of them as hair or whiskers."
+        "tip": "Three slanted strokes—think of them as hair or whiskers.",
+        "alternateSymbol": null
     },
     {
         "symbol": "彳",
         "pinyin": "chì",
         "english_description": "Step / Left foot",
         "origin": "The left half of the character for 'road' (行).",
-        "tip": "Known as the 'double person' radical. It usually relates to walking or paths."
+        "tip": "Known as the 'double person' radical. It usually relates to walking or paths.",
+        "alternateSymbol": null
     },
     {
         "symbol": "心",
         "pinyin": "xīn",
         "english_description": "Heart",
         "origin": "A pictograph of the physical heart and its vessels.",
-        "tip": "Looks like a heart with valves. Becomes 忄 on the left side."
+        "tip": "Looks like a heart with valves. Becomes 忄 on the left side.",
+        "alternateSymbol": "忄"
     },
     {
         "symbol": "戈",
         "pinyin": "gē",
         "english_description": "Dagger-axe",
         "origin": "A spear with a blade attached at a right angle.",
-        "tip": "A very common radical for weapons or conflict. Look for the 'hook' at the end."
+        "tip": "A very common radical for weapons or conflict. Look for the 'hook' at the end.",
+        "alternateSymbol": null
     },
     {
         "symbol": "户",
         "pinyin": "hù",
         "english_description": "Door / Household",
         "origin": "A single-leaf door (half of the character for double doors 門).",
-        "tip": "Imagine a single swinging door on a hinges."
+        "tip": "Imagine a single swinging door on a hinges.",
+        "alternateSymbol": "戶"
     },
     {
         "symbol": "手",
         "pinyin": "shǒu",
         "english_description": "Hand",
         "origin": "A hand with five fingers splayed out.",
-        "tip": "Becomes 扌 on the left side—it looks like a hand reaching out to grab."
+        "tip": "Becomes 扌 on the left side—it looks like a hand reaching out to grab.",
+        "alternateSymbol": "扌"
     },
     {
         "symbol": "支",
         "pinyin": "zhī",
         "english_description": "Branch",
         "origin": "A hand holding a broken branch from a tree.",
-        "tip": "Think of a hand (the bottom part) carrying a stick."
+        "tip": "Think of a hand (the bottom part) carrying a stick.",
+        "alternateSymbol": null
     },
     {
         "symbol": "攴",
         "pinyin": "pū",
         "english_description": "Tap / Whip",
         "origin": "A hand holding a stick or whip to strike.",
-        "tip": "Usually appears as 攵 on the right. It looks like a person with a stick."
+        "tip": "Usually appears as 攵 on the right. It looks like a person with a stick.",
+        "alternateSymbol": "攵"
     },
     {
         "symbol": "文",
         "pinyin": "wén",
         "english_description": "Culture / Writing",
         "origin": "A person with a tattoo or markings on their chest.",
-        "tip": "Looks like a person with their legs crossed and arms out."
+        "tip": "Looks like a person with their legs crossed and arms out.",
+        "alternateSymbol": null
     },
     {
         "symbol": "斗",
         "pinyin": "dǒu",
         "english_description": "Dipper / Measuring cup",
         "origin": "A ladle or a cup used for measuring grain.",
-        "tip": "Imagine the Big Dipper constellation or a soup ladle."
+        "tip": "Imagine the Big Dipper constellation or a soup ladle.",
+        "alternateSymbol": null
     },
     {
         "symbol": "斤",
         "pinyin": "jīn",
         "english_description": "Axe / Catty",
         "origin": "An axe head with a handle.",
-        "tip": "It looks like a sharp blade pointing down; also a unit of weight."
+        "tip": "It looks like a sharp blade pointing down; also a unit of weight.",
+        "alternateSymbol": null
     },
     {
         "symbol": "方",
         "pinyin": "fāng",
         "english_description": "Square / Direction",
         "origin": "Two boats tied together or a plow.",
-        "tip": "Think of a person with a flag pointing in a certain direction."
+        "tip": "Think of a person with a flag pointing in a certain direction.",
+        "alternateSymbol": null
     },
     {
         "symbol": "无",
         "pinyin": "wú",
         "english_description": "Not / Without",
         "origin": "A person dancing to pray for rain, eventually meaning 'not'.",
-        "tip": "Looks like a 'sky' (天) with a curled leg."
+        "tip": "Looks like a 'sky' (天) with a curled leg.",
+        "alternateSymbol": null
     },
     {
         "symbol": "日",
         "pinyin": "rì",
         "english_description": "Sun / Day",
         "origin": "A circle with a dot in the middle representing the sun.",
-        "tip": "A rectangle with a line through it. Related to time and light."
+        "tip": "A rectangle with a line through it. Related to time and light.",
+        "alternateSymbol": null
     },
     {
         "symbol": "曰",
         "pinyin": "yuē",
         "english_description": "Say",
         "origin": "A mouth with a line indicating breath or speech coming out.",
-        "tip": "Flatter and wider than 'sun' (日). It represents speaking."
+        "tip": "Flatter and wider than 'sun' (日). It represents speaking.",
+        "alternateSymbol": null
     },
     {
         "symbol": "月",
         "pinyin": "yuè",
         "english_description": "Moon / Month",
         "origin": "A crescent moon with two small clouds inside.",
-        "tip": "Related to time. Note: Also often represents 'flesh' (肉) inside characters."
+        "tip": "Related to time. Note: Also often represents 'flesh' (肉) inside characters.",
+        "alternateSymbol": "⺼"
     },
     {
         "symbol": "木",
         "pinyin": "mù",
         "english_description": "Tree / Wood",
         "origin": "A tree with branches above and roots below.",
-        "tip": "A central trunk with branches (top) and roots (bottom)."
+        "tip": "A central trunk with branches (top) and roots (bottom).",
+        "alternateSymbol": null
     },
     {
         "symbol": "欠",
         "pinyin": "qiàn",
         "english_description": "Lack / Yawn",
         "origin": "A person with an open mouth, exhaling or yawning.",
-        "tip": "Imagine a person leaning back and sighing because they lack something."
+        "tip": "Imagine a person leaning back and sighing because they lack something.",
+        "alternateSymbol": null
     },
     {
         "symbol": "止",
         "pinyin": "zhǐ",
         "english_description": "Stop",
         "origin": "A footprint showing a foot planted on the ground.",
-        "tip": "Looks like a foot pointed forward. To walk no further."
+        "tip": "Looks like a foot pointed forward. To walk no further.",
+        "alternateSymbol": null
     },
     {
         "symbol": "歹",
         "pinyin": "dǎi",
         "english_description": "Death / Bad",
         "origin": "A fragment of a skeleton or a broken bone.",
-        "tip": "Think of a '7' on top of a broken line; represents something negative."
+        "tip": "Think of a '7' on top of a broken line; represents something negative.",
+        "alternateSymbol": null
     },
     {
         "symbol": "殳",
         "pinyin": "shū",
         "english_description": "Weapon / Club",
         "origin": "A hand holding a long-handled spear or stick.",
-        "tip": "Usually on the right. It looks like a combination of 'box' and 'friend'."
+        "tip": "Usually on the right. It looks like a combination of 'box' and 'friend'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "毋",
         "pinyin": "wú",
         "english_description": "Do not",
         "origin": "A mother (母) with a line through her to forbid something.",
-        "tip": "Related to prohibition. Looks like a knotted 'no'."
+        "tip": "Related to prohibition. Looks like a knotted 'no'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "比",
         "pinyin": "bǐ",
         "english_description": "Compare",
         "origin": "Two people standing next to each other to check their height.",
-        "tip": "Two 'spoon' radicals next to each other."
+        "tip": "Two 'spoon' radicals next to each other.",
+        "alternateSymbol": null
     },
     {
         "symbol": "毛",
         "pinyin": "máo",
         "english_description": "Hair / Fur",
         "origin": "Feathers or animal fur.",
-        "tip": "Think of long, wispy strokes ending in a flick of hair."
+        "tip": "Think of long, wispy strokes ending in a flick of hair.",
+        "alternateSymbol": null
     },
     {
         "symbol": "氏",
         "pinyin": "shì",
         "english_description": "Clan",
         "origin": "A root in the ground or a person carrying a heavy object.",
-        "tip": "Looks like a person bowing low to their ancestors."
+        "tip": "Looks like a person bowing low to their ancestors.",
+        "alternateSymbol": null
     },
     {
         "symbol": "气",
         "pinyin": "qì",
         "english_description": "Steam / Air",
         "origin": "Flowing clouds or rising vapor.",
-        "tip": "Three horizontal lines with a curve—think of steam rising from coffee."
+        "tip": "Three horizontal lines with a curve—think of steam rising from coffee.",
+        "alternateSymbol": null
     },
     {
         "symbol": "水",
         "pinyin": "shuǐ",
         "english_description": "Water",
         "origin": "A flowing stream with splashes.",
-        "tip": "Often appears as 氵 (three drops) on the left side."
+        "tip": "Often appears as 氵 (three drops) on the left side.",
+        "alternateSymbol": "氵"
     },
     {
         "symbol": "火",
         "pinyin": "huǒ",
         "english_description": "Fire",
         "origin": "A campfire with flames leaping up.",
-        "tip": "Appears as 灬 at the bottom (like four hot coals)."
+        "tip": "Appears as 灬 at the bottom (like four hot coals).",
+        "alternateSymbol": "灬"
     },
     {
         "symbol": "爪",
         "pinyin": "zhǎo",
         "english_description": "Claw",
         "origin": "A bird's foot or a hand reaching down.",
-        "tip": "Often appears at the top as 爫. Imagine a cat's paw."
+        "tip": "Often appears at the top as 爫. Imagine a cat's paw.",
+        "alternateSymbol": "爫"
     },
     {
         "symbol": "父",
         "pinyin": "fù",
         "english_description": "Father",
         "origin": "A hand holding a stone axe (authority).",
-        "tip": "Looks like two sticks crossed—think of a stern parental figure."
+        "tip": "Looks like two sticks crossed—think of a stern parental figure.",
+        "alternateSymbol": null
     },
     {
         "symbol": "爻",
         "pinyin": "yáo",
         "english_description": "Double cross",
         "origin": "Crossing lines for divination (I-Ching).",
-        "tip": "Two 'X' shapes stacked. Represents patterns."
+        "tip": "Two 'X' shapes stacked. Represents patterns.",
+        "alternateSymbol": null
     },
     {
         "symbol": "爿",
         "pinyin": "qiáng",
         "english_description": "Half tree trunk (Left)",
         "origin": "A split piece of wood.",
-        "tip": "The left side of a tree trunk."
+        "tip": "The left side of a tree trunk.",
+        "alternateSymbol": "丬"
     },
     {
         "symbol": "片",
         "pinyin": "piàn",
         "english_description": "Slice / Piece",
         "origin": "The right side of a split tree trunk.",
-        "tip": "Think of a thin slice of wood or a business card."
+        "tip": "Think of a thin slice of wood or a business card.",
+        "alternateSymbol": null
     },
     {
         "symbol": "牙",
         "pinyin": "yá",
         "english_description": "Tooth / Fang",
         "origin": "Interlocking molars.",
-        "tip": "Looks like a jagged edge or a tooth with a root."
+        "tip": "Looks like a jagged edge or a tooth with a root.",
+        "alternateSymbol": null
     },
     {
         "symbol": "牛",
         "pinyin": "niú",
         "english_description": "Cow",
         "origin": "The head of an ox with horns.",
-        "tip": "Becomes 牜 on the left. The top vertical line is the horn."
+        "tip": "Becomes 牜 on the left. The top vertical line is the horn.",
+        "alternateSymbol": "牜"
     },
     {
         "symbol": "犬",
         "pinyin": "quǎn",
         "english_description": "Dog",
         "origin": "A dog standing on its hind legs.",
-        "tip": "Becomes 犭 on the left. The extra dot is the dog's ear."
+        "tip": "Becomes 犭 on the left. The extra dot is the dog's ear.",
+        "alternateSymbol": "犭"
     },
     {
         "symbol": "玄",
         "pinyin": "xuán",
         "english_description": "Deep / Profound",
         "origin": "A dyed silk thread or the color of the dark sky.",
-        "tip": "A 'lid' over a small knot. Represents mystery."
+        "tip": "A 'lid' over a small knot. Represents mystery.",
+        "alternateSymbol": null
     },
     {
         "symbol": "玉",
         "pinyin": "yù",
         "english_description": "Jade",
         "origin": "Three pieces of jade on a string.",
-        "tip": "Like 'king' (王) but with a dot representing a jewel."
+        "tip": "Like 'king' (王) but with a dot representing a jewel.",
+        "alternateSymbol": "王"
     },
     {
         "symbol": "瓜",
         "pinyin": "guā",
         "english_description": "Melon",
         "origin": "A melon hanging on a vine.",
-        "tip": "The outer lines are the vine, the inner part is the fruit."
+        "tip": "The outer lines are the vine, the inner part is the fruit.",
+        "alternateSymbol": null
     },
     {
         "symbol": "瓦",
         "pinyin": "wǎ",
         "english_description": "Tile",
         "origin": "Interlocking roof tiles.",
-        "tip": "Looks like a bent piece of pottery or a tile."
+        "tip": "Looks like a bent piece of pottery or a tile.",
+        "alternateSymbol": null
     },
     {
         "symbol": "甘",
         "pinyin": "gān",
         "english_description": "Sweet",
         "origin": "Something tasty being held in the mouth.",
-        "tip": "A 'mouth' with a tongue-like horizontal line inside."
+        "tip": "A 'mouth' with a tongue-like horizontal line inside.",
+        "alternateSymbol": null
     },
     {
         "symbol": "生",
         "pinyin": "shēng",
         "english_description": "Life / Birth",
         "origin": "A plant growing out of the earth.",
-        "tip": "Looks like a sprout with extra leaves."
+        "tip": "Looks like a sprout with extra leaves.",
+        "alternateSymbol": null
     },
     {
         "symbol": "用",
         "pinyin": "yòng",
         "english_description": "Use",
         "origin": "A bucket or a bell used for signals.",
-        "tip": "Imagine a tool or a container you can use."
+        "tip": "Imagine a tool or a container you can use.",
+        "alternateSymbol": null
     },
     {
         "symbol": "田",
         "pinyin": "tián",
         "english_description": "Field",
         "origin": "A plot of land divided into four parts.",
-        "tip": "Looks exactly like a grid for crops."
+        "tip": "Looks exactly like a grid for crops.",
+        "alternateSymbol": null
     },
     {
         "symbol": "疋",
         "pinyin": "pǐ",
         "english_description": "Bolt of cloth",
         "origin": "A foot or a measurement of fabric.",
-        "tip": "Often relates to feet or walking in older forms."
+        "tip": "Often relates to feet or walking in older forms.",
+        "alternateSymbol": "⺪"
     },
     {
         "symbol": "疒",
         "pinyin": "nè",
         "english_description": "Sickness",
         "origin": "A person leaning on a bed or frame.",
-        "tip": "Always found surrounding the top/left of 'illness' words."
+        "tip": "Always found surrounding the top/left of 'illness' words.",
+        "alternateSymbol": null
     },
     {
         "symbol": "癶",
         "pinyin": "bō",
         "english_description": "Back to back / Steps",
         "origin": "Two feet pointing away from each other.",
-        "tip": "Found at the top of characters like 'climb'."
+        "tip": "Found at the top of characters like 'climb'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "白",
         "pinyin": "bái",
         "english_description": "White",
         "origin": "A grain of rice or the sun rising.",
-        "tip": "Like 'sun' (日) but with a little 'tick' on top."
+        "tip": "Like 'sun' (日) but with a little 'tick' on top.",
+        "alternateSymbol": null
     },
     {
         "symbol": "皮",
         "pinyin": "pí",
         "english_description": "Skin / Leather",
         "origin": "A hand peeling the skin off an animal.",
-        "tip": "The top left is the skin, the bottom is the hand."
+        "tip": "The top left is the skin, the bottom is the hand.",
+        "alternateSymbol": null
     },
     {
         "symbol": "皿",
         "pinyin": "mǐn",
         "english_description": "Dish / Bowl",
         "origin": "A wide shallow vessel.",
-        "tip": "Found at the bottom of characters. Looks like a trough."
+        "tip": "Found at the bottom of characters. Looks like a trough.",
+        "alternateSymbol": null
     },
     {
         "symbol": "目",
         "pinyin": "mù",
         "english_description": "Eye",
         "origin": "A pictograph of an eye turned sideways.",
-        "tip": "Like 'sun' (日) but with two lines inside instead of one."
+        "tip": "Like 'sun' (日) but with two lines inside instead of one.",
+        "alternateSymbol": "罒"
     },
     {
         "symbol": "矛",
         "pinyin": "máo",
         "english_description": "Spear",
         "origin": "A spear with a point and a handle.",
-        "tip": "Looks like a tall weapon with a hook."
+        "tip": "Looks like a tall weapon with a hook.",
+        "alternateSymbol": null
     },
     {
         "symbol": "矢",
         "pinyin": "shǐ",
         "english_description": "Arrow",
         "origin": "An arrow with a tip and feathers.",
-        "tip": "Looks like 'sky' (天) but the top line is shorter/pointed."
+        "tip": "Looks like 'sky' (天) but the top line is shorter/pointed.",
+        "alternateSymbol": null
     },
     {
         "symbol": "石",
         "pinyin": "shí",
         "english_description": "Stone",
         "origin": "A cliff with a rock underneath.",
-        "tip": "The top part is the cliff, the 'mouth' shape is the stone."
+        "tip": "The top part is the cliff, the 'mouth' shape is the stone.",
+        "alternateSymbol": null
     },
     {
         "symbol": "示",
         "pinyin": "shì",
         "english_description": "Show / Spirit",
         "origin": "An altar with offerings dripping down.",
-        "tip": "Appears as 礻 on the left. Relies to spirits and ancestors."
+        "tip": "Appears as 礻 on the left. Relies to spirits and ancestors.",
+        "alternateSymbol": "礻"
     },
     {
         "symbol": "禸",
         "pinyin": "róu",
         "english_description": "Track / Footprint",
         "origin": "An animal's footprint.",
-        "tip": "Looks like a 'wrap' (勹) around a small track."
+        "tip": "Looks like a 'wrap' (勹) around a small track.",
+        "alternateSymbol": null
     },
     {
         "symbol": "禾",
         "pinyin": "hé",
         "english_description": "Grain / Rice plant",
         "origin": "A pictograph of a stalk of grain with a heavy, drooping head.",
-        "tip": "It looks like 'Wood' (木) but with a drooping stroke on top representing the heavy ear of grain."
+        "tip": "It looks like 'Wood' (木) but with a drooping stroke on top representing the heavy ear of grain.",
+        "alternateSymbol": null
     },
     {
         "symbol": "穴",
         "pinyin": "xué",
         "english_description": "Cave / Hole",
         "origin": "A house or cover (宀) over an opening (八).",
-        "tip": "Imagine a roof over a narrow entrance to a cavern."
+        "tip": "Imagine a roof over a narrow entrance to a cavern.",
+        "alternateSymbol": null
     },
     {
         "symbol": "立",
         "pinyin": "lì",
         "english_description": "Stand",
         "origin": "A person standing firmly on the ground.",
-        "tip": "The top line is the head, the middle horizontal is the arms, and the bottom is the ground."
+        "tip": "The top line is the head, the middle horizontal is the arms, and the bottom is the ground.",
+        "alternateSymbol": null
     },
     {
         "symbol": "竹",
         "pinyin": "zhú",
         "english_description": "Bamboo",
         "origin": "Two stalks of bamboo with leaves hanging down.",
-        "tip": "Usually appears at the top as ⺮. It looks like two small 'k' shapes."
+        "tip": "Usually appears at the top as ⺮. It looks like two small 'k' shapes.",
+        "alternateSymbol": "⺮"
     },
     {
         "symbol": "米",
         "pinyin": "mǐ",
         "english_description": "Rice",
         "origin": "Grains of rice separated or splayed out.",
-        "tip": "Looks like a 'Wood' radical (木) with two extra dots for grains."
+        "tip": "Looks like a 'Wood' radical (木) with two extra dots for grains.",
+        "alternateSymbol": null
     },
     {
         "symbol": "糸",
         "pinyin": "mì",
         "english_description": "Silk / Thread",
         "origin": "A bundle of silk threads tied together.",
-        "tip": "Becomes 纟 on the left. Think of it as a coiled, wavy string."
+        "tip": "Becomes 纟 on the left. Think of it as a coiled, wavy string.",
+        "alternateSymbol": "纟"
     },
     {
         "symbol": "缶",
         "pinyin": "fǒu",
         "english_description": "Jar / Pottery",
         "origin": "An earthenware jar with a lid.",
-        "tip": "Think of it as a container for storing water or wine."
+        "tip": "Think of it as a container for storing water or wine.",
+        "alternateSymbol": null
     },
     {
         "symbol": "网",
         "pinyin": "wǎng",
         "english_description": "Net",
         "origin": "A woven fishing net.",
-        "tip": "Looks like a fence or a grid; often appears at the top as 罒."
+        "tip": "Looks like a fence or a grid; often appears at the top as 罒.",
+        "alternateSymbol": "罒"
     },
     {
         "symbol": "羊",
         "pinyin": "yáng",
         "english_description": "Sheep / Goat",
         "origin": "A head-on view of a sheep with horns and ears.",
-        "tip": "The top two dots are the horns. Often indicates 'goodness' or 'justice'."
+        "tip": "The top two dots are the horns. Often indicates 'goodness' or 'justice'.",
+        "alternateSymbol": "⺶"
     },
     {
         "symbol": "羽",
         "pinyin": "yǔ",
         "english_description": "Feather / Wings",
         "origin": "Two bird feathers or wings side-by-side.",
-        "tip": "Looks like a pair of wings ready to fly."
+        "tip": "Looks like a pair of wings ready to fly.",
+        "alternateSymbol": null
     },
     {
         "symbol": "老",
         "pinyin": "lǎo",
         "english_description": "Old",
         "origin": "An old man with long hair, leaning on a cane.",
-        "tip": "The bottom part represents the walking stick used by an elder."
+        "tip": "The bottom part represents the walking stick used by an elder.",
+        "alternateSymbol": "耂"
     },
     {
         "symbol": "而",
         "pinyin": "ér",
         "english_description": "And / Beard",
         "origin": "Originally a pictograph of a beard hanging from a chin.",
-        "tip": "Imagine whiskers hanging down from a horizontal face-line."
+        "tip": "Imagine whiskers hanging down from a horizontal face-line.",
+        "alternateSymbol": null
     },
     {
         "symbol": "耒",
         "pinyin": "lěi",
         "english_description": "Plow",
         "origin": "A wooden tool used for tilling the soil.",
-        "tip": "Related to farming; looks like a 'Tree' radical with extra handles."
+        "tip": "Related to farming; looks like a 'Tree' radical with extra handles.",
+        "alternateSymbol": null
     },
     {
         "symbol": "耳",
         "pinyin": "ěr",
         "english_description": "Ear",
         "origin": "A pictograph of a human ear.",
-        "tip": "A vertical rectangle with horizontal lines representing the folds of the ear."
+        "tip": "A vertical rectangle with horizontal lines representing the folds of the ear.",
+        "alternateSymbol": null
     },
     {
         "symbol": "聿",
         "pinyin": "yù",
         "english_description": "Brush / Writing tool",
         "origin": "A hand holding a vertical brush over a surface.",
-        "tip": "The horizontal lines are the fingers; the vertical line is the brush."
+        "tip": "The horizontal lines are the fingers; the vertical line is the brush.",
+        "alternateSymbol": "⺼"
     },
     {
         "symbol": "肉",
         "pinyin": "ròu",
         "english_description": "Meat / Flesh",
         "origin": "A slice of meat with ribs or fibers showing.",
-        "tip": "Almost always looks identical to 'Moon' (月) when on the left side of a character."
+        "tip": "Almost always looks identical to 'Moon' (月) when on the left side of a character.",
+        "alternateSymbol": "⺼"
     },
     {
         "symbol": "臣",
         "pinyin": "chén",
         "english_description": "Minister / Official",
         "origin": "An eye looking downward (a servant bowing).",
-        "tip": "Represents loyalty or government officials."
+        "tip": "Represents loyalty or government officials.",
+        "alternateSymbol": null
     },
     {
         "symbol": "自",
         "pinyin": "zì",
         "english_description": "Self / Nose",
         "origin": "A pictograph of a nose (Chinese people point to their nose to mean 'self').",
-        "tip": "Looks like an eye with a little 'tick' on top."
+        "tip": "Looks like an eye with a little 'tick' on top.",
+        "alternateSymbol": null
     },
     {
         "symbol": "至",
         "pinyin": "zhì",
         "english_description": "Arrive / Reach",
         "origin": "An arrow hitting the ground (its destination).",
-        "tip": "The top is the arrow; the bottom horizontal is the earth."
+        "tip": "The top is the arrow; the bottom horizontal is the earth.",
+        "alternateSymbol": null
     },
     {
         "symbol": "臼",
         "pinyin": "jiù",
         "english_description": "Mortar",
         "origin": "A stone bowl used for grinding grain.",
-        "tip": "Looks like a broken 'box' with teeth for grinding."
+        "tip": "Looks like a broken 'box' with teeth for grinding.",
+        "alternateSymbol": null
     },
     {
         "symbol": "舌",
         "pinyin": "shé",
         "english_description": "Tongue",
         "origin": "A tongue sticking out of a mouth (口).",
-        "tip": "The top part is the tongue; the bottom square is the mouth."
+        "tip": "The top part is the tongue; the bottom square is the mouth.",
+        "alternateSymbol": null
     },
     {
         "symbol": "舛",
         "pinyin": "chuǎn",
         "english_description": "Oppose / Deviate",
         "origin": "Two feet walking in opposite directions.",
-        "tip": "Think of 'tangled' or 'mistaken'—feet going the wrong way."
+        "tip": "Think of 'tangled' or 'mistaken'—feet going the wrong way.",
+        "alternateSymbol": null
     },
     {
         "symbol": "舟",
         "pinyin": "zhōu",
         "english_description": "Boat",
         "origin": "A long wooden boat or canoe.",
-        "tip": "Imagine the central line as the mast and the box as the hull."
+        "tip": "Imagine the central line as the mast and the box as the hull.",
+        "alternateSymbol": null
     },
     {
         "symbol": "艮",
         "pinyin": "gèn",
         "english_description": "Stopping / Hard",
         "origin": "An eye looking back in fear or defiance.",
-        "tip": "Associated with mountains or stubbornness in the I-Ching."
+        "tip": "Associated with mountains or stubbornness in the I-Ching.",
+        "alternateSymbol": null
     },
     {
         "symbol": "色",
         "pinyin": "sè",
         "english_description": "Color / Lust",
         "origin": "A person on top of another person (blushing).",
-        "tip": "The top part is a person, the bottom is 'hope' or 'desire'."
+        "tip": "The top part is a person, the bottom is 'hope' or 'desire'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "艸",
         "pinyin": "cǎo",
         "english_description": "Grass",
         "origin": "Two blades of grass or sprouts.",
-        "tip": "Almost always appears at the top as 艹."
+        "tip": "Almost always appears at the top as 艹.",
+        "alternateSymbol": "艹"
     },
     {
         "symbol": "虍",
         "pinyin": "hū",
         "english_description": "Tiger",
         "origin": "The stripes and head of a tiger.",
-        "tip": "Found at the top of characters like 'Tiger' (虎) or 'Cruel' (虐)."
+        "tip": "Found at the top of characters like 'Tiger' (虎) or 'Cruel' (虐).",
+        "alternateSymbol": null
     },
     {
         "symbol": "虫",
         "pinyin": "chóng",
         "english_description": "Insect / Bug",
         "origin": "A snake or a small crawling creature.",
-        "tip": "Used for anything from ants to dragons (which were seen as giant insects)."
+        "tip": "Used for anything from ants to dragons (which were seen as giant insects).",
+        "alternateSymbol": null
     },
     {
         "symbol": "血",
         "pinyin": "xuè",
         "english_description": "Blood",
         "origin": "A drop of blood in a sacrificial bowl (皿).",
-        "tip": "It's the 'Dish' radical with a drop on top."
+        "tip": "It's the 'Dish' radical with a drop on top.",
+        "alternateSymbol": null
     },
     {
         "symbol": "行",
         "pinyin": "xíng",
         "english_description": "Walk / Go",
         "origin": "A four-way crossroads.",
-        "tip": "The left and right parts together mean 'to go' or 'travel'."
+        "tip": "The left and right parts together mean 'to go' or 'travel'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "衣",
         "pinyin": "yī",
         "english_description": "Clothes",
         "origin": "A person wearing a robe or coat.",
-        "tip": "Becomes 衤 on the left side. Don't confuse it with 'Spirit' (礻)."
+        "tip": "Becomes 衤 on the left side. Don't confuse it with 'Spirit' (礻).",
+        "alternateSymbol": "衤"
     },
     {
         "symbol": "襾",
         "pinyin": "yà",
         "english_description": "Cover / West",
         "origin": "A lid or a cover over a container.",
-        "tip": "Found in characters like 'West' (西)."
+        "tip": "Found in characters like 'West' (西).",
+        "alternateSymbol": "覀"
     },
     {
         "symbol": "見",
         "pinyin": "jiàn",
         "english_description": "See",
         "origin": "An eye (目) on top of a person (儿).",
-        "tip": "A person using their eyes to look at something."
+        "tip": "A person using their eyes to look at something.",
+        "alternateSymbol": "见"
     },
     {
         "symbol": "角",
         "pinyin": "jiǎo",
         "english_description": "Horn",
         "origin": "An animal horn used as a container or tool.",
-        "tip": "Looks like a 'meat' radical with a pointed tip."
+        "tip": "Looks like a 'meat' radical with a pointed tip.",
+        "alternateSymbol": null
     },
     {
         "symbol": "言",
         "pinyin": "yán",
         "english_description": "Speech",
         "origin": "A mouth (口) with words (horizontal lines) coming out.",
-        "tip": "Becomes 讠 in simplified Chinese. Relates to talking and language."
+        "tip": "Becomes 讠 in simplified Chinese. Relates to talking and language.",
+        "alternateSymbol": "讠"
     },
     {
         "symbol": "谷",
         "pinyin": "gǔ",
         "english_description": "Valley",
         "origin": "Water flowing out of a mountain pass into a mouth/opening.",
-        "tip": "The top part is the water/pass; the bottom is the valley floor."
+        "tip": "The top part is the water/pass; the bottom is the valley floor.",
+        "alternateSymbol": null
     },
     {
         "symbol": "豆",
         "pinyin": "dòu",
         "english_description": "Bean / Vessel",
         "origin": "A tall stem-bowl used for food or sacrifices.",
-        "tip": "Looks like a modern kitchen scales or a pedestal bowl."
+        "tip": "Looks like a modern kitchen scales or a pedestal bowl.",
+        "alternateSymbol": null
     },
     {
         "symbol": "豕",
         "pinyin": "shǐ",
         "english_description": "Pig",
         "origin": "A pig with a fat belly and short legs.",
-        "tip": "Found in 'Home' (家)—a pig under a roof."
+        "tip": "Found in 'Home' (家)—a pig under a roof.",
+        "alternateSymbol": null
     },
     {
         "symbol": "豸",
         "pinyin": "zhì",
         "english_description": "Beast / Feline",
         "origin": "A predator crouching or ready to pounce.",
-        "tip": "Relates to cats, lions, and other wild animals."
+        "tip": "Relates to cats, lions, and other wild animals.",
+        "alternateSymbol": null
     },
     {
         "symbol": "貝",
         "pinyin": "bèi",
         "english_description": "Shell / Money",
         "origin": "A cowrie shell used as ancient currency.",
-        "tip": "Becomes 贝 in simplified. Almost always relates to money or trade."
+        "tip": "Becomes 贝 in simplified. Almost always relates to money or trade.",
+        "alternateSymbol": "贝"
     },
     {
         "symbol": "赤",
         "pinyin": "chì",
         "english_description": "Red",
         "origin": "A person over a fire (the color of glowing embers).",
-        "tip": "The bottom is 'Fire' (火). Think of a hot, red flame."
+        "tip": "The bottom is 'Fire' (火). Think of a hot, red flame.",
+        "alternateSymbol": null
     },
     {
         "symbol": "走",
         "pinyin": "zǒu",
         "english_description": "Walk / Run",
         "origin": "A person waving their arms while running on a road.",
-        "tip": "The top is 'Soil' (土); imagine a person running across the earth."
+        "tip": "The top is 'Soil' (土); imagine a person running across the earth.",
+        "alternateSymbol": null
     },
     {
         "symbol": "足",
         "pinyin": "zú",
         "english_description": "Foot",
         "origin": "A leg with a foot at the bottom.",
-        "tip": "Becomes ⻊ on the left. Relates to kicking, walking, or feet."
+        "tip": "Becomes ⻊ on the left. Relates to kicking, walking, or feet.",
+        "alternateSymbol": "⻊"
     },
     {
         "symbol": "身",
         "pinyin": "shēn",
         "english_description": "Body",
         "origin": "A pregnant woman or a person's torso.",
-        "tip": "Looks like a person with a bulging midsection."
+        "tip": "Looks like a person with a bulging midsection.",
+        "alternateSymbol": null
     },
     {
         "symbol": "車",
         "pinyin": "chē",
         "english_description": "Cart / Vehicle",
         "origin": "An aerial view of a chariot with two wheels and an axle.",
-        "tip": "Becomes 车 in simplified. Think of an axle between two wheels."
+        "tip": "Becomes 车 in simplified. Think of an axle between two wheels.",
+        "alternateSymbol": "车"
     },
     {
         "symbol": "辛",
         "pinyin": "xīn",
         "english_description": "Bitter / Spicy",
         "origin": "A tattoo needle used to punish criminals.",
-        "tip": "Relates to hardship, pungent flavors, or crime."
+        "tip": "Relates to hardship, pungent flavors, or crime.",
+        "alternateSymbol": null
     },
     {
         "symbol": "辰",
         "pinyin": "chén",
         "english_description": "Early morning / Dragon (Zodiac)",
         "origin": "A tool for tilling or a shellfish emerging from its shell.",
-        "tip": "One of the 12 zodiac signs."
+        "tip": "One of the 12 zodiac signs.",
+        "alternateSymbol": null
     },
     {
         "symbol": "辵",
         "pinyin": "chuò",
         "english_description": "Walk / Movement",
         "origin": "A foot moving along a road.",
-        "tip": "Almost always appears as the side radical 辶."
+        "tip": "Almost always appears as the side radical 辶.",
+        "alternateSymbol": "辶"
     },
     {
         "symbol": "邑",
         "pinyin": "yì",
         "english_description": "City",
         "origin": "A person kneeling under a city wall.",
-        "tip": "Always appears as 阝 on the **right** side (Town)."
+        "tip": "Always appears as 阝 on the **right** side (Town).",
+        "alternateSymbol": "阝"
     },
     {
         "symbol": "酉",
         "pinyin": "yǒu",
         "english_description": "Wine jar / Alcohol",
         "origin": "A fermentation vessel with liquid inside.",
-        "tip": "Related to alcohol, vinegars, and medical tinctures."
+        "tip": "Related to alcohol, vinegars, and medical tinctures.",
+        "alternateSymbol": null
     },
     {
         "symbol": "釆",
         "pinyin": "biàn",
         "english_description": "Distinguish / To sift",
         "origin": "An animal's paw print or grains being separated.",
-        "tip": "Looks like 'Rice' (米) but with a separation at the top."
+        "tip": "Looks like 'Rice' (米) but with a separation at the top.",
+        "alternateSymbol": null
     },
     {
         "symbol": "里",
         "pinyin": "lǐ",
         "english_description": "Village / Mile",
         "origin": "A field (田) with earth (土) below it; a place where people live.",
-        "tip": "Think of a measured unit of land or a neighborhood."
+        "tip": "Think of a measured unit of land or a neighborhood.",
+        "alternateSymbol": null
     },
     {
         "symbol": "金",
         "pinyin": "jīn",
         "english_description": "Metal / Gold",
         "origin": "Gold nuggets buried in the earth.",
-        "tip": "Becomes 钅 on the left. Relates to anything made of metal (bells, needles, money)."
+        "tip": "Becomes 钅 on the left. Relates to anything made of metal (bells, needles, money).",
+        "alternateSymbol": "钅"
     },
     {
         "symbol": "長",
         "pinyin": "cháng",
         "english_description": "Long / Grow",
         "origin": "A person with long hair and a cane.",
-        "tip": "Simplified as 长. Represents distance or growth."
+        "tip": "Simplified as 长. Represents distance or growth.",
+        "alternateSymbol": "长"
     },
     {
         "symbol": "門",
         "pinyin": "mén",
         "english_description": "Gate / Door",
         "origin": "A pair of swinging doors on hinges.",
-        "tip": "Simplified as 门. It looks like a doorway frame."
+        "tip": "Simplified as 门. It looks like a doorway frame.",
+        "alternateSymbol": "门"
     },
     {
         "symbol": "阜",
         "pinyin": "fù",
         "english_description": "Mound / Hill",
         "origin": "Steps cut into a hillside or a large cliff.",
-        "tip": "Always appears as 阝 on the LEFT side (Hill/Mound)."
+        "tip": "Always appears as 阝 on the LEFT side (Hill/Mound).",
+        "alternateSymbol": "阝"
     },
     {
         "symbol": "隶",
         "pinyin": "lì",
         "english_description": "Slave / Capture",
         "origin": "A hand catching the tail of an animal.",
-        "tip": "Rare as a standalone radical, but found in 'subservient' words."
+        "tip": "Rare as a standalone radical, but found in 'subservient' words.",
+        "alternateSymbol": null
     },
     {
         "symbol": "隹",
         "pinyin": "zhuī",
         "english_description": "Short-tailed bird",
         "origin": "A pictograph of a small, plump bird.",
-        "tip": "Found in many bird names (like sparrow) and the word for 'difficult' (难)."
+        "tip": "Found in many bird names (like sparrow) and the word for 'difficult' (难).",
+        "alternateSymbol": null
     },
     {
         "symbol": "雨",
         "pinyin": "yǔ",
         "english_description": "Rain",
         "origin": "Water droplets falling from the sky (the top line).",
-        "tip": "The four dots are the raindrops falling inside a window-like frame."
+        "tip": "The four dots are the raindrops falling inside a window-like frame.",
+        "alternateSymbol": null
     },
     {
         "symbol": "靑",
         "pinyin": "qīng",
         "english_description": "Blue / Green / Youth",
         "origin": "A sprout growing (生) over a well or a dye vat.",
-        "tip": "Represents the color of nature or vitality."
+        "tip": "Represents the color of nature or vitality.",
+        "alternateSymbol": "青"
     },
     {
         "symbol": "非",
         "pinyin": "fēi",
         "english_description": "Wrong / Not",
         "origin": "Bird wings spread out in opposition.",
-        "tip": "Looks like two combs facing away from each other; means 'opposite'."
+        "tip": "Looks like two combs facing away from each other; means 'opposite'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "面",
         "pinyin": "miàn",
         "english_description": "Face / Surface",
         "origin": "A face with eyes and an outline.",
-        "tip": "Think of it as the front of a head or the surface of a table."
+        "tip": "Think of it as the front of a head or the surface of a table.",
+        "alternateSymbol": null
     },
     {
         "symbol": "革",
         "pinyin": "gé",
         "english_description": "Leather / Rawhide",
         "origin": "An animal skin stretched out to be tanned.",
-        "tip": "Relates to shoes, belts, and leather goods."
+        "tip": "Relates to shoes, belts, and leather goods.",
+        "alternateSymbol": null
     },
     {
         "symbol": "韋",
         "pinyin": "wéi",
         "english_description": "Tanned leather",
         "origin": "Feet walking around a city wall (guarding a leather-bound fort).",
-        "tip": "Simplified as 韦. Usually refers to flexible leather."
+        "tip": "Simplified as 韦. Usually refers to flexible leather.",
+        "alternateSymbol": "韦"
     },
     {
         "symbol": "韭",
         "pinyin": "jiǔ",
         "english_description": "Leek / Chives",
         "origin": "Leeks growing in a bundle.",
-        "tip": "Looks like plants in a row with horizontal soil lines."
+        "tip": "Looks like plants in a row with horizontal soil lines.",
+        "alternateSymbol": null
     },
     {
         "symbol": "音",
         "pinyin": "yīn",
         "english_description": "Sound / Tone",
         "origin": "A mouth (口) with a flute or sound coming out.",
-        "tip": "It is 'Stand' (立) over 'Sun/Mouth' (日). Think of a standing singer."
+        "tip": "It is 'Stand' (立) over 'Sun/Mouth' (日). Think of a standing singer.",
+        "alternateSymbol": null
     },
     {
         "symbol": "頁",
         "pinyin": "yè",
         "english_description": "Leaf / Page / Head",
         "origin": "A person with a prominent head.",
-        "tip": "Simplified as 页. Relates to pages of a book or parts of the head."
+        "tip": "Simplified as 页. Relates to pages of a book or parts of the head.",
+        "alternateSymbol": "页"
     },
     {
         "symbol": "風",
         "pinyin": "fēng",
         "english_description": "Wind",
         "origin": "An insect (虫) inside a sail, moving with the air.",
-        "tip": "Simplified as 风. Imagine air trapped inside a large sail."
+        "tip": "Simplified as 风. Imagine air trapped inside a large sail.",
+        "alternateSymbol": "风"
     },
     {
         "symbol": "飛",
         "pinyin": "fēi",
         "english_description": "Fly",
         "origin": "A bird with wings outstretched in flight.",
-        "tip": "Simplified as 飞. It looks like a bird mid-flap."
+        "tip": "Simplified as 飞. It looks like a bird mid-flap.",
+        "alternateSymbol": "飞"
     },
     {
         "symbol": "食",
         "pinyin": "shí",
         "english_description": "Eat / Food",
         "origin": "A lid over a bowl of rice.",
-        "tip": "Becomes 饣 on the left. Relates to anything edible."
+        "tip": "Becomes 饣 on the left. Relates to anything edible.",
+        "alternateSymbol": "饣"
     },
     {
         "symbol": "首",
         "pinyin": "shǒu",
         "english_description": "Head / First",
         "origin": "A head with hair on top.",
-        "tip": "The two dots on top are the hair; the box is the face."
+        "tip": "The two dots on top are the hair; the box is the face.",
+        "alternateSymbol": null
     },
     {
         "symbol": "香",
         "pinyin": "xiāng",
         "english_description": "Fragrance",
         "origin": "Grain (禾) over a sun/mouth (日)—the smell of cooking rice.",
-        "tip": "Think of the sweet smell of a harvest."
+        "tip": "Think of the sweet smell of a harvest.",
+        "alternateSymbol": null
     },
     {
         "symbol": "馬",
         "pinyin": "mǎ",
         "english_description": "Horse",
         "origin": "A horse with a mane, four legs, and a tail.",
-        "tip": "Simplified as 马. The four dots are the legs running."
+        "tip": "Simplified as 马. The four dots are the legs running.",
+        "alternateSymbol": "马"
     },
     {
         "symbol": "骨",
         "pinyin": "gǔ",
         "english_description": "Bone",
         "origin": "An articulation of a joint and a bone.",
-        "tip": "The top part is the joint; the bottom is the 'flesh' (月)."
+        "tip": "The top part is the joint; the bottom is the 'flesh' (月).",
+        "alternateSymbol": null
     },
     {
         "symbol": "高",
         "pinyin": "gāo",
         "english_description": "High / Tall",
         "origin": "A tall watchtower or building.",
-        "tip": "It looks like a multi-story building with a roof and windows."
+        "tip": "It looks like a multi-story building with a roof and windows.",
+        "alternateSymbol": null
     },
     {
         "symbol": "髟",
         "pinyin": "biāo",
         "english_description": "Long hair",
         "origin": "Hair hanging down from a head.",
-        "tip": "Found at the top of characters for 'hair' or 'beard'."
+        "tip": "Found at the top of characters for 'hair' or 'beard'.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鬥",
         "pinyin": "dòu",
         "english_description": "Fight / Struggle",
         "origin": "Two people with long hair fighting.",
-        "tip": "Looks like two people standing back-to-back in conflict."
+        "tip": "Looks like two people standing back-to-back in conflict.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鬯",
         "pinyin": "chàng",
         "english_description": "Sacrificial wine",
         "origin": "A container of herbs being added to wine.",
-        "tip": "A very rare radical related to ancient rituals."
+        "tip": "A very rare radical related to ancient rituals.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鬲",
         "pinyin": "lì",
         "english_description": "Cauldron",
         "origin": "An ancient three-legged cooking pot.",
-        "tip": "Found in words related to tripod vessels or steam."
+        "tip": "Found in words related to tripod vessels or steam.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鬼",
         "pinyin": "guǐ",
         "english_description": "Ghost / Demon",
         "origin": "A person with a large, scary head and a tail.",
-        "tip": "The 'tail' (儿) at the bottom flickers like a spirit."
+        "tip": "The 'tail' (儿) at the bottom flickers like a spirit.",
+        "alternateSymbol": null
     },
     {
         "symbol": "魚",
         "pinyin": "yú",
         "english_description": "Fish",
         "origin": "A fish with a head, scales, and a tail.",
-        "tip": "Simplified as 鱼. The four dots at the bottom are the tail/fins."
+        "tip": "Simplified as 鱼. The four dots at the bottom are the tail/fins.",
+        "alternateSymbol": "鱼"
     },
     {
         "symbol": "鳥",
         "pinyin": "niǎo",
         "english_description": "Bird",
         "origin": "A bird with a long tail and feathers.",
-        "tip": "Simplified as 鸟. Distinct from 'short-tailed bird' (隹)."
+        "tip": "Simplified as 鸟. Distinct from 'short-tailed bird' (隹).",
+        "alternateSymbol": "鸟"
     },
     {
         "symbol": "鹵",
         "pinyin": "lǔ",
         "english_description": "Salt / Brine",
         "origin": "A bag of salt with crystals showing.",
-        "tip": "Relates to alkaline or salty substances."
+        "tip": "Relates to alkaline or salty substances.",
+        "alternateSymbol": "卤"
     },
     {
         "symbol": "鹿",
         "pinyin": "lù",
         "english_description": "Deer",
         "origin": "A deer with antlers and legs.",
-        "tip": "The top part represents the antlers."
+        "tip": "The top part represents the antlers.",
+        "alternateSymbol": null
     },
     {
         "symbol": "麥",
         "pinyin": "mài",
         "english_description": "Wheat",
         "origin": "Wheat stalks with roots.",
-        "tip": "Simplified as 麦. Relates to flour and noodles."
+        "tip": "Simplified as 麦. Relates to flour and noodles.",
+        "alternateSymbol": "麦"
     },
     {
         "symbol": "麻",
         "pinyin": "má",
         "english_description": "Hemp",
         "origin": "Plants hanging in a shed (广) to dry.",
-        "tip": "Relates to fibers or the sensation of numbness."
+        "tip": "Relates to fibers or the sensation of numbness.",
+        "alternateSymbol": null
     },
     {
         "symbol": "黃",
         "pinyin": "huáng",
         "english_description": "Yellow",
         "origin": "A person wearing a jade ornament (the color of the earth).",
-        "tip": "The traditional color of the Emperor and the earth."
+        "tip": "The traditional color of the Emperor and the earth.",
+        "alternateSymbol": "黄"
     },
     {
         "symbol": "黍",
         "pinyin": "shǔ",
         "english_description": "Millet",
         "origin": "Sticky rice or millet used for wine.",
-        "tip": "Looks like 'Grain' (禾) with water drops (氺) below."
+        "tip": "Looks like 'Grain' (禾) with water drops (氺) below.",
+        "alternateSymbol": null
     },
     {
         "symbol": "黑",
         "pinyin": "hēi",
         "english_description": "Black",
         "origin": "Soot gathering over a fire in a chimney.",
-        "tip": "The bottom is 'Fire' (灬); the top is the soot-filled chimney."
+        "tip": "The bottom is 'Fire' (灬); the top is the soot-filled chimney.",
+        "alternateSymbol": null
     },
     {
         "symbol": "黹",
         "pinyin": "zhǐ",
         "english_description": "Embroidery",
         "origin": "A needle creating a pattern on cloth.",
-        "tip": "A very ornate radical used for needlework."
+        "tip": "A very ornate radical used for needlework.",
+        "alternateSymbol": null
     },
     {
         "symbol": "黽",
         "pinyin": "mǐn",
         "english_description": "Frog / Toad",
         "origin": "A pictograph of a frog seen from above.",
-        "tip": "Looks like a large head with a wide body."
+        "tip": "Looks like a large head with a wide body.",
+        "alternateSymbol": "黾"
     },
     {
         "symbol": "鼎",
         "pinyin": "dǐng",
         "english_description": "Tripod",
         "origin": "A massive three-legged ceremonial vessel.",
-        "tip": "Represents stability or authority."
+        "tip": "Represents stability or authority.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鼓",
         "pinyin": "gǔ",
         "english_description": "Drum",
         "origin": "A drum on a stand being hit by a hand with a stick.",
-        "tip": "The left is the drum; the right (支) is the hand with the stick."
+        "tip": "The left is the drum; the right (支) is the hand with the stick.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鼠",
         "pinyin": "shǔ",
         "english_description": "Rat / Mouse",
         "origin": "A rat with its head, paws, and long tail.",
-        "tip": "The bottom right flick is the long tail of the rodent."
+        "tip": "The bottom right flick is the long tail of the rodent.",
+        "alternateSymbol": null
     },
     {
         "symbol": "鼻",
         "pinyin": "bí",
         "english_description": "Nose",
         "origin": "A nose (自) over a mouth (the air passage).",
-        "tip": "Combine 'Self' (自) and a complex base."
+        "tip": "Combine 'Self' (自) and a complex base.",
+        "alternateSymbol": null
     },
     {
         "symbol": "齊",
         "pinyin": "qí",
         "english_description": "Even / Uniform",
         "origin": "Ears of corn or grain all growing at the same height.",
-        "tip": "Simplified as 齐. Represents equality or neatness."
+        "tip": "Simplified as 齐. Represents equality or neatness.",
+        "alternateSymbol": "齐"
     },
     {
         "symbol": "齒",
         "pinyin": "chǐ",
         "english_description": "Teeth",
         "origin": "An open mouth showing rows of teeth.",
-        "tip": "Simplified as 齿. It literally looks like a diagram of gums and teeth."
+        "tip": "Simplified as 齿. It literally looks like a diagram of gums and teeth.",
+        "alternateSymbol": "齿"
     },
     {
         "symbol": "龍",
         "pinyin": "lóng",
         "english_description": "Dragon",
         "origin": "A dragon with a crest and a long, winding body.",
-        "tip": "Simplified as 龙. One of the most famous symbols in Chinese culture."
+        "tip": "Simplified as 龙. One of the most famous symbols in Chinese culture.",
+        "alternateSymbol": "龙"
     },
     {
         "symbol": "龜",
         "pinyin": "guī",
         "english_description": "Turtle / Tortoise",
         "origin": "A turtle with its shell and tail.",
-        "tip": "Simplified as 龟. One of the most complex pictographs in the set."
+        "tip": "Simplified as 龟. One of the most complex pictographs in the set.",
+        "alternateSymbol": "龟"
     },
     {
         "symbol": "龠",
         "pinyin": "yuè",
         "english_description": "Flute",
         "origin": "A set of bamboo pipes tied together.",
-        "tip": "The final Kangxi radical (#214). It represents music and harmony."
+        "tip": "The final Kangxi radical (#214). It represents music and harmony.",
+        "alternateSymbol": null
     }
 ]
