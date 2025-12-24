@@ -4,9 +4,14 @@ class MemorizationService {
   static String generateMemorizationTip(HanziCharacter character) {
     final tips = <String>[];
     
+    // Use tip from JSON if available
+    if (character.tip != null && character.tip!.isNotEmpty) {
+      return character.tip!;
+    }
+    
     // Add radical information
-    if (character.radicals.isNotEmpty) {
-      tips.add('Radicals: ${character.radicals.join(", ")}');
+    if (character.radical.isNotEmpty) {
+      tips.add('Radical: ${character.radical}');
     }
     
     // Add character-specific tips based on common patterns

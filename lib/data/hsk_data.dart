@@ -1,236 +1,47 @@
+import 'dart:convert';
+import 'package:flutter/services.dart';
 import '../models/hanzi_character.dart';
 
 class HSKData {
-  static List<HanziCharacter> getHSKLevel1() {
-    return [
-      HanziCharacter(
-        character: '一',
-        pinyin: 'yī',
-        meaning: 'one',
-        hskLevel: 1,
-        radicals: ['一'],
-      ),
-      HanziCharacter(
-        character: '二',
-        pinyin: 'èr',
-        meaning: 'two',
-        hskLevel: 1,
-        radicals: ['二'],
-      ),
-      HanziCharacter(
-        character: '三',
-        pinyin: 'sān',
-        meaning: 'three',
-        hskLevel: 1,
-        radicals: ['一'],
-      ),
-      HanziCharacter(
-        character: '四',
-        pinyin: 'sì',
-        meaning: 'four',
-        hskLevel: 1,
-        radicals: ['囗', '儿'],
-      ),
-      HanziCharacter(
-        character: '五',
-        pinyin: 'wǔ',
-        meaning: 'five',
-        hskLevel: 1,
-        radicals: ['一'],
-      ),
-      HanziCharacter(
-        character: '六',
-        pinyin: 'liù',
-        meaning: 'six',
-        hskLevel: 1,
-        radicals: ['亠', '八'],
-      ),
-      HanziCharacter(
-        character: '七',
-        pinyin: 'qī',
-        meaning: 'seven',
-        hskLevel: 1,
-        radicals: ['一'],
-      ),
-      HanziCharacter(
-        character: '八',
-        pinyin: 'bā',
-        meaning: 'eight',
-        hskLevel: 1,
-        radicals: ['八'],
-      ),
-      HanziCharacter(
-        character: '九',
-        pinyin: 'jiǔ',
-        meaning: 'nine',
-        hskLevel: 1,
-        radicals: ['乙'],
-      ),
-      HanziCharacter(
-        character: '十',
-        pinyin: 'shí',
-        meaning: 'ten',
-        hskLevel: 1,
-        radicals: ['十'],
-      ),
-      HanziCharacter(
-        character: '人',
-        pinyin: 'rén',
-        meaning: 'person',
-        hskLevel: 1,
-        radicals: ['人'],
-      ),
-      HanziCharacter(
-        character: '大',
-        pinyin: 'dà',
-        meaning: 'big',
-        hskLevel: 1,
-        radicals: ['大'],
-      ),
-      HanziCharacter(
-        character: '小',
-        pinyin: 'xiǎo',
-        meaning: 'small',
-        hskLevel: 1,
-        radicals: ['小'],
-      ),
-      HanziCharacter(
-        character: '中',
-        pinyin: 'zhōng',
-        meaning: 'middle',
-        hskLevel: 1,
-        radicals: ['丨'],
-      ),
-      HanziCharacter(
-        character: '国',
-        pinyin: 'guó',
-        meaning: 'country',
-        hskLevel: 1,
-        radicals: ['囗', '玉'],
-      ),
-      HanziCharacter(
-        character: '我',
-        pinyin: 'wǒ',
-        meaning: 'I, me',
-        hskLevel: 1,
-        radicals: ['戈'],
-      ),
-      HanziCharacter(
-        character: '你',
-        pinyin: 'nǐ',
-        meaning: 'you',
-        hskLevel: 1,
-        radicals: ['亻'],
-      ),
-      HanziCharacter(
-        character: '他',
-        pinyin: 'tā',
-        meaning: 'he, him',
-        hskLevel: 1,
-        radicals: ['亻'],
-      ),
-      HanziCharacter(
-        character: '好',
-        pinyin: 'hǎo',
-        meaning: 'good',
-        hskLevel: 1,
-        radicals: ['女', '子'],
-      ),
-      HanziCharacter(
-        character: '是',
-        pinyin: 'shì',
-        meaning: 'to be',
-        hskLevel: 1,
-        radicals: ['日'],
-      ),
-      HanziCharacter(
-        character: '的',
-        pinyin: 'de',
-        meaning: 'of, possessive',
-        hskLevel: 1,
-        radicals: ['白'],
-      ),
-      HanziCharacter(
-        character: '了',
-        pinyin: 'le',
-        meaning: 'completed action',
-        hskLevel: 1,
-        radicals: ['亅'],
-      ),
-      HanziCharacter(
-        character: '在',
-        pinyin: 'zài',
-        meaning: 'at, in',
-        hskLevel: 1,
-        radicals: ['土'],
-      ),
-      HanziCharacter(
-        character: '有',
-        pinyin: 'yǒu',
-        meaning: 'to have',
-        hskLevel: 1,
-        radicals: ['月'],
-      ),
-      HanziCharacter(
-        character: '和',
-        pinyin: 'hé',
-        meaning: 'and',
-        hskLevel: 1,
-        radicals: ['禾', '口'],
-      ),
-      HanziCharacter(
-        character: '这',
-        pinyin: 'zhè',
-        meaning: 'this',
-        hskLevel: 1,
-        radicals: ['辶'],
-      ),
-      HanziCharacter(
-        character: '那',
-        pinyin: 'nà',
-        meaning: 'that',
-        hskLevel: 1,
-        radicals: ['阝'],
-      ),
-      HanziCharacter(
-        character: '来',
-        pinyin: 'lái',
-        meaning: 'to come',
-        hskLevel: 1,
-        radicals: ['木'],
-      ),
-      HanziCharacter(
-        character: '去',
-        pinyin: 'qù',
-        meaning: 'to go',
-        hskLevel: 1,
-        radicals: ['土'],
-      ),
-      HanziCharacter(
-        character: '上',
-        pinyin: 'shàng',
-        meaning: 'up, above',
-        hskLevel: 1,
-        radicals: ['一'],
-      ),
-      HanziCharacter(
-        character: '下',
-        pinyin: 'xià',
-        meaning: 'down, below',
-        hskLevel: 1,
-        radicals: ['一'],
-      ),
-    ];
+  static List<HanziCharacter>? _cachedHSK1;
+  static Map<String, String>? _cachedTips;
+
+  static Future<List<HanziCharacter>> getHSKLevel1() async {
+    if (_cachedHSK1 != null) {
+      return _cachedHSK1!;
+    }
+
+    // Load HSK1 data
+    final String hsk1JsonString = await rootBundle.loadString('assets/hsk/1.json');
+    final List<dynamic> hsk1Data = json.decode(hsk1JsonString);
+
+    // Load tips
+    final String tipsJsonString = await rootBundle.loadString('assets/tips/hsk1.json');
+    final List<dynamic> tipsData = json.decode(tipsJsonString);
+    
+    // Create a map of simplified -> tip for quick lookup
+    _cachedTips = {
+      for (var tip in tipsData)
+        tip['s'] as String: tip['t'] as String
+    };
+
+    // Convert JSON data to HanziCharacter objects
+    _cachedHSK1 = hsk1Data.map((json) {
+      final simplified = json['simplified'] as String;
+      final tip = _cachedTips![simplified];
+      return HanziCharacter.fromJson(json as Map<String, dynamic>, 1, tip: tip);
+    }).toList();
+
+    return _cachedHSK1!;
   }
 
-  static List<String> getAllPinyinOptions() {
-    return [
-      'yī', 'èr', 'sān', 'sì', 'wǔ', 'liù', 'qī', 'bā', 'jiǔ', 'shí',
-      'rén', 'dà', 'xiǎo', 'zhōng', 'guó', 'wǒ', 'nǐ', 'tā', 'hǎo', 'shì',
-      'de', 'le', 'zài', 'yǒu', 'hé', 'zhè', 'nà', 'lái', 'qù', 'shàng', 'xià',
-      'mā', 'bà', 'nǚ', 'ér', 'jiā', 'xué', 'shēng', 'lǎo', 'shī', 'péng',
-      'yǒu', 'gōng', 'zuò', 'chī', 'hē', 'shuì', 'qǐ', 'chuáng', 'kàn', 'tīng',
-    ];
+  static Future<List<String>> getAllPinyinOptions() async {
+    final characters = await getHSKLevel1();
+    return characters
+        .map((char) => char.pinyin)
+        .where((pinyin) => pinyin.isNotEmpty)
+        .toSet()
+        .toList();
   }
 }
 
