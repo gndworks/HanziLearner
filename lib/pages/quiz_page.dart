@@ -4,6 +4,7 @@ import '../services/memorization_service.dart';
 import '../widgets/session_header.dart';
 import '../widgets/hanzi_display.dart';
 import '../widgets/quiz_options.dart';
+import '../widgets/radical_buttons.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -175,6 +176,7 @@ class _QuizPageState extends State<QuizPage> {
               const SizedBox(height: 32),
               
               HanziDisplay(character: character),
+              RadicalButtons(character: character),
               const SizedBox(height: 32),
               
               // Multiple choice options
