@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import '../models/hanzi_character.dart';
+import '../services/radicals_service.dart';
 
 class HSKData {
   static List<HanziCharacter>? _cachedHSK1;
@@ -26,11 +27,18 @@ class HSKData {
     };
 
     // Convert JSON data to HanziCharacter objects
-    _cachedHSK1 = hsk1Data.map((json) {
+    _cachedHSK1 = await Future.wait(hsk1Data.map((json) async {
       final simplified = json['simplified'] as String;
       final tip = _cachedTips![simplified];
-      return HanziCharacter.fromJson(json as Map<String, dynamic>, 1, tip: tip);
-    }).toList();
+      // Get radicals for all characters in the hanzi
+      final radicals = await RadicalsService.getRadicalsForHanzi(simplified);
+      return HanziCharacter.fromJson(
+        json as Map<String, dynamic>, 
+        1, 
+        tip: tip,
+        radicals: radicals,
+      );
+    }));
 
     return _cachedHSK1!;
   }

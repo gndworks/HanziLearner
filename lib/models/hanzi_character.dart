@@ -1,7 +1,7 @@
 class HanziCharacter {
   // Core fields (matching JSON structure)
   final String simplified; // Simplified character/word
-  final String radical; // Main radical
+  final List<String> radicals; // Radicals for all characters in the hanzi
   final int frequency; // Frequency rank
   final List<String> pos; // Parts of speech
   final List<CharacterForm> forms; // Character forms (traditional, transcriptions, meanings, classifiers)
@@ -19,7 +19,7 @@ class HanziCharacter {
 
   HanziCharacter({
     required this.simplified,
-    required this.radical,
+    required this.radicals,
     required this.frequency,
     required this.pos,
     required this.forms,
@@ -28,10 +28,15 @@ class HanziCharacter {
   });
   
   // Factory constructor for parsing from JSON (HSK data format)
-  factory HanziCharacter.fromJson(Map<String, dynamic> json, int hskLevel, {String? tip}) {
+  // Note: radicals must be provided separately as they come from radicals_dictionary.json
+  factory HanziCharacter.fromJson(
+    Map<String, dynamic> json, 
+    int hskLevel, 
+    {String? tip, List<String>? radicals}
+  ) {
     return HanziCharacter(
       simplified: json['simplified'] ?? '',
-      radical: json['radical'] ?? '',
+      radicals: radicals ?? [],
       frequency: json['frequency'] ?? 0,
       pos: List<String>.from(json['pos'] ?? []),
       forms: (json['forms'] as List<dynamic>?)

@@ -139,10 +139,10 @@ class RadicalButtons extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // The radical field contains a single radical symbol
-    final radicalSymbol = character.radical;
+    // The radicals field contains a list of radical symbols
+    final radicals = character.radicals;
     
-    if (radicalSymbol.isEmpty) {
+    if (radicals.isEmpty) {
       return const SizedBox.shrink();
     }
 
@@ -152,7 +152,7 @@ class RadicalButtons extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Radical:',
+            radicals.length == 1 ? 'Radical:' : 'Radicals:',
             style: TextStyle(
               fontSize: 14,
               fontWeight: FontWeight.w500,
@@ -163,8 +163,8 @@ class RadicalButtons extends StatelessWidget {
           Wrap(
             spacing: 8,
             runSpacing: 8,
-            children: [
-              InkWell(
+            children: radicals.map((radicalSymbol) {
+              return InkWell(
                 onTap: () => _showRadicalPopup(context, radicalSymbol),
                 borderRadius: BorderRadius.circular(8),
                 child: Container(
@@ -197,8 +197,8 @@ class RadicalButtons extends StatelessWidget {
                     ],
                   ),
                 ),
-              ),
-            ],
+              );
+            }).toList(),
           ),
         ],
       ),

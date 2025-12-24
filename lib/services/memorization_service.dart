@@ -10,8 +10,12 @@ class MemorizationService {
     }
     
     // Add radical information
-    if (character.radical.isNotEmpty) {
-      tips.add('Radical: ${character.radical}');
+    if (character.radicals.isNotEmpty) {
+      if (character.radicals.length == 1) {
+        tips.add('Radical: ${character.radicals.first}');
+      } else {
+        tips.add('Radicals: ${character.radicals.join(', ')}');
+      }
     }
     
     // Add character-specific tips based on common patterns
