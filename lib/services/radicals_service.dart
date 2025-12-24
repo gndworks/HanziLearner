@@ -1,8 +1,10 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
+import '../models/radical.dart';
 
 class RadicalsService {
   static Map<String, String>? _cachedRadicalsDictionary;
+  static List<Radical>? _cachedRadicalsWithTips;
 
   /// Loads the radicals dictionary from assets
   static Future<Map<String, String>> _loadRadicalsDictionary() async {
@@ -19,6 +21,38 @@ class RadicalsService {
       // Return empty map if loading fails
       return {};
     }
+  }
+
+  /// Loads radicals with tips from assets
+  static Future<List<Radical>> _loadRadicalsWithTips() async {
+    if (_cachedRadicalsWithTips != null) {
+      return _cachedRadicalsWithTips!;
+    }
+
+    try {
+      final String jsonString = await rootBundle.loadString('assets/radicals/radicals_with_tips.json');
+      final List<dynamic> radicalsData = json.decode(jsonString);
+      _cachedRadicalsWithTips = radicalsData
+          .map((json) => Radical.fromJson(json as Map<String, dynamic>))
+          .toList();
+      return _cachedRadicalsWithTips!;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  /// Gets radical info by symbol (checks both main symbol and alternate symbol)
+  /// Returns null if not found
+  static Future<Radical?> getRadicalInfo(String symbol) async {
+    final radicals = await _loadRadicalsWithTips();
+    
+    for (var radical in radicals) {
+      if (radical.symbol == symbol || radical.alternateSymbol == symbol) {
+        return radical;
+      }
+    }
+    
+    return null;
   }
 
   /// Gets radicals for a hanzi string by looking up each character

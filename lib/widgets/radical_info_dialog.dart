@@ -1,22 +1,24 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import '../models/radical.dart';
+import '../services/radicals_service.dart';
 import 'compound_radical_breakdown.dart';
 
 class RadicalInfoDialog extends StatelessWidget {
   final String symbol;
-  final Map<String, dynamic>? _radicalInfo;
+  final Radical? _radicalInfo;
   final Map<String, dynamic>? _compoundInfo;
 
   const RadicalInfoDialog._({
     required this.symbol,
-    required Map<String, dynamic>? radicalInfo,
+    required Radical? radicalInfo,
     required Map<String, dynamic>? compoundInfo,
   }) : _radicalInfo = radicalInfo,
        _compoundInfo = compoundInfo;
 
   static Future<void> show(BuildContext context, String symbol) async {
-    final radicalInfo = await _loadRadicalInfo(symbol);
+    final radicalInfo = await RadicalsService.getRadicalInfo(symbol);
     final compoundInfo = await _loadCompoundRadicalInfo(symbol);
 
     if (!context.mounted) return;
@@ -29,22 +31,6 @@ class RadicalInfoDialog extends StatelessWidget {
         compoundInfo: compoundInfo,
       ),
     );
-  }
-
-  static Future<Map<String, dynamic>?> _loadRadicalInfo(String symbol) async {
-    try {
-      final String jsonString = await rootBundle.loadString('assets/radicals/radicals_with_tips.json');
-      final List<dynamic> radicalsData = json.decode(jsonString);
-
-      for (var radical in radicalsData) {
-        if (radical['symbol'] == symbol) {
-          return radical as Map<String, dynamic>;
-        }
-      }
-    } catch (e) {
-      debugPrint('Error loading radical info: $e');
-    }
-    return null;
   }
 
   static Future<Map<String, dynamic>?> _loadCompoundRadicalInfo(String symbol) async {
@@ -71,15 +57,28 @@ class RadicalInfoDialog extends StatelessWidget {
     
     return AlertDialog(
       title: Row(
+        crossAxisAlignment: CrossAxisAlignment.baseline,
+        textBaseline: TextBaseline.alphabetic,
         children: [
           Text(
             symbol,
             style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
           ),
+          if (radical != null && radical.symbol != symbol) ...[
+            const SizedBox(width: 8),
+            Text(
+              '(${radical.symbol})',
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.grey.shade600,
+                fontWeight: FontWeight.normal,
+              ),
+            ),
+          ],
           const SizedBox(width: 12),
           if (radical != null)
             Text(
-              radical['pinyin'] ?? '',
+              radical.pinyin,
               style: TextStyle(
                 fontSize: 18,
                 color: Colors.grey.shade600,
@@ -96,9 +95,9 @@ class RadicalInfoDialog extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       if (radical != null) ...[
-                        if (radical['english_description'] != null) ...[
+                        if (radical.englishDescription.isNotEmpty) ...[
                           SelectableText(
-                            radical['english_description'] as String,
+                            radical.englishDescription,
                             style: const TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.w600,
@@ -106,7 +105,7 @@ class RadicalInfoDialog extends StatelessWidget {
                           ),
                           const SizedBox(height: 12),
                         ],
-                        if (radical['origin'] != null) ...[
+                        if (radical.origin.isNotEmpty) ...[
                           SelectableText(
                             'Origin:',
                             style: TextStyle(
@@ -117,12 +116,12 @@ class RadicalInfoDialog extends StatelessWidget {
                           ),
                           const SizedBox(height: 4),
                           SelectableText(
-                            radical['origin'] as String,
+                            radical.origin,
                             style: const TextStyle(fontSize: 14, height: 1.5),
                           ),
                           const SizedBox(height: 12),
                         ],
-                        if (radical['tip'] != null) ...[
+                        if (radical.tip.isNotEmpty) ...[
                           Container(
                             padding: const EdgeInsets.all(12),
                             decoration: BoxDecoration(
@@ -153,7 +152,7 @@ class RadicalInfoDialog extends StatelessWidget {
                                 ),
                                 const SizedBox(height: 6),
                                 SelectableText(
-                                  radical['tip'] as String,
+                                  radical.tip,
                                   style: const TextStyle(fontSize: 14, height: 1.5),
                                 ),
                               ],
