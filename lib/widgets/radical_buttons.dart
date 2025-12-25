@@ -26,7 +26,7 @@ class RadicalButtons extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 16.0),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
             radicals.length == 1 ? 'Radical:' : 'Radicals:',
@@ -38,6 +38,7 @@ class RadicalButtons extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Wrap(
+            alignment: WrapAlignment.center,
             spacing: 8,
             runSpacing: 8,
             children: radicals.map((radicalSymbol) {
