@@ -21,7 +21,7 @@ class HanziDisplay extends StatelessWidget {
             border: Border.all(color: Colors.grey.shade300),
           ),
           child: Center(
-            child: Text(
+            child: SelectableText(
               character.character,
               style: const TextStyle(
                 fontSize: 120,

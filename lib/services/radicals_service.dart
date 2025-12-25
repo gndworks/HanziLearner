@@ -41,13 +41,16 @@ class RadicalsService {
     }
   }
 
-  /// Gets radical info by symbol (checks both main symbol and alternate symbol)
+  /// Gets radical info by symbol (checks both main symbol and alternate symbols)
   /// Returns null if not found
   static Future<Radical?> getRadicalInfo(String symbol) async {
     final radicals = await _loadRadicalsWithTips();
     
     for (var radical in radicals) {
-      if (radical.symbol == symbol || radical.alternateSymbol == symbol) {
+      if (radical.symbol == symbol) {
+        return radical;
+      }
+      if (radical.alternateSymbols != null && radical.alternateSymbols!.contains(symbol)) {
         return radical;
       }
     }

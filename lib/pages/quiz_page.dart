@@ -90,7 +90,7 @@ class _QuizPageState extends State<QuizPage> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text('Memorization Tip for ${character.character}'),
+        title: SelectableText('Memorization Tip for ${character.character}'),
         content: SingleChildScrollView(
           child: SelectableText(
             tip,
@@ -153,7 +153,7 @@ class _QuizPageState extends State<QuizPage> {
     
     if (character == null) {
       return const Scaffold(
-        body: Center(child: Text('No more characters!')),
+        body: Center(child: SelectableText('No more characters!')),
       );
     }
 

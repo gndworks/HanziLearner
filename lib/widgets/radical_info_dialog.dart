@@ -60,13 +60,13 @@ class RadicalInfoDialog extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.baseline,
         textBaseline: TextBaseline.alphabetic,
         children: [
-          Text(
+          SelectableText(
             symbol,
             style: const TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
           ),
           if (radical != null && radical.symbol != symbol) ...[
             const SizedBox(width: 8),
-            Text(
+            SelectableText(
               '(${radical.symbol})',
               style: TextStyle(
                 fontSize: 20,
@@ -77,7 +77,7 @@ class RadicalInfoDialog extends StatelessWidget {
           ],
           const SizedBox(width: 12),
           if (radical != null)
-            Text(
+            SelectableText(
               radical.pinyin,
               style: TextStyle(
                 fontSize: 18,

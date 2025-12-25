@@ -5,7 +5,7 @@
         "english_description": "One / Horizontal line",
         "origin": "A single horizontal stroke representing the number one or a boundary.",
         "tip": "The simplest radical. Think of it as a floor or a single bar.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "丨",
@@ -13,7 +13,7 @@
         "english_description": "Vertical line",
         "origin": "A vertical stroke representing a rod or a connection.",
         "tip": "Imagine a stick or a needle standing upright.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "丶",
@@ -21,7 +21,7 @@
         "english_description": "Dot",
         "origin": "A drop of liquid or a small mark.",
         "tip": "Think of a single drop of rain or a speck of dust.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "丿",
@@ -29,7 +29,7 @@
         "english_description": "Slash / Left fall",
         "origin": "A stroke falling to the left.",
         "tip": "Like a sword swipe or a blade of grass bending left.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "亠",
@@ -37,7 +37,7 @@
         "english_description": "Lid",
         "origin": "A cover or top-piece for an object.",
         "tip": "It's like a hat on top of a character. Common in words like 'City' (市) and 'High' (高).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "十",
@@ -45,7 +45,7 @@
         "english_description": "Ten",
         "origin": "A vertical line representing a tally mark, with a horizontal crossbar added later.",
         "tip": "It looks like a plus sign. In Chinese culture, it represents completeness or the four directions (North, South, East, West).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "匚",
@@ -53,7 +53,7 @@
         "english_description": "Right open box",
         "origin": "A pictograph of a container or a basket seen from the side.",
         "tip": "It looks like an open square facing right. It usually surrounds other components and relates to containers or squares.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "卜",
@@ -61,7 +61,9 @@
         "english_description": "Divination",
         "origin": "Cracks in a turtle shell or bone used for fortune telling.",
         "tip": "Looks like a crack in a surface. Found in characters related to predicting the future.",
-        "alternateSymbol": "⺊"
+        "alternateSymbols": [
+            "⺊"
+        ]
     },
     {
         "symbol": "卩",
@@ -69,7 +71,9 @@
         "english_description": "Seal / Kneeling person",
         "origin": "A person kneeling or a stamp of authority.",
         "tip": "Looks like a person sitting on their heels. Becomes ㄗ on the right.",
-        "alternateSymbol": "㔾"
+        "alternateSymbols": [
+            "㔾"
+        ]
     },
     {
         "symbol": "厂",
@@ -77,7 +81,7 @@
         "english_description": "Cliff",
         "origin": "A steep, overhanging rock face.",
         "tip": "Like a 'Shelter' (广) but without the dot on top.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "厶",
@@ -85,7 +89,7 @@
         "english_description": "Private",
         "origin": "A cocoon or a closed arm holding something to oneself.",
         "tip": "A small triangle. Think of a 'secret' or something tucked away.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "又",
@@ -93,7 +97,7 @@
         "english_description": "Again / Right hand",
         "origin": "A hand reaching out to grab something repeatedly.",
         "tip": "Looks like a simplified 'X'. It often suggests action or repetition.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "士",
@@ -101,7 +105,7 @@
         "english_description": "Scholar / Warrior",
         "origin": "A man of high standing or a weapon (halberd) stuck in the ground.",
         "tip": "Similar to 'Earth' (土), but the TOP line is longer than the bottom.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "夂",
@@ -109,7 +113,7 @@
         "english_description": "Go / Walk",
         "origin": "A foot pointing downward, indicating movement.",
         "tip": "Looks like 'Large' (大) but with the top stroke bent.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "夊",
@@ -117,7 +121,7 @@
         "english_description": "Go slowly",
         "origin": "A foot with a dragging motion.",
         "tip": "Almost identical to 夂, but the central stroke crosses through the bottom.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "夕",
@@ -125,7 +129,7 @@
         "english_description": "Evening / Night",
         "origin": "A crescent moon (originally half of the 'Moon' character).",
         "tip": "Think of it as a moon partially obscured by clouds at dusk.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "大",
@@ -133,7 +137,7 @@
         "english_description": "Big / Large",
         "origin": "A person standing with arms and legs spread wide.",
         "tip": "A person trying to show how big something is with their whole body.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "匸",
@@ -141,7 +145,7 @@
         "english_description": "Hiding enclosure",
         "origin": "A container or a place used to conceal items.",
         "tip": "Like the 'Box' radical (匚) but with the top stroke slightly longer or overhanging.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "彑",
@@ -149,7 +153,9 @@
         "english_description": "Snout (Variant)",
         "origin": "A variation of the animal snout radical (彐).",
         "tip": "It has an extra stroke inside. It’s the top part of the word for 'Pig' (彘).",
-        "alternateSymbol": "彐"
+        "alternateSymbols": [
+            "彐"
+        ]
     },
     {
         "symbol": "乙",
@@ -157,7 +163,9 @@
         "english_description": "Second / Hook",
         "origin": "A pictograph of a growing sprout or a bird.",
         "tip": "It looks like a bent hook or the letter 'z'.",
-        "alternateSymbol": "乚"
+        "alternateSymbols": [
+            "乚"
+        ]
     },
     {
         "symbol": "亅",
@@ -165,7 +173,7 @@
         "english_description": "Hook",
         "origin": "A vertical line with a flick at the bottom.",
         "tip": "Think of a fishing hook or a coat hanger.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "二",
@@ -173,7 +181,7 @@
         "english_description": "Two",
         "origin": "Two horizontal lines.",
         "tip": "One line for heaven, one for earth. Together they make two.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "人",
@@ -181,7 +189,9 @@
         "english_description": "Person",
         "origin": "A person standing or walking.",
         "tip": "Looks like two legs walking. Becomes 亻 on the left side.",
-        "alternateSymbol": "亻"
+        "alternateSymbols": [
+            "亻"
+        ]
     },
     {
         "symbol": "儿",
@@ -189,7 +199,7 @@
         "english_description": "Son / Legs",
         "origin": "A person with prominent legs or a child.",
         "tip": "Look at the 'legs' at the bottom of characters like '兄' (older brother).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "入",
@@ -197,7 +207,7 @@
         "english_description": "Enter",
         "origin": "A sharp point entering a surface.",
         "tip": "Looks like 'Person' (人) but the right leg is longer/higher, pointing 'in'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "八",
@@ -205,7 +215,9 @@
         "english_description": "Eight",
         "origin": "To divide or separate.",
         "tip": "Two lines moving away from each other, like things being split in half.",
-        "alternateSymbol": "丷"
+        "alternateSymbols": [
+            "丷"
+        ]
     },
     {
         "symbol": "冂",
@@ -213,7 +225,7 @@
         "english_description": "Down box / Upside-down U",
         "origin": "A border or a remote area.",
         "tip": "An open container facing down; a boundary of a city.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "冖",
@@ -221,7 +233,7 @@
         "english_description": "Cover",
         "origin": "A cloth covering an object.",
         "tip": "It looks like a flat lid or a tablecloth hanging over the edges.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "冫",
@@ -229,7 +241,7 @@
         "english_description": "Ice",
         "origin": "Frozen water droplets.",
         "tip": "Two drops on the left side. Think of them as ice crystals.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "几",
@@ -237,7 +249,7 @@
         "english_description": "Table / Small stool",
         "origin": "A small side table or bench.",
         "tip": "Looks like a little stool you could sit on.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "凵",
@@ -245,7 +257,7 @@
         "english_description": "Open box / Receptacle",
         "origin": "A pit or an open-mouthed container.",
         "tip": "An empty bucket or a hole in the ground.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "刀",
@@ -253,7 +265,9 @@
         "english_description": "Knife",
         "origin": "A curved blade.",
         "tip": "Looks like a cleaver. Becomes 刂 on the right side.",
-        "alternateSymbol": "刂"
+        "alternateSymbols": [
+            "刂"
+        ]
     },
     {
         "symbol": "力",
@@ -261,7 +275,7 @@
         "english_description": "Power / Strength",
         "origin": "A plow or a tensed muscle.",
         "tip": "Looks like a person leaning into hard work.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "勹",
@@ -269,7 +283,7 @@
         "english_description": "Wrap",
         "origin": "A person bending over to hug or hold something.",
         "tip": "An arm reaching around to wrap a package.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "匕",
@@ -277,7 +291,7 @@
         "english_description": "Spoon / Ladle",
         "origin": "A tool for eating or a dagger.",
         "tip": "Looks like a small spoon or a person sitting down.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "口",
@@ -285,7 +299,7 @@
         "english_description": "Mouth",
         "origin": "An open mouth.",
         "tip": "A simple square representing anything that speaks or eats.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "囗",
@@ -293,7 +307,7 @@
         "english_description": "Enclosure",
         "origin": "A wall or border surrounding something.",
         "tip": "Always surrounds other characters (like a cage or border).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "土",
@@ -301,7 +315,7 @@
         "english_description": "Earth / Soil",
         "origin": "A plant growing out of the ground.",
         "tip": "A cross on a base. The bottom line is the ground.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "女",
@@ -309,7 +323,7 @@
         "english_description": "Woman",
         "origin": "A woman kneeling or crossing her legs.",
         "tip": "Imagine a person sitting with their legs crossed gracefully.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "子",
@@ -317,7 +331,7 @@
         "english_description": "Child",
         "origin": "A baby in swaddling clothes with arms out.",
         "tip": "The horizontal line represents the baby's reaching arms.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "宀",
@@ -325,7 +339,7 @@
         "english_description": "Roof",
         "origin": "A pictograph of a house with a chimney or a peak.",
         "tip": "Think of it as a protective cover over the top of a character, like a ceiling.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "寸",
@@ -333,7 +347,7 @@
         "english_description": "Inch",
         "origin": "Originally the distance from the wrist to the pulse.",
         "tip": "Looks like a hand with a mark indicating where the pulse is felt.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "小",
@@ -341,7 +355,9 @@
         "english_description": "Small",
         "origin": "Three small objects or grains of sand.",
         "tip": "The central line is being split into even smaller parts.",
-        "alternateSymbol": "⺌"
+        "alternateSymbols": [
+            "⺌"
+        ]
     },
     {
         "symbol": "尢",
@@ -349,7 +365,9 @@
         "english_description": "Lame / Crooked",
         "origin": "A person with a bent leg or a limp.",
         "tip": "It looks like the 'person' radical (人) but with one leg kicked out awkwardly.",
-        "alternateSymbol": "尣"
+        "alternateSymbols": [
+            "尣"
+        ]
     },
     {
         "symbol": "尸",
@@ -357,7 +375,7 @@
         "english_description": "Corpse",
         "origin": "A person lying down or a seated person acting as a proxy for the dead.",
         "tip": "Imagine a person lying flat on their back under a blanket.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "屮",
@@ -365,7 +383,7 @@
         "english_description": "Sprout",
         "origin": "A plant emerging from the ground with two leaves.",
         "tip": "A 'W' shape on a stem—it's a tiny plant beginning to grow.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "山",
@@ -373,7 +391,7 @@
         "english_description": "Mountain",
         "origin": "Three mountain peaks on a horizon.",
         "tip": "The vertical lines are the peaks, the bottom line is the range.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "巛",
@@ -381,7 +399,9 @@
         "english_description": "River",
         "origin": "Flowing water or a stream.",
         "tip": "Three wavy vertical lines representing the current of a river.",
-        "alternateSymbol": "川"
+        "alternateSymbols": [
+            "川"
+        ]
     },
     {
         "symbol": "工",
@@ -389,7 +409,7 @@
         "english_description": "Work / Tool",
         "origin": "An artisan's square or a heavy tool.",
         "tip": "It looks like an 'I' beam used in construction.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "己",
@@ -397,7 +417,7 @@
         "english_description": "Self",
         "origin": "A thread on a loom or a coiled snake.",
         "tip": "Think of it as the shape of your own spine when sitting.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "巾",
@@ -405,7 +425,7 @@
         "english_description": "Turban / Scarf",
         "origin": "A piece of cloth hanging from a hook.",
         "tip": "Looks like a towel or rag hanging over a rail.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "干",
@@ -413,7 +433,7 @@
         "english_description": "Dry / Shield",
         "origin": "A weapon like a pestle or a forked stick.",
         "tip": "Looks like a 'T' with an extra bar—imagine clothes drying on a rack.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "幺",
@@ -421,7 +441,7 @@
         "english_description": "Tiny / Short",
         "origin": "A small twist of silk or a newborn thread.",
         "tip": "Think of it as a small knot or a tiny loop of string.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "广",
@@ -429,7 +449,7 @@
         "english_description": "Shelter / House on a cliff",
         "origin": "A building built against a mountainside.",
         "tip": "Like 'roof' (宀) but open on the side, like a lean-to or a shed.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "廴",
@@ -437,7 +457,7 @@
         "english_description": "Long stride",
         "origin": "A foot moving forward over a long distance.",
         "tip": "It stretches under the character, like a long road being walked.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "廾",
@@ -445,7 +465,7 @@
         "english_description": "Two hands / Hands joined",
         "origin": "Two hands held up to present an offering.",
         "tip": "Imagine two hands reaching up to carry a heavy box.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "弋",
@@ -453,7 +473,7 @@
         "english_description": "Shoot / Arrow with a string",
         "origin": "A wooden peg or an arrow tied to a string for retrieval.",
         "tip": "Looks like a slanted cross—think of a hunter's trap.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "弓",
@@ -461,7 +481,7 @@
         "english_description": "Bow",
         "origin": "A recurve bow used for archery.",
         "tip": "The shape perfectly mimics the tension and curves of a wooden bow.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "彐",
@@ -469,7 +489,9 @@
         "english_description": "Snout",
         "origin": "The head or snout of an animal (like a pig).",
         "tip": "It looks like a hand or a claw reaching out sideways.",
-        "alternateSymbol": "⺕"
+        "alternateSymbols": [
+            "⺕"
+        ]
     },
     {
         "symbol": "彡",
@@ -477,7 +499,7 @@
         "english_description": "Bristle / Ornament",
         "origin": "Long hair, feathers, or decorative rays of light.",
         "tip": "Three slanted strokes—think of them as hair or whiskers.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "彳",
@@ -485,7 +507,7 @@
         "english_description": "Step / Left foot",
         "origin": "The left half of the character for 'road' (行).",
         "tip": "Known as the 'double person' radical. It usually relates to walking or paths.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "心",
@@ -493,7 +515,10 @@
         "english_description": "Heart",
         "origin": "A pictograph of the physical heart and its vessels.",
         "tip": "Looks like a heart with valves. Becomes 忄 on the left side.",
-        "alternateSymbol": "忄"
+        "alternateSymbols": [
+            "忄",
+            "⺗"
+        ]
     },
     {
         "symbol": "戈",
@@ -501,7 +526,7 @@
         "english_description": "Dagger-axe",
         "origin": "A spear with a blade attached at a right angle.",
         "tip": "A very common radical for weapons or conflict. Look for the 'hook' at the end.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "户",
@@ -509,7 +534,9 @@
         "english_description": "Door / Household",
         "origin": "A single-leaf door (half of the character for double doors 門).",
         "tip": "Imagine a single swinging door on a hinges.",
-        "alternateSymbol": "戶"
+        "alternateSymbols": [
+            "戶"
+        ]
     },
     {
         "symbol": "手",
@@ -517,7 +544,9 @@
         "english_description": "Hand",
         "origin": "A hand with five fingers splayed out.",
         "tip": "Becomes 扌 on the left side—it looks like a hand reaching out to grab.",
-        "alternateSymbol": "扌"
+        "alternateSymbols": [
+            "扌"
+        ]
     },
     {
         "symbol": "支",
@@ -525,7 +554,7 @@
         "english_description": "Branch",
         "origin": "A hand holding a broken branch from a tree.",
         "tip": "Think of a hand (the bottom part) carrying a stick.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "攴",
@@ -533,7 +562,9 @@
         "english_description": "Tap / Whip",
         "origin": "A hand holding a stick or whip to strike.",
         "tip": "Usually appears as 攵 on the right. It looks like a person with a stick.",
-        "alternateSymbol": "攵"
+        "alternateSymbols": [
+            "攵"
+        ]
     },
     {
         "symbol": "文",
@@ -541,7 +572,7 @@
         "english_description": "Culture / Writing",
         "origin": "A person with a tattoo or markings on their chest.",
         "tip": "Looks like a person with their legs crossed and arms out.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "斗",
@@ -549,7 +580,7 @@
         "english_description": "Dipper / Measuring cup",
         "origin": "A ladle or a cup used for measuring grain.",
         "tip": "Imagine the Big Dipper constellation or a soup ladle.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "斤",
@@ -557,7 +588,7 @@
         "english_description": "Axe / Catty",
         "origin": "An axe head with a handle.",
         "tip": "It looks like a sharp blade pointing down; also a unit of weight.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "方",
@@ -565,7 +596,7 @@
         "english_description": "Square / Direction",
         "origin": "Two boats tied together or a plow.",
         "tip": "Think of a person with a flag pointing in a certain direction.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "无",
@@ -573,7 +604,7 @@
         "english_description": "Not / Without",
         "origin": "A person dancing to pray for rain, eventually meaning 'not'.",
         "tip": "Looks like a 'sky' (天) with a curled leg.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "日",
@@ -581,7 +612,7 @@
         "english_description": "Sun / Day",
         "origin": "A circle with a dot in the middle representing the sun.",
         "tip": "A rectangle with a line through it. Related to time and light.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "曰",
@@ -589,7 +620,7 @@
         "english_description": "Say",
         "origin": "A mouth with a line indicating breath or speech coming out.",
         "tip": "Flatter and wider than 'sun' (日). It represents speaking.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "月",
@@ -597,7 +628,9 @@
         "english_description": "Moon / Month",
         "origin": "A crescent moon with two small clouds inside.",
         "tip": "Related to time. Note: Also often represents 'flesh' (肉) inside characters.",
-        "alternateSymbol": "⺼"
+        "alternateSymbols": [
+            "⺼"
+        ]
     },
     {
         "symbol": "木",
@@ -605,7 +638,7 @@
         "english_description": "Tree / Wood",
         "origin": "A tree with branches above and roots below.",
         "tip": "A central trunk with branches (top) and roots (bottom).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "欠",
@@ -613,7 +646,7 @@
         "english_description": "Lack / Yawn",
         "origin": "A person with an open mouth, exhaling or yawning.",
         "tip": "Imagine a person leaning back and sighing because they lack something.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "止",
@@ -621,7 +654,7 @@
         "english_description": "Stop",
         "origin": "A footprint showing a foot planted on the ground.",
         "tip": "Looks like a foot pointed forward. To walk no further.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "歹",
@@ -629,7 +662,7 @@
         "english_description": "Death / Bad",
         "origin": "A fragment of a skeleton or a broken bone.",
         "tip": "Think of a '7' on top of a broken line; represents something negative.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "殳",
@@ -637,7 +670,7 @@
         "english_description": "Weapon / Club",
         "origin": "A hand holding a long-handled spear or stick.",
         "tip": "Usually on the right. It looks like a combination of 'box' and 'friend'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "毋",
@@ -645,7 +678,9 @@
         "english_description": "Do not",
         "origin": "A mother (母) with a line through her to forbid something.",
         "tip": "Related to prohibition. Looks like a knotted 'no'.",
-        "alternateSymbol": null
+        "alternateSymbols": [
+            "母"
+        ]
     },
     {
         "symbol": "比",
@@ -653,7 +688,7 @@
         "english_description": "Compare",
         "origin": "Two people standing next to each other to check their height.",
         "tip": "Two 'spoon' radicals next to each other.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "毛",
@@ -661,7 +696,7 @@
         "english_description": "Hair / Fur",
         "origin": "Feathers or animal fur.",
         "tip": "Think of long, wispy strokes ending in a flick of hair.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "氏",
@@ -669,7 +704,7 @@
         "english_description": "Clan",
         "origin": "A root in the ground or a person carrying a heavy object.",
         "tip": "Looks like a person bowing low to their ancestors.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "气",
@@ -677,7 +712,7 @@
         "english_description": "Steam / Air",
         "origin": "Flowing clouds or rising vapor.",
         "tip": "Three horizontal lines with a curve—think of steam rising from coffee.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "水",
@@ -685,7 +720,10 @@
         "english_description": "Water",
         "origin": "A flowing stream with splashes.",
         "tip": "Often appears as 氵 (three drops) on the left side.",
-        "alternateSymbol": "氵"
+        "alternateSymbols": [
+            "氵",
+            "氺"
+        ]
     },
     {
         "symbol": "火",
@@ -693,7 +731,9 @@
         "english_description": "Fire",
         "origin": "A campfire with flames leaping up.",
         "tip": "Appears as 灬 at the bottom (like four hot coals).",
-        "alternateSymbol": "灬"
+        "alternateSymbols": [
+            "灬"
+        ]
     },
     {
         "symbol": "爪",
@@ -701,7 +741,9 @@
         "english_description": "Claw",
         "origin": "A bird's foot or a hand reaching down.",
         "tip": "Often appears at the top as 爫. Imagine a cat's paw.",
-        "alternateSymbol": "爫"
+        "alternateSymbols": [
+            "爫"
+        ]
     },
     {
         "symbol": "父",
@@ -709,7 +751,7 @@
         "english_description": "Father",
         "origin": "A hand holding a stone axe (authority).",
         "tip": "Looks like two sticks crossed—think of a stern parental figure.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "爻",
@@ -717,7 +759,7 @@
         "english_description": "Double cross",
         "origin": "Crossing lines for divination (I-Ching).",
         "tip": "Two 'X' shapes stacked. Represents patterns.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "爿",
@@ -725,7 +767,9 @@
         "english_description": "Half tree trunk (Left)",
         "origin": "A split piece of wood.",
         "tip": "The left side of a tree trunk.",
-        "alternateSymbol": "丬"
+        "alternateSymbols": [
+            "丬"
+        ]
     },
     {
         "symbol": "片",
@@ -733,7 +777,7 @@
         "english_description": "Slice / Piece",
         "origin": "The right side of a split tree trunk.",
         "tip": "Think of a thin slice of wood or a business card.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "牙",
@@ -741,7 +785,7 @@
         "english_description": "Tooth / Fang",
         "origin": "Interlocking molars.",
         "tip": "Looks like a jagged edge or a tooth with a root.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "牛",
@@ -749,7 +793,9 @@
         "english_description": "Cow",
         "origin": "The head of an ox with horns.",
         "tip": "Becomes 牜 on the left. The top vertical line is the horn.",
-        "alternateSymbol": "牜"
+        "alternateSymbols": [
+            "牜"
+        ]
     },
     {
         "symbol": "犬",
@@ -757,7 +803,9 @@
         "english_description": "Dog",
         "origin": "A dog standing on its hind legs.",
         "tip": "Becomes 犭 on the left. The extra dot is the dog's ear.",
-        "alternateSymbol": "犭"
+        "alternateSymbols": [
+            "犭"
+        ]
     },
     {
         "symbol": "玄",
@@ -765,7 +813,7 @@
         "english_description": "Deep / Profound",
         "origin": "A dyed silk thread or the color of the dark sky.",
         "tip": "A 'lid' over a small knot. Represents mystery.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "玉",
@@ -773,7 +821,9 @@
         "english_description": "Jade",
         "origin": "Three pieces of jade on a string.",
         "tip": "Like 'king' (王) but with a dot representing a jewel.",
-        "alternateSymbol": "王"
+        "alternateSymbols": [
+            "王"
+        ]
     },
     {
         "symbol": "瓜",
@@ -781,7 +831,7 @@
         "english_description": "Melon",
         "origin": "A melon hanging on a vine.",
         "tip": "The outer lines are the vine, the inner part is the fruit.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "瓦",
@@ -789,7 +839,7 @@
         "english_description": "Tile",
         "origin": "Interlocking roof tiles.",
         "tip": "Looks like a bent piece of pottery or a tile.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "甘",
@@ -797,7 +847,7 @@
         "english_description": "Sweet",
         "origin": "Something tasty being held in the mouth.",
         "tip": "A 'mouth' with a tongue-like horizontal line inside.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "生",
@@ -805,7 +855,7 @@
         "english_description": "Life / Birth",
         "origin": "A plant growing out of the earth.",
         "tip": "Looks like a sprout with extra leaves.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "用",
@@ -813,7 +863,7 @@
         "english_description": "Use",
         "origin": "A bucket or a bell used for signals.",
         "tip": "Imagine a tool or a container you can use.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "田",
@@ -821,7 +871,7 @@
         "english_description": "Field",
         "origin": "A plot of land divided into four parts.",
         "tip": "Looks exactly like a grid for crops.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "疋",
@@ -829,7 +879,9 @@
         "english_description": "Bolt of cloth",
         "origin": "A foot or a measurement of fabric.",
         "tip": "Often relates to feet or walking in older forms.",
-        "alternateSymbol": "⺪"
+        "alternateSymbols": [
+            "⺪"
+        ]
     },
     {
         "symbol": "疒",
@@ -837,7 +889,7 @@
         "english_description": "Sickness",
         "origin": "A person leaning on a bed or frame.",
         "tip": "Always found surrounding the top/left of 'illness' words.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "癶",
@@ -845,7 +897,7 @@
         "english_description": "Back to back / Steps",
         "origin": "Two feet pointing away from each other.",
         "tip": "Found at the top of characters like 'climb'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "白",
@@ -853,7 +905,7 @@
         "english_description": "White",
         "origin": "A grain of rice or the sun rising.",
         "tip": "Like 'sun' (日) but with a little 'tick' on top.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "皮",
@@ -861,7 +913,7 @@
         "english_description": "Skin / Leather",
         "origin": "A hand peeling the skin off an animal.",
         "tip": "The top left is the skin, the bottom is the hand.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "皿",
@@ -869,7 +921,7 @@
         "english_description": "Dish / Bowl",
         "origin": "A wide shallow vessel.",
         "tip": "Found at the bottom of characters. Looks like a trough.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "目",
@@ -877,7 +929,9 @@
         "english_description": "Eye",
         "origin": "A pictograph of an eye turned sideways.",
         "tip": "Like 'sun' (日) but with two lines inside instead of one.",
-        "alternateSymbol": "罒"
+        "alternateSymbols": [
+            "罒"
+        ]
     },
     {
         "symbol": "矛",
@@ -885,7 +939,7 @@
         "english_description": "Spear",
         "origin": "A spear with a point and a handle.",
         "tip": "Looks like a tall weapon with a hook.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "矢",
@@ -893,7 +947,7 @@
         "english_description": "Arrow",
         "origin": "An arrow with a tip and feathers.",
         "tip": "Looks like 'sky' (天) but the top line is shorter/pointed.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "石",
@@ -901,7 +955,7 @@
         "english_description": "Stone",
         "origin": "A cliff with a rock underneath.",
         "tip": "The top part is the cliff, the 'mouth' shape is the stone.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "示",
@@ -909,7 +963,9 @@
         "english_description": "Show / Spirit",
         "origin": "An altar with offerings dripping down.",
         "tip": "Appears as 礻 on the left. Relies to spirits and ancestors.",
-        "alternateSymbol": "礻"
+        "alternateSymbols": [
+            "礻"
+        ]
     },
     {
         "symbol": "禸",
@@ -917,7 +973,7 @@
         "english_description": "Track / Footprint",
         "origin": "An animal's footprint.",
         "tip": "Looks like a 'wrap' (勹) around a small track.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "禾",
@@ -925,7 +981,7 @@
         "english_description": "Grain / Rice plant",
         "origin": "A pictograph of a stalk of grain with a heavy, drooping head.",
         "tip": "It looks like 'Wood' (木) but with a drooping stroke on top representing the heavy ear of grain.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "穴",
@@ -933,7 +989,7 @@
         "english_description": "Cave / Hole",
         "origin": "A house or cover (宀) over an opening (八).",
         "tip": "Imagine a roof over a narrow entrance to a cavern.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "立",
@@ -941,7 +997,7 @@
         "english_description": "Stand",
         "origin": "A person standing firmly on the ground.",
         "tip": "The top line is the head, the middle horizontal is the arms, and the bottom is the ground.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "竹",
@@ -949,7 +1005,9 @@
         "english_description": "Bamboo",
         "origin": "Two stalks of bamboo with leaves hanging down.",
         "tip": "Usually appears at the top as ⺮. It looks like two small 'k' shapes.",
-        "alternateSymbol": "⺮"
+        "alternateSymbols": [
+            "⺮"
+        ]
     },
     {
         "symbol": "米",
@@ -957,7 +1015,7 @@
         "english_description": "Rice",
         "origin": "Grains of rice separated or splayed out.",
         "tip": "Looks like a 'Wood' radical (木) with two extra dots for grains.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "糸",
@@ -965,7 +1023,9 @@
         "english_description": "Silk / Thread",
         "origin": "A bundle of silk threads tied together.",
         "tip": "Becomes 纟 on the left. Think of it as a coiled, wavy string.",
-        "alternateSymbol": "纟"
+        "alternateSymbols": [
+            "纟"
+        ]
     },
     {
         "symbol": "缶",
@@ -973,7 +1033,7 @@
         "english_description": "Jar / Pottery",
         "origin": "An earthenware jar with a lid.",
         "tip": "Think of it as a container for storing water or wine.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "网",
@@ -981,7 +1041,9 @@
         "english_description": "Net",
         "origin": "A woven fishing net.",
         "tip": "Looks like a fence or a grid; often appears at the top as 罒.",
-        "alternateSymbol": "罒"
+        "alternateSymbols": [
+            "罒"
+        ]
     },
     {
         "symbol": "羊",
@@ -989,7 +1051,9 @@
         "english_description": "Sheep / Goat",
         "origin": "A head-on view of a sheep with horns and ears.",
         "tip": "The top two dots are the horns. Often indicates 'goodness' or 'justice'.",
-        "alternateSymbol": "⺶"
+        "alternateSymbols": [
+            "⺶"
+        ]
     },
     {
         "symbol": "羽",
@@ -997,7 +1061,7 @@
         "english_description": "Feather / Wings",
         "origin": "Two bird feathers or wings side-by-side.",
         "tip": "Looks like a pair of wings ready to fly.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "老",
@@ -1005,7 +1069,9 @@
         "english_description": "Old",
         "origin": "An old man with long hair, leaning on a cane.",
         "tip": "The bottom part represents the walking stick used by an elder.",
-        "alternateSymbol": "耂"
+        "alternateSymbols": [
+            "耂"
+        ]
     },
     {
         "symbol": "而",
@@ -1013,7 +1079,7 @@
         "english_description": "And / Beard",
         "origin": "Originally a pictograph of a beard hanging from a chin.",
         "tip": "Imagine whiskers hanging down from a horizontal face-line.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "耒",
@@ -1021,7 +1087,7 @@
         "english_description": "Plow",
         "origin": "A wooden tool used for tilling the soil.",
         "tip": "Related to farming; looks like a 'Tree' radical with extra handles.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "耳",
@@ -1029,7 +1095,7 @@
         "english_description": "Ear",
         "origin": "A pictograph of a human ear.",
         "tip": "A vertical rectangle with horizontal lines representing the folds of the ear.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "聿",
@@ -1037,7 +1103,9 @@
         "english_description": "Brush / Writing tool",
         "origin": "A hand holding a vertical brush over a surface.",
         "tip": "The horizontal lines are the fingers; the vertical line is the brush.",
-        "alternateSymbol": "⺼"
+        "alternateSymbols": [
+            "⺼"
+        ]
     },
     {
         "symbol": "肉",
@@ -1045,7 +1113,9 @@
         "english_description": "Meat / Flesh",
         "origin": "A slice of meat with ribs or fibers showing.",
         "tip": "Almost always looks identical to 'Moon' (月) when on the left side of a character.",
-        "alternateSymbol": "⺼"
+        "alternateSymbols": [
+            "⺼"
+        ]
     },
     {
         "symbol": "臣",
@@ -1053,7 +1123,7 @@
         "english_description": "Minister / Official",
         "origin": "An eye looking downward (a servant bowing).",
         "tip": "Represents loyalty or government officials.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "自",
@@ -1061,7 +1131,7 @@
         "english_description": "Self / Nose",
         "origin": "A pictograph of a nose (Chinese people point to their nose to mean 'self').",
         "tip": "Looks like an eye with a little 'tick' on top.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "至",
@@ -1069,7 +1139,7 @@
         "english_description": "Arrive / Reach",
         "origin": "An arrow hitting the ground (its destination).",
         "tip": "The top is the arrow; the bottom horizontal is the earth.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "臼",
@@ -1077,7 +1147,7 @@
         "english_description": "Mortar",
         "origin": "A stone bowl used for grinding grain.",
         "tip": "Looks like a broken 'box' with teeth for grinding.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "舌",
@@ -1085,7 +1155,7 @@
         "english_description": "Tongue",
         "origin": "A tongue sticking out of a mouth (口).",
         "tip": "The top part is the tongue; the bottom square is the mouth.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "舛",
@@ -1093,7 +1163,7 @@
         "english_description": "Oppose / Deviate",
         "origin": "Two feet walking in opposite directions.",
         "tip": "Think of 'tangled' or 'mistaken'—feet going the wrong way.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "舟",
@@ -1101,7 +1171,7 @@
         "english_description": "Boat",
         "origin": "A long wooden boat or canoe.",
         "tip": "Imagine the central line as the mast and the box as the hull.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "艮",
@@ -1109,7 +1179,7 @@
         "english_description": "Stopping / Hard",
         "origin": "An eye looking back in fear or defiance.",
         "tip": "Associated with mountains or stubbornness in the I-Ching.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "色",
@@ -1117,7 +1187,7 @@
         "english_description": "Color / Lust",
         "origin": "A person on top of another person (blushing).",
         "tip": "The top part is a person, the bottom is 'hope' or 'desire'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "艸",
@@ -1125,7 +1195,9 @@
         "english_description": "Grass",
         "origin": "Two blades of grass or sprouts.",
         "tip": "Almost always appears at the top as 艹.",
-        "alternateSymbol": "艹"
+        "alternateSymbols": [
+            "艹"
+        ]
     },
     {
         "symbol": "虍",
@@ -1133,7 +1205,9 @@
         "english_description": "Tiger",
         "origin": "The stripes and head of a tiger.",
         "tip": "Found at the top of characters like 'Tiger' (虎) or 'Cruel' (虐).",
-        "alternateSymbol": null
+        "alternateSymbols": [
+            "虎"
+        ]
     },
     {
         "symbol": "虫",
@@ -1141,7 +1215,7 @@
         "english_description": "Insect / Bug",
         "origin": "A snake or a small crawling creature.",
         "tip": "Used for anything from ants to dragons (which were seen as giant insects).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "血",
@@ -1149,7 +1223,7 @@
         "english_description": "Blood",
         "origin": "A drop of blood in a sacrificial bowl (皿).",
         "tip": "It's the 'Dish' radical with a drop on top.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "行",
@@ -1157,7 +1231,7 @@
         "english_description": "Walk / Go",
         "origin": "A four-way crossroads.",
         "tip": "The left and right parts together mean 'to go' or 'travel'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "衣",
@@ -1165,7 +1239,9 @@
         "english_description": "Clothes",
         "origin": "A person wearing a robe or coat.",
         "tip": "Becomes 衤 on the left side. Don't confuse it with 'Spirit' (礻).",
-        "alternateSymbol": "衤"
+        "alternateSymbols": [
+            "衤"
+        ]
     },
     {
         "symbol": "襾",
@@ -1173,7 +1249,10 @@
         "english_description": "Cover / West",
         "origin": "A lid or a cover over a container.",
         "tip": "Found in characters like 'West' (西).",
-        "alternateSymbol": "覀"
+        "alternateSymbols": [
+            "覀",
+            "西"
+        ]
     },
     {
         "symbol": "見",
@@ -1181,7 +1260,9 @@
         "english_description": "See",
         "origin": "An eye (目) on top of a person (儿).",
         "tip": "A person using their eyes to look at something.",
-        "alternateSymbol": "见"
+        "alternateSymbols": [
+            "见"
+        ]
     },
     {
         "symbol": "角",
@@ -1189,7 +1270,7 @@
         "english_description": "Horn",
         "origin": "An animal horn used as a container or tool.",
         "tip": "Looks like a 'meat' radical with a pointed tip.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "言",
@@ -1197,7 +1278,9 @@
         "english_description": "Speech",
         "origin": "A mouth (口) with words (horizontal lines) coming out.",
         "tip": "Becomes 讠 in simplified Chinese. Relates to talking and language.",
-        "alternateSymbol": "讠"
+        "alternateSymbols": [
+            "讠"
+        ]
     },
     {
         "symbol": "谷",
@@ -1205,7 +1288,7 @@
         "english_description": "Valley",
         "origin": "Water flowing out of a mountain pass into a mouth/opening.",
         "tip": "The top part is the water/pass; the bottom is the valley floor.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "豆",
@@ -1213,7 +1296,7 @@
         "english_description": "Bean / Vessel",
         "origin": "A tall stem-bowl used for food or sacrifices.",
         "tip": "Looks like a modern kitchen scales or a pedestal bowl.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "豕",
@@ -1221,7 +1304,7 @@
         "english_description": "Pig",
         "origin": "A pig with a fat belly and short legs.",
         "tip": "Found in 'Home' (家)—a pig under a roof.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "豸",
@@ -1229,7 +1312,7 @@
         "english_description": "Beast / Feline",
         "origin": "A predator crouching or ready to pounce.",
         "tip": "Relates to cats, lions, and other wild animals.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "貝",
@@ -1237,7 +1320,9 @@
         "english_description": "Shell / Money",
         "origin": "A cowrie shell used as ancient currency.",
         "tip": "Becomes 贝 in simplified. Almost always relates to money or trade.",
-        "alternateSymbol": "贝"
+        "alternateSymbols": [
+            "贝"
+        ]
     },
     {
         "symbol": "赤",
@@ -1245,7 +1330,7 @@
         "english_description": "Red",
         "origin": "A person over a fire (the color of glowing embers).",
         "tip": "The bottom is 'Fire' (火). Think of a hot, red flame.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "走",
@@ -1253,7 +1338,7 @@
         "english_description": "Walk / Run",
         "origin": "A person waving their arms while running on a road.",
         "tip": "The top is 'Soil' (土); imagine a person running across the earth.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "足",
@@ -1261,7 +1346,9 @@
         "english_description": "Foot",
         "origin": "A leg with a foot at the bottom.",
         "tip": "Becomes ⻊ on the left. Relates to kicking, walking, or feet.",
-        "alternateSymbol": "⻊"
+        "alternateSymbols": [
+            "⻊"
+        ]
     },
     {
         "symbol": "身",
@@ -1269,7 +1356,7 @@
         "english_description": "Body",
         "origin": "A pregnant woman or a person's torso.",
         "tip": "Looks like a person with a bulging midsection.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "車",
@@ -1277,7 +1364,9 @@
         "english_description": "Cart / Vehicle",
         "origin": "An aerial view of a chariot with two wheels and an axle.",
         "tip": "Becomes 车 in simplified. Think of an axle between two wheels.",
-        "alternateSymbol": "车"
+        "alternateSymbols": [
+            "车"
+        ]
     },
     {
         "symbol": "辛",
@@ -1285,7 +1374,7 @@
         "english_description": "Bitter / Spicy",
         "origin": "A tattoo needle used to punish criminals.",
         "tip": "Relates to hardship, pungent flavors, or crime.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "辰",
@@ -1293,7 +1382,7 @@
         "english_description": "Early morning / Dragon (Zodiac)",
         "origin": "A tool for tilling or a shellfish emerging from its shell.",
         "tip": "One of the 12 zodiac signs.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "辵",
@@ -1301,7 +1390,9 @@
         "english_description": "Walk / Movement",
         "origin": "A foot moving along a road.",
         "tip": "Almost always appears as the side radical 辶.",
-        "alternateSymbol": "辶"
+        "alternateSymbols": [
+            "辶"
+        ]
     },
     {
         "symbol": "邑",
@@ -1309,7 +1400,9 @@
         "english_description": "City",
         "origin": "A person kneeling under a city wall.",
         "tip": "Always appears as 阝 on the **right** side (Town).",
-        "alternateSymbol": "阝"
+        "alternateSymbols": [
+            "阝"
+        ]
     },
     {
         "symbol": "酉",
@@ -1317,7 +1410,7 @@
         "english_description": "Wine jar / Alcohol",
         "origin": "A fermentation vessel with liquid inside.",
         "tip": "Related to alcohol, vinegars, and medical tinctures.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "釆",
@@ -1325,7 +1418,7 @@
         "english_description": "Distinguish / To sift",
         "origin": "An animal's paw print or grains being separated.",
         "tip": "Looks like 'Rice' (米) but with a separation at the top.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "里",
@@ -1333,7 +1426,7 @@
         "english_description": "Village / Mile",
         "origin": "A field (田) with earth (土) below it; a place where people live.",
         "tip": "Think of a measured unit of land or a neighborhood.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "金",
@@ -1341,7 +1434,9 @@
         "english_description": "Metal / Gold",
         "origin": "Gold nuggets buried in the earth.",
         "tip": "Becomes 钅 on the left. Relates to anything made of metal (bells, needles, money).",
-        "alternateSymbol": "钅"
+        "alternateSymbols": [
+            "钅"
+        ]
     },
     {
         "symbol": "長",
@@ -1349,7 +1444,9 @@
         "english_description": "Long / Grow",
         "origin": "A person with long hair and a cane.",
         "tip": "Simplified as 长. Represents distance or growth.",
-        "alternateSymbol": "长"
+        "alternateSymbols": [
+            "长"
+        ]
     },
     {
         "symbol": "門",
@@ -1357,7 +1454,9 @@
         "english_description": "Gate / Door",
         "origin": "A pair of swinging doors on hinges.",
         "tip": "Simplified as 门. It looks like a doorway frame.",
-        "alternateSymbol": "门"
+        "alternateSymbols": [
+            "门"
+        ]
     },
     {
         "symbol": "阜",
@@ -1365,7 +1464,9 @@
         "english_description": "Mound / Hill",
         "origin": "Steps cut into a hillside or a large cliff.",
         "tip": "Always appears as 阝 on the LEFT side (Hill/Mound).",
-        "alternateSymbol": "阝"
+        "alternateSymbols": [
+            "阝"
+        ]
     },
     {
         "symbol": "隶",
@@ -1373,7 +1474,7 @@
         "english_description": "Slave / Capture",
         "origin": "A hand catching the tail of an animal.",
         "tip": "Rare as a standalone radical, but found in 'subservient' words.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "隹",
@@ -1381,7 +1482,7 @@
         "english_description": "Short-tailed bird",
         "origin": "A pictograph of a small, plump bird.",
         "tip": "Found in many bird names (like sparrow) and the word for 'difficult' (难).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "雨",
@@ -1389,7 +1490,7 @@
         "english_description": "Rain",
         "origin": "Water droplets falling from the sky (the top line).",
         "tip": "The four dots are the raindrops falling inside a window-like frame.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "靑",
@@ -1397,7 +1498,9 @@
         "english_description": "Blue / Green / Youth",
         "origin": "A sprout growing (生) over a well or a dye vat.",
         "tip": "Represents the color of nature or vitality.",
-        "alternateSymbol": "青"
+        "alternateSymbols": [
+            "青"
+        ]
     },
     {
         "symbol": "非",
@@ -1405,7 +1508,7 @@
         "english_description": "Wrong / Not",
         "origin": "Bird wings spread out in opposition.",
         "tip": "Looks like two combs facing away from each other; means 'opposite'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "面",
@@ -1413,7 +1516,7 @@
         "english_description": "Face / Surface",
         "origin": "A face with eyes and an outline.",
         "tip": "Think of it as the front of a head or the surface of a table.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "革",
@@ -1421,7 +1524,7 @@
         "english_description": "Leather / Rawhide",
         "origin": "An animal skin stretched out to be tanned.",
         "tip": "Relates to shoes, belts, and leather goods.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "韋",
@@ -1429,7 +1532,9 @@
         "english_description": "Tanned leather",
         "origin": "Feet walking around a city wall (guarding a leather-bound fort).",
         "tip": "Simplified as 韦. Usually refers to flexible leather.",
-        "alternateSymbol": "韦"
+        "alternateSymbols": [
+            "韦"
+        ]
     },
     {
         "symbol": "韭",
@@ -1437,7 +1542,7 @@
         "english_description": "Leek / Chives",
         "origin": "Leeks growing in a bundle.",
         "tip": "Looks like plants in a row with horizontal soil lines.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "音",
@@ -1445,7 +1550,7 @@
         "english_description": "Sound / Tone",
         "origin": "A mouth (口) with a flute or sound coming out.",
         "tip": "It is 'Stand' (立) over 'Sun/Mouth' (日). Think of a standing singer.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "頁",
@@ -1453,7 +1558,9 @@
         "english_description": "Leaf / Page / Head",
         "origin": "A person with a prominent head.",
         "tip": "Simplified as 页. Relates to pages of a book or parts of the head.",
-        "alternateSymbol": "页"
+        "alternateSymbols": [
+            "页"
+        ]
     },
     {
         "symbol": "風",
@@ -1461,7 +1568,9 @@
         "english_description": "Wind",
         "origin": "An insect (虫) inside a sail, moving with the air.",
         "tip": "Simplified as 风. Imagine air trapped inside a large sail.",
-        "alternateSymbol": "风"
+        "alternateSymbols": [
+            "风"
+        ]
     },
     {
         "symbol": "飛",
@@ -1469,7 +1578,9 @@
         "english_description": "Fly",
         "origin": "A bird with wings outstretched in flight.",
         "tip": "Simplified as 飞. It looks like a bird mid-flap.",
-        "alternateSymbol": "飞"
+        "alternateSymbols": [
+            "飞"
+        ]
     },
     {
         "symbol": "食",
@@ -1477,7 +1588,9 @@
         "english_description": "Eat / Food",
         "origin": "A lid over a bowl of rice.",
         "tip": "Becomes 饣 on the left. Relates to anything edible.",
-        "alternateSymbol": "饣"
+        "alternateSymbols": [
+            "饣"
+        ]
     },
     {
         "symbol": "首",
@@ -1485,7 +1598,7 @@
         "english_description": "Head / First",
         "origin": "A head with hair on top.",
         "tip": "The two dots on top are the hair; the box is the face.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "香",
@@ -1493,7 +1606,7 @@
         "english_description": "Fragrance",
         "origin": "Grain (禾) over a sun/mouth (日)—the smell of cooking rice.",
         "tip": "Think of the sweet smell of a harvest.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "馬",
@@ -1501,7 +1614,9 @@
         "english_description": "Horse",
         "origin": "A horse with a mane, four legs, and a tail.",
         "tip": "Simplified as 马. The four dots are the legs running.",
-        "alternateSymbol": "马"
+        "alternateSymbols": [
+            "马"
+        ]
     },
     {
         "symbol": "骨",
@@ -1509,7 +1624,7 @@
         "english_description": "Bone",
         "origin": "An articulation of a joint and a bone.",
         "tip": "The top part is the joint; the bottom is the 'flesh' (月).",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "高",
@@ -1517,7 +1632,7 @@
         "english_description": "High / Tall",
         "origin": "A tall watchtower or building.",
         "tip": "It looks like a multi-story building with a roof and windows.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "髟",
@@ -1525,7 +1640,7 @@
         "english_description": "Long hair",
         "origin": "Hair hanging down from a head.",
         "tip": "Found at the top of characters for 'hair' or 'beard'.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鬥",
@@ -1533,7 +1648,7 @@
         "english_description": "Fight / Struggle",
         "origin": "Two people with long hair fighting.",
         "tip": "Looks like two people standing back-to-back in conflict.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鬯",
@@ -1541,7 +1656,7 @@
         "english_description": "Sacrificial wine",
         "origin": "A container of herbs being added to wine.",
         "tip": "A very rare radical related to ancient rituals.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鬲",
@@ -1549,7 +1664,7 @@
         "english_description": "Cauldron",
         "origin": "An ancient three-legged cooking pot.",
         "tip": "Found in words related to tripod vessels or steam.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鬼",
@@ -1557,7 +1672,7 @@
         "english_description": "Ghost / Demon",
         "origin": "A person with a large, scary head and a tail.",
         "tip": "The 'tail' (儿) at the bottom flickers like a spirit.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "魚",
@@ -1565,7 +1680,9 @@
         "english_description": "Fish",
         "origin": "A fish with a head, scales, and a tail.",
         "tip": "Simplified as 鱼. The four dots at the bottom are the tail/fins.",
-        "alternateSymbol": "鱼"
+        "alternateSymbols": [
+            "鱼"
+        ]
     },
     {
         "symbol": "鳥",
@@ -1573,7 +1690,9 @@
         "english_description": "Bird",
         "origin": "A bird with a long tail and feathers.",
         "tip": "Simplified as 鸟. Distinct from 'short-tailed bird' (隹).",
-        "alternateSymbol": "鸟"
+        "alternateSymbols": [
+            "鸟"
+        ]
     },
     {
         "symbol": "鹵",
@@ -1581,7 +1700,9 @@
         "english_description": "Salt / Brine",
         "origin": "A bag of salt with crystals showing.",
         "tip": "Relates to alkaline or salty substances.",
-        "alternateSymbol": "卤"
+        "alternateSymbols": [
+            "卤"
+        ]
     },
     {
         "symbol": "鹿",
@@ -1589,7 +1710,7 @@
         "english_description": "Deer",
         "origin": "A deer with antlers and legs.",
         "tip": "The top part represents the antlers.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "麥",
@@ -1597,7 +1718,9 @@
         "english_description": "Wheat",
         "origin": "Wheat stalks with roots.",
         "tip": "Simplified as 麦. Relates to flour and noodles.",
-        "alternateSymbol": "麦"
+        "alternateSymbols": [
+            "麦"
+        ]
     },
     {
         "symbol": "麻",
@@ -1605,7 +1728,7 @@
         "english_description": "Hemp",
         "origin": "Plants hanging in a shed (广) to dry.",
         "tip": "Relates to fibers or the sensation of numbness.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "黃",
@@ -1613,7 +1736,9 @@
         "english_description": "Yellow",
         "origin": "A person wearing a jade ornament (the color of the earth).",
         "tip": "The traditional color of the Emperor and the earth.",
-        "alternateSymbol": "黄"
+        "alternateSymbols": [
+            "黄"
+        ]
     },
     {
         "symbol": "黍",
@@ -1621,7 +1746,7 @@
         "english_description": "Millet",
         "origin": "Sticky rice or millet used for wine.",
         "tip": "Looks like 'Grain' (禾) with water drops (氺) below.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "黑",
@@ -1629,7 +1754,7 @@
         "english_description": "Black",
         "origin": "Soot gathering over a fire in a chimney.",
         "tip": "The bottom is 'Fire' (灬); the top is the soot-filled chimney.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "黹",
@@ -1637,7 +1762,7 @@
         "english_description": "Embroidery",
         "origin": "A needle creating a pattern on cloth.",
         "tip": "A very ornate radical used for needlework.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "黽",
@@ -1645,7 +1770,9 @@
         "english_description": "Frog / Toad",
         "origin": "A pictograph of a frog seen from above.",
         "tip": "Looks like a large head with a wide body.",
-        "alternateSymbol": "黾"
+        "alternateSymbols": [
+            "黾"
+        ]
     },
     {
         "symbol": "鼎",
@@ -1653,7 +1780,7 @@
         "english_description": "Tripod",
         "origin": "A massive three-legged ceremonial vessel.",
         "tip": "Represents stability or authority.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鼓",
@@ -1661,7 +1788,7 @@
         "english_description": "Drum",
         "origin": "A drum on a stand being hit by a hand with a stick.",
         "tip": "The left is the drum; the right (支) is the hand with the stick.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鼠",
@@ -1669,7 +1796,7 @@
         "english_description": "Rat / Mouse",
         "origin": "A rat with its head, paws, and long tail.",
         "tip": "The bottom right flick is the long tail of the rodent.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "鼻",
@@ -1677,7 +1804,7 @@
         "english_description": "Nose",
         "origin": "A nose (自) over a mouth (the air passage).",
         "tip": "Combine 'Self' (自) and a complex base.",
-        "alternateSymbol": null
+        "alternateSymbols": null
     },
     {
         "symbol": "齊",
@@ -1685,7 +1812,9 @@
         "english_description": "Even / Uniform",
         "origin": "Ears of corn or grain all growing at the same height.",
         "tip": "Simplified as 齐. Represents equality or neatness.",
-        "alternateSymbol": "齐"
+        "alternateSymbols": [
+            "齐"
+        ]
     },
     {
         "symbol": "齒",
@@ -1693,7 +1822,9 @@
         "english_description": "Teeth",
         "origin": "An open mouth showing rows of teeth.",
         "tip": "Simplified as 齿. It literally looks like a diagram of gums and teeth.",
-        "alternateSymbol": "齿"
+        "alternateSymbols": [
+            "齿"
+        ]
     },
     {
         "symbol": "龍",
@@ -1701,7 +1832,9 @@
         "english_description": "Dragon",
         "origin": "A dragon with a crest and a long, winding body.",
         "tip": "Simplified as 龙. One of the most famous symbols in Chinese culture.",
-        "alternateSymbol": "龙"
+        "alternateSymbols": [
+            "龙"
+        ]
     },
     {
         "symbol": "龜",
@@ -1709,7 +1842,9 @@
         "english_description": "Turtle / Tortoise",
         "origin": "A turtle with its shell and tail.",
         "tip": "Simplified as 龟. One of the most complex pictographs in the set.",
-        "alternateSymbol": "龟"
+        "alternateSymbols": [
+            "龟"
+        ]
     },
     {
         "symbol": "龠",
@@ -1717,6 +1852,62 @@
         "english_description": "Flute",
         "origin": "A set of bamboo pipes tied together.",
         "tip": "The final Kangxi radical (#214). It represents music and harmony.",
-        "alternateSymbol": null
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "民",
+        "pinyin": "mín",
+        "english_description": "People / Citizens",
+        "origin": "A person with an eye, representing the common people.",
+        "tip": "Looks like a person with a prominent eye. Represents the populace.",
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "乛",
+        "pinyin": "yǐ",
+        "english_description": "Second stroke / Hook variant",
+        "origin": "A variant of the hook radical (乙).",
+        "tip": "Similar to 乙 but with a different stroke direction.",
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "巳",
+        "pinyin": "sì",
+        "english_description": "Sixth Earthly Branch / Snake",
+        "origin": "A coiled snake or the sixth branch of the Chinese zodiac.",
+        "tip": "One of the 12 earthly branches. Represents the snake hour (9-11 AM).",
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "旡",
+        "pinyin": "jì",
+        "english_description": "Choke / Block",
+        "origin": "A person with something stuck in their throat.",
+        "tip": "Looks like a person with an obstruction. Related to blocking or choking.",
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "刁",
+        "pinyin": "diāo",
+        "english_description": "Tricky / Cunning",
+        "origin": "A variant form, often used in names.",
+        "tip": "A simplified form with a hook. Can mean tricky or cunning.",
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "⺀",
+        "pinyin": "zhǔ",
+        "english_description": "Dot variant",
+        "origin": "A variant of the dot radical (丶).",
+        "tip": "A simplified dot form, often used at the top of characters.",
+        "alternateSymbols": null
+    },
+    {
+        "symbol": "⺳",
+        "pinyin": "wǎng",
+        "english_description": "Net variant",
+        "origin": "A variant form of the net radical (网).",
+        "tip": "A simplified form of the net radical, often used at the top.",
+        "alternateSymbols": null
     }
 ]

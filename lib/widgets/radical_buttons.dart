@@ -58,7 +58,7 @@ class RadicalButtons extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      Text(
+                      SelectableText(
                         radicalSymbol,
                         style: TextStyle(
                           fontSize: 20,

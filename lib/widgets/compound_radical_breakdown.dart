@@ -28,7 +28,7 @@ class CompoundRadicalBreakdown extends StatelessWidget {
                 color: Colors.green.shade700,
               ),
               const SizedBox(width: 6),
-              Text(
+              SelectableText(
                 'Compound Radical Breakdown:',
                 style: TextStyle(
                   fontSize: 14,
