@@ -14,7 +14,7 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
-  QuizService? _quizService;
+  late QuizService _quizService;
   List<String> _options = [];
   String? _selectedAnswer;
   bool _showResult = false;
@@ -39,11 +39,10 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _loadQuestion() {
-    if (_quizService == null) return;
-    final character = _quizService!.getCurrentCharacter();
+    final character = _quizService.getCurrentCharacter();
     if (character != null) {
       setState(() {
-        _options = _quizService!.generateOptions();
+        _options = _quizService.generateOptions();
         _selectedAnswer = null;
         _showResult = false;
         _isCorrect = false;
@@ -52,11 +51,11 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _selectAnswer(String pinyin) {
-    if (_showResult || _quizService == null) return;
+    if (_showResult) return;
     
     setState(() {
       _selectedAnswer = pinyin;
-      _isCorrect = _quizService!.checkAnswer(pinyin);
+      _isCorrect = _quizService.checkAnswer(pinyin);
       _showResult = true;
     });
 
@@ -70,8 +69,7 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _moveToNext({bool wasCorrect = false}) {
-    if (_quizService == null) return;
-    final hasMore = _quizService!.moveToNext(wasCorrect: wasCorrect);
+    final hasMore = _quizService.moveToNext(wasCorrect: wasCorrect);
     if (hasMore) {
       _loadQuestion();
     } else {
@@ -80,12 +78,11 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _showUnsureDialog() {
-    if (_quizService == null) return;
-    final character = _quizService!.getCurrentCharacter();
+    final character = _quizService.getCurrentCharacter();
     if (character == null) return;
 
     final tip = MemorizationService.generateMemorizationTip(character);
-    _quizService!.markAsUnsure();
+    _quizService.markAsUnsure();
 
     showDialog(
       context: context,
@@ -116,7 +113,7 @@ class _QuizPageState extends State<QuizPage> {
       barrierDismissible: false,
       builder: (context) => AlertDialog(
         title: const Text('Session Complete!'),
-        content: SelectableText('You have learned ${_quizService?.getSessionWordCount() ?? 0} characters in this session.'),
+        content: SelectableText('You have learned ${_quizService.getSessionWordCount()} characters in this session.'),
         actions: [
           TextButton(
             onPressed: () async {
@@ -143,13 +140,13 @@ class _QuizPageState extends State<QuizPage> {
 
   @override
   Widget build(BuildContext context) {
-    if (_isLoading || _quizService == null) {
+    if (_isLoading) {
       return const Scaffold(
         body: Center(child: CircularProgressIndicator()),
       );
     }
 
-    final character = _quizService!.getCurrentCharacter();
+    final character = _quizService.getCurrentCharacter();
     
     if (character == null) {
       return const Scaffold(
@@ -170,8 +167,8 @@ class _QuizPageState extends State<QuizPage> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               SessionHeader(
-                sessionWordCount: _quizService!.getSessionWordCount(),
-                isReviewing: _quizService!.isReviewing(),
+                sessionWordCount: _quizService.getSessionWordCount(),
+                isReviewing: _quizService.isReviewing(),
               ),
               const SizedBox(height: 32),
               
