@@ -1,0 +1,3 @@
+# Ignore minified HSK files from search index
+assets/hsk/minified/
+

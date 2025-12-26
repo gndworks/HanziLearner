@@ -22,11 +22,24 @@ class QuizService {
   int _sessionWordCount = 0; // Total words answered in this session
   final int _sessionTarget; // Number of words to learn in this session
 
-  QuizService({int hskLevel = 1, int sessionTarget = 5}) 
-      : _allAvailableCharacters = HSKData.getHSKLevel1(),
-        _allPinyinOptions = HSKData.getAllPinyinOptions(),
+  QuizService._({
+    required List<HanziCharacter> allAvailableCharacters,
+    required List<String> allPinyinOptions,
+    required int sessionTarget,
+  })  : _allAvailableCharacters = allAvailableCharacters,
+        _allPinyinOptions = allPinyinOptions,
         _sessionTarget = sessionTarget {
     _initializeActiveCharacters();
+  }
+
+  static Future<QuizService> create({int hskLevel = 1, int sessionTarget = 5}) async {
+    final characters = await HSKData.getHSKLevel1();
+    final pinyinOptions = await HSKData.getAllPinyinOptions();
+    return QuizService._(
+      allAvailableCharacters: characters,
+      allPinyinOptions: pinyinOptions,
+      sessionTarget: sessionTarget,
+    );
   }
 
   void _initializeActiveCharacters() {

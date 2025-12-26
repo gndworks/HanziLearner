@@ -4,6 +4,7 @@ import '../services/memorization_service.dart';
 import '../widgets/session_header.dart';
 import '../widgets/hanzi_display.dart';
 import '../widgets/quiz_options.dart';
+import '../widgets/radical_buttons.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -18,12 +19,23 @@ class _QuizPageState extends State<QuizPage> {
   String? _selectedAnswer;
   bool _showResult = false;
   bool _isCorrect = false;
+  bool _isLoading = true;
 
   @override
   void initState() {
     super.initState();
-    _quizService = QuizService(hskLevel: 1);
-    _loadQuestion();
+    _initializeQuizService();
+  }
+
+  Future<void> _initializeQuizService() async {
+    final service = await QuizService.create(hskLevel: 1);
+    if (mounted) {
+      setState(() {
+        _quizService = service;
+        _isLoading = false;
+      });
+      _loadQuestion();
+    }
   }
 
   void _loadQuestion() {
@@ -75,9 +87,9 @@ class _QuizPageState extends State<QuizPage> {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: Text('Memorization Tip for ${character.character}'),
+        title: SelectableText('Memorization Tip for ${character.character}'),
         content: SingleChildScrollView(
-          child: Text(
+          child: SelectableText(
             tip,
             style: const TextStyle(fontSize: 16, height: 1.5),
           ),
@@ -101,16 +113,23 @@ class _QuizPageState extends State<QuizPage> {
       barrierDismissible: false,
       builder: (context) => AlertDialog(
         title: const Text('Session Complete!'),
-        content: Text('You have learned ${_quizService.getSessionWordCount()} characters in this session.'),
+        content: SelectableText('You have learned ${_quizService.getSessionWordCount()} characters in this session.'),
         actions: [
           TextButton(
-            onPressed: () {
+            onPressed: () async {
               Navigator.of(context).pop();
               // Reset quiz
               setState(() {
-                _quizService = QuizService(hskLevel: 1);
-                _loadQuestion();
+                _isLoading = true;
               });
+              final service = await QuizService.create(hskLevel: 1);
+              if (mounted) {
+                setState(() {
+                  _quizService = service;
+                  _isLoading = false;
+                });
+                _loadQuestion();
+              }
             },
             child: const Text('Start Over'),
           ),
@@ -121,11 +140,17 @@ class _QuizPageState extends State<QuizPage> {
 
   @override
   Widget build(BuildContext context) {
+    if (_isLoading) {
+      return const Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
     final character = _quizService.getCurrentCharacter();
     
     if (character == null) {
       return const Scaffold(
-        body: Center(child: Text('No more characters!')),
+        body: Center(child: SelectableText('No more characters!')),
       );
     }
 
@@ -148,6 +173,7 @@ class _QuizPageState extends State<QuizPage> {
               const SizedBox(height: 32),
               
               HanziDisplay(character: character),
+              RadicalButtons(character: character),
               const SizedBox(height: 32),
               
               // Multiple choice options
