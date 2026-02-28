@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'pages/quiz_page.dart';
+import 'pages/levels_progress_page.dart';
+import 'services/progress_service.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await ProgressService.init();
   runApp(const MainApp());
 }
 
@@ -16,7 +19,7 @@ class MainApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const QuizPage(),
+      home: const LevelsProgressPage(),
       debugShowCheckedModeBanner: false,
     );
   }

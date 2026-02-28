@@ -1,11 +1,13 @@
 import 'dart:math';
 import '../models/hanzi_character.dart';
 import '../data/hsk_data.dart';
+import 'progress_service.dart';
 
 class QuizService {
   final List<HanziCharacter> _allAvailableCharacters;
   final List<String> _allPinyinOptions;
   final Random _random = Random();
+  final int hskLevel;
   
   // Active characters (initially 5 random ones)
   final List<HanziCharacter> _activeCharacters = [];
@@ -26,6 +28,7 @@ class QuizService {
     required List<HanziCharacter> allAvailableCharacters,
     required List<String> allPinyinOptions,
     required int sessionTarget,
+    required this.hskLevel,
   })  : _allAvailableCharacters = allAvailableCharacters,
         _allPinyinOptions = allPinyinOptions,
         _sessionTarget = sessionTarget {
@@ -33,52 +36,56 @@ class QuizService {
   }
 
   static Future<QuizService> create({int hskLevel = 1, int sessionTarget = 5}) async {
-    final characters = await HSKData.getHSKLevel1();
-    final pinyinOptions = await HSKData.getAllPinyinOptions();
+    final characters = await HSKData.getHSKLevel(hskLevel);
+    final pinyinOptions = await HSKData.getAllPinyinOptions(level: hskLevel);
     return QuizService._(
       allAvailableCharacters: characters,
       allPinyinOptions: pinyinOptions,
       sessionTarget: sessionTarget,
+      hskLevel: hskLevel,
     );
   }
 
   void _initializeActiveCharacters() {
-    // Shuffle all available characters
-    final shuffled = List<HanziCharacter>.from(_allAvailableCharacters);
+    final unlearned = _allAvailableCharacters
+        .where((char) => !ProgressService.isLearned(char.character))
+        .toList();
+    
+    final pool = unlearned.isNotEmpty ? unlearned : _allAvailableCharacters;
+    final shuffled = List<HanziCharacter>.from(pool);
     shuffled.shuffle(_random);
     
-    // Start with 5 random characters
-    _activeCharacters.addAll(shuffled.take(5));
-    _nextAvailableCharacterIndex = 5;
+    final initialCount = min(5, shuffled.length);
+    _activeCharacters.addAll(shuffled.take(initialCount));
+    _nextAvailableCharacterIndex = initialCount;
     
-    // Initialize correct count for all active characters
     for (int i = 0; i < _activeCharacters.length; i++) {
       _correctCountMap[i] = 0;
     }
   }
   
   void _replaceLearnedCharacter(int index) {
-    // Character at index has been learned (2 correct answers)
-    // Replace it with a new character from the pool
-    if (_nextAvailableCharacterIndex >= _allAvailableCharacters.length) {
-      // No more characters available
-      // If we have more than 1 character, remove this learned one
+    ProgressService.markAsLearned(_activeCharacters[index].character);
+
+    final unlearnedRemaining = _allAvailableCharacters
+        .skip(_nextAvailableCharacterIndex)
+        .where((char) => !ProgressService.isLearned(char.character))
+        .toList();
+
+    if (unlearnedRemaining.isEmpty) {
       if (_activeCharacters.length > 1) {
         _activeCharacters.removeAt(index);
         _correctCountMap.remove(index);
-        // Adjust indices
         _adjustIndicesAfterRemoval(index);
       }
-      // Otherwise, keep it (we need at least one character)
       return;
     }
     
-    // Get next character from available pool
-    _activeCharacters[index] = _allAvailableCharacters[_nextAvailableCharacterIndex];
+    _activeCharacters[index] = unlearnedRemaining.first;
     _correctCountMap[index] = 0;
-    _nextAvailableCharacterIndex++;
     
-    // Remove from incorrect/unsure lists if it was there
+    _nextAvailableCharacterIndex = _allAvailableCharacters.indexOf(unlearnedRemaining.first) + 1;
+    
     _incorrectIndices.remove(index);
     _unsureIndices.remove(index);
     if (_incorrectIndices.isEmpty) {
@@ -90,7 +97,6 @@ class QuizService {
   }
   
   void _adjustIndicesAfterRemoval(int removedIndex) {
-    // Adjust all indices in maps that are greater than removedIndex
     final newCorrectCountMap = <int, int>{};
     final newIncorrectIndices = <int>[];
     final newUnsureIndices = <int>[];
@@ -172,10 +178,8 @@ class QuizService {
     final isCorrect = selectedPinyin == current.pinyin;
     
     if (isCorrect) {
-      // Increment correct count
       _correctCountMap[_currentIndex] = (_correctCountMap[_currentIndex] ?? 0) + 1;
     } else {
-      // If answer is wrong, mark this character as incorrect
       if (!_incorrectIndices.contains(_currentIndex)) {
         _incorrectIndices.add(_currentIndex);
         _hasIncorrectAnswers = true;
@@ -194,25 +198,20 @@ class QuizService {
 
   bool moveToNext({bool wasCorrect = false}) {
     if (wasCorrect) {
-      // Check if character is now learned (2 correct answers)
       final currentCount = _correctCountMap[_currentIndex];
       if (currentCount != null && currentCount >= 2) {
-        // Character is learned - increment session counter only when it reaches exactly 2
         if (currentCount == 2) {
           _sessionWordCount++;
         }
         
-        // If we reached our target, we can stop (unless we have revisions pending)
         if (_sessionWordCount >= _sessionTarget && !isReviewing()) {
+          ProgressService.markAsLearned(_activeCharacters[_currentIndex].character);
           return false;
         }
 
-        // Character is learned, replace it with a new one
         _replaceLearnedCharacter(_currentIndex);
-        // After replacement, _currentIndex still points to the same position (now with new character)
       }
       
-      // If we're currently on an incorrect character that we've returned to, remove it
       if (_incorrectIndices.contains(_currentIndex)) {
         _incorrectIndices.remove(_currentIndex);
         if (_incorrectIndices.isEmpty) {
@@ -220,7 +219,6 @@ class QuizService {
         }
       }
       
-      // If we're currently on an unsure character that we've returned to, remove it
       if (_unsureIndices.contains(_currentIndex)) {
         _unsureIndices.remove(_currentIndex);
         if (_unsureIndices.isEmpty) {
@@ -229,32 +227,24 @@ class QuizService {
       }
     }
     
-    // Handle progression or restoration from revision
     if (_savedProgressIndex != null) {
-      // We were in revision mode, so restore our saved progress position
       _currentIndex = _savedProgressIndex!;
       _savedProgressIndex = null;
     } else {
-      // Normal progression - increment
       _currentIndex++;
     }
 
-    // Wrap around if we haven't reached the target yet
     if (_currentIndex >= _activeCharacters.length && _sessionWordCount < _sessionTarget) {
       _currentIndex = 0;
     }
     
-    // After a correct answer, check if we should go back to incorrect/unsure characters
-    // Priority: incorrect answers first, then unsure characters
     if (wasCorrect) {
       if (_hasIncorrectAnswers && _incorrectIndices.isNotEmpty) {
-        // Save where we are before going back
         if (_savedProgressIndex == null) {
           _savedProgressIndex = _currentIndex;
         }
         _currentIndex = _incorrectIndices.first;
       } else if (_hasUnsureCharacters && _unsureIndices.isNotEmpty) {
-        // Save where we are before going back
         if (_savedProgressIndex == null) {
           _savedProgressIndex = _currentIndex;
         }
@@ -266,9 +256,6 @@ class QuizService {
   }
 
   bool hasMoreCharacters() {
-    // We have more characters if:
-    // 1. We haven't reached the learned target yet
-    // 2. OR we have pending revisions (incorrect or unsure)
     return _activeCharacters.isNotEmpty && 
            (_sessionWordCount < _sessionTarget || 
             _incorrectIndices.isNotEmpty || 

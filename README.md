@@ -9,5 +9,29 @@ The free version will allow a user to learn characters completely offline and pr
 
 I plan to implement a paid version that allows premium users to save their progress on the cloud and create discussion threads on each character they come across. The payment will be paying for the costs that these services require.
 
+# How to Run Locally
+
+If you want to run this app on your own machine, follow these steps:
+
+### Prerequisites
+1.  **Flutter SDK**: Ensure you have Flutter installed. You can check by running `flutter --version`. If not, follow the [official installation guide](https://docs.flutter.dev/get-started/install).
+2.  **Platform Support**: Depending on your target, ensure you have an emulator (Android/iOS) or a browser (Chrome/Edge) ready.
+
+### Steps
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/[your-username]/HanziLearner.git
+    cd HanziLearner
+    ```
+2.  **Install Dependencies**:
+    ```bash
+    flutter pub get
+    ```
+3.  **Run the App**:
+    ```bash
+    flutter run
+    ```
+    *Note: Use `flutter run -d chrome` to run explicitly in the browser.*
+
 # What it will kind of look like
 ![early screenshot](assets/images/readme/early_screenshot.png)

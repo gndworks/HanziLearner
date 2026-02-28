@@ -4,47 +4,53 @@ import '../models/hanzi_character.dart';
 import '../services/radicals_service.dart';
 
 class HSKData {
-  static List<HanziCharacter>? _cachedHSK1;
-  static Map<String, String>? _cachedTips;
+  static final Map<int, List<HanziCharacter>> _cachedLevels = {};
+  static final Map<int, Map<String, String>> _cachedTips = {};
 
-  static Future<List<HanziCharacter>> getHSKLevel1() async {
-    if (_cachedHSK1 != null) {
-      return _cachedHSK1!;
+  static Future<List<HanziCharacter>> getHSKLevel(int level) async {
+    if (_cachedLevels.containsKey(level)) {
+      return _cachedLevels[level]!;
     }
 
-    // Load HSK1 data
-    final String hsk1JsonString = await rootBundle.loadString('assets/hsk/1.json');
-    final List<dynamic> hsk1Data = json.decode(hsk1JsonString);
+    try {
+      final String hskJsonString = await rootBundle.loadString('assets/hsk/$level.json');
+      final List<dynamic> hskData = json.decode(hskJsonString);
 
-    // Load tips
-    final String tipsJsonString = await rootBundle.loadString('assets/tips/hsk1.json');
-    final List<dynamic> tipsData = json.decode(tipsJsonString);
-    
-    // Create a map of simplified -> tip for quick lookup
-    _cachedTips = {
-      for (var tip in tipsData)
-        tip['s'] as String: tip['t'] as String
-    };
+      Map<String, String> levelTips = {};
+      try {
+        final String tipsJsonString = await rootBundle.loadString('assets/tips/hsk$level.json');
+        final List<dynamic> tipsData = json.decode(tipsJsonString);
+        levelTips = {
+          for (var tip in tipsData)
+            tip['s'] as String: tip['t'] as String
+        };
+        _cachedTips[level] = levelTips;
+      } catch (e) {
+        print('No tips found for level $level');
+      }
 
-    // Convert JSON data to HanziCharacter objects
-    _cachedHSK1 = await Future.wait(hsk1Data.map((json) async {
-      final simplified = json['simplified'] as String;
-      final tip = _cachedTips![simplified];
-      // Get radicals for all characters in the hanzi
-      final radicals = await RadicalsService.getRadicalsForHanzi(simplified);
-      return HanziCharacter.fromJson(
-        json as Map<String, dynamic>, 
-        1, 
-        tip: tip,
-        radicals: radicals,
-      );
-    }));
+      final characters = await Future.wait(hskData.map((json) async {
+        final simplified = json['simplified'] as String;
+        final tip = levelTips[simplified];
+        final radicals = await RadicalsService.getRadicalsForHanzi(simplified);
+        return HanziCharacter.fromJson(
+          json as Map<String, dynamic>, 
+          level, 
+          tip: tip,
+          radicals: radicals,
+        );
+      }));
 
-    return _cachedHSK1!;
+      _cachedLevels[level] = characters;
+      return characters;
+    } catch (e) {
+      print('Error loading HSK level $level: $e');
+      return [];
+    }
   }
 
-  static Future<List<String>> getAllPinyinOptions() async {
-    final characters = await getHSKLevel1();
+  static Future<List<String>> getAllPinyinOptions({int level = 1}) async {
+    final characters = await getHSKLevel(level);
     return characters
         .map((char) => char.pinyin)
         .where((pinyin) => pinyin.isNotEmpty)
