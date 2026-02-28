@@ -119,7 +119,6 @@ class _QuizPageState extends State<QuizPage> {
           TextButton(
             onPressed: () async {
               Navigator.of(context).pop();
-              // Reset quiz
               setState(() {
                 _isLoading = true;
               });
@@ -177,7 +176,6 @@ class _QuizPageState extends State<QuizPage> {
               RadicalButtons(character: character),
               const SizedBox(height: 32),
               
-              // Multiple choice options
               Expanded(
                 child: SingleChildScrollView(
                   child: QuizOptions(
@@ -192,7 +190,6 @@ class _QuizPageState extends State<QuizPage> {
               
               const SizedBox(height: 16),
               
-              // Next button (shown when answer is wrong)
               if (_showResult && !_isCorrect)
                 Padding(
                   padding: const EdgeInsets.only(bottom: 12.0),
@@ -214,7 +211,6 @@ class _QuizPageState extends State<QuizPage> {
                   ),
                 ),
               
-              // Unsure button
               SizedBox(
                 width: double.infinity,
                 height: 50,

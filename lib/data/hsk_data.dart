@@ -13,11 +13,9 @@ class HSKData {
     }
 
     try {
-      // Load level data
       final String hskJsonString = await rootBundle.loadString('assets/hsk/$level.json');
       final List<dynamic> hskData = json.decode(hskJsonString);
 
-      // Load tips for this level
       Map<String, String> levelTips = {};
       try {
         final String tipsJsonString = await rootBundle.loadString('assets/tips/hsk$level.json');
@@ -28,15 +26,12 @@ class HSKData {
         };
         _cachedTips[level] = levelTips;
       } catch (e) {
-        // Fallback if tips file doesn't exist
         print('No tips found for level $level');
       }
 
-      // Convert JSON data to HanziCharacter objects
       final characters = await Future.wait(hskData.map((json) async {
         final simplified = json['simplified'] as String;
         final tip = levelTips[simplified];
-        // Get radicals for all characters in the hanzi
         final radicals = await RadicalsService.getRadicalsForHanzi(simplified);
         return HanziCharacter.fromJson(
           json as Map<String, dynamic>, 
