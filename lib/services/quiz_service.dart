@@ -1,11 +1,13 @@
 import 'dart:math';
 import '../models/hanzi_character.dart';
 import '../data/hsk_data.dart';
+import 'progress_service.dart';
 
 class QuizService {
   final List<HanziCharacter> _allAvailableCharacters;
   final List<String> _allPinyinOptions;
   final Random _random = Random();
+  final int hskLevel;
   
   // Active characters (initially 5 random ones)
   final List<HanziCharacter> _activeCharacters = [];
@@ -26,6 +28,7 @@ class QuizService {
     required List<HanziCharacter> allAvailableCharacters,
     required List<String> allPinyinOptions,
     required int sessionTarget,
+    required this.hskLevel,
   })  : _allAvailableCharacters = allAvailableCharacters,
         _allPinyinOptions = allPinyinOptions,
         _sessionTarget = sessionTarget {
@@ -33,23 +36,31 @@ class QuizService {
   }
 
   static Future<QuizService> create({int hskLevel = 1, int sessionTarget = 5}) async {
-    final characters = await HSKData.getHSKLevel1();
-    final pinyinOptions = await HSKData.getAllPinyinOptions();
+    final characters = await HSKData.getHSKLevel(hskLevel);
+    final pinyinOptions = await HSKData.getAllPinyinOptions(level: hskLevel);
     return QuizService._(
       allAvailableCharacters: characters,
       allPinyinOptions: pinyinOptions,
       sessionTarget: sessionTarget,
+      hskLevel: hskLevel,
     );
   }
 
   void _initializeActiveCharacters() {
-    // Shuffle all available characters
-    final shuffled = List<HanziCharacter>.from(_allAvailableCharacters);
+    // Filter out already learned characters
+    final unlearned = _allAvailableCharacters
+        .where((char) => !ProgressService.isLearned(char.character))
+        .toList();
+    
+    // If we have unlearned ones, shuffle them
+    final pool = unlearned.isNotEmpty ? unlearned : _allAvailableCharacters;
+    final shuffled = List<HanziCharacter>.from(pool);
     shuffled.shuffle(_random);
     
-    // Start with 5 random characters
-    _activeCharacters.addAll(shuffled.take(5));
-    _nextAvailableCharacterIndex = 5;
+    // Start with up to 5 characters
+    final initialCount = min(5, shuffled.length);
+    _activeCharacters.addAll(shuffled.take(initialCount));
+    _nextAvailableCharacterIndex = initialCount;
     
     // Initialize correct count for all active characters
     for (int i = 0; i < _activeCharacters.length; i++) {
@@ -59,24 +70,32 @@ class QuizService {
   
   void _replaceLearnedCharacter(int index) {
     // Character at index has been learned (2 correct answers)
+    // Persist to Hive
+    ProgressService.markAsLearned(_activeCharacters[index].character);
+
     // Replace it with a new character from the pool
-    if (_nextAvailableCharacterIndex >= _allAvailableCharacters.length) {
-      // No more characters available
-      // If we have more than 1 character, remove this learned one
+    // Only pick characters that aren't already learned
+    final unlearnedRemaining = _allAvailableCharacters
+        .skip(_nextAvailableCharacterIndex)
+        .where((char) => !ProgressService.isLearned(char.character))
+        .toList();
+
+    if (unlearnedRemaining.isEmpty) {
+      // No more unlearned characters available
       if (_activeCharacters.length > 1) {
         _activeCharacters.removeAt(index);
         _correctCountMap.remove(index);
-        // Adjust indices
         _adjustIndicesAfterRemoval(index);
       }
-      // Otherwise, keep it (we need at least one character)
       return;
     }
     
     // Get next character from available pool
-    _activeCharacters[index] = _allAvailableCharacters[_nextAvailableCharacterIndex];
+    _activeCharacters[index] = unlearnedRemaining.first;
     _correctCountMap[index] = 0;
-    _nextAvailableCharacterIndex++;
+    
+    // Find the actual index in the global pool to update _nextAvailableCharacterIndex
+    _nextAvailableCharacterIndex = _allAvailableCharacters.indexOf(unlearnedRemaining.first) + 1;
     
     // Remove from incorrect/unsure lists if it was there
     _incorrectIndices.remove(index);
@@ -204,12 +223,13 @@ class QuizService {
         
         // If we reached our target, we can stop (unless we have revisions pending)
         if (_sessionWordCount >= _sessionTarget && !isReviewing()) {
+          // Still need to mark last one as learned before stopping
+          ProgressService.markAsLearned(_activeCharacters[_currentIndex].character);
           return false;
         }
 
         // Character is learned, replace it with a new one
         _replaceLearnedCharacter(_currentIndex);
-        // After replacement, _currentIndex still points to the same position (now with new character)
       }
       
       // If we're currently on an incorrect character that we've returned to, remove it

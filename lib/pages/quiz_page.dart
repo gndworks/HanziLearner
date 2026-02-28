@@ -7,7 +7,8 @@ import '../widgets/quiz_options.dart';
 import '../widgets/radical_buttons.dart';
 
 class QuizPage extends StatefulWidget {
-  const QuizPage({super.key});
+  final int level;
+  const QuizPage({super.key, this.level = 1});
 
   @override
   State<QuizPage> createState() => _QuizPageState();
@@ -28,7 +29,7 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   Future<void> _initializeQuizService() async {
-    final service = await QuizService.create(hskLevel: 1);
+    final service = await QuizService.create(hskLevel: widget.level);
     if (mounted) {
       setState(() {
         _quizService = service;
@@ -122,7 +123,7 @@ class _QuizPageState extends State<QuizPage> {
               setState(() {
                 _isLoading = true;
               });
-              final service = await QuizService.create(hskLevel: 1);
+              final service = await QuizService.create(hskLevel: widget.level);
               if (mounted) {
                 setState(() {
                   _quizService = service;
@@ -156,7 +157,7 @@ class _QuizPageState extends State<QuizPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('HSK Level 1 - Hanzi Learner'),
+        title: Text('HSK Level ${widget.level} - Hanzi Learner'),
         backgroundColor: Colors.blue.shade700,
         foregroundColor: Colors.white,
       ),
